@@ -1,0 +1,48 @@
+Number of literals: 1100
+Constructing lookup tables: [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%] [110%]
+Post filtering unreachable actions:  [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%] [110%]
+[01;34mNo analytic limits found, not considering limit effects of goal-only operators[00m
+All the ground actions in this problem are compression-safe
+Initial heuristic = 38.000
+b (37.000 | 28.155)b (36.000 | 29.565)b (35.000 | 29.565)b (34.000 | 29.565)b (33.000 | 29.565)b (32.000 | 32.353)b (31.000 | 32.353)b (30.000 | 32.353)b (29.000 | 32.353)b (28.000 | 32.353)b (27.000 | 32.353)b (26.000 | 32.353)b (25.000 | 32.353)b (24.000 | 32.353)b (23.000 | 32.353)b (22.000 | 32.353)b (21.000 | 32.353)b (20.000 | 32.353)b (19.000 | 32.353)b (18.000 | 32.353)b (17.000 | 32.353)b (16.000 | 32.353)b (15.000 | 32.353)b (14.000 | 32.353)b (13.000 | 32.353)b (12.000 | 32.353)b (11.000 | 32.353)b (10.000 | 32.353)b (9.000 | 32.353)b (8.000 | 32.353)b (7.000 | 32.353)b (6.000 | 32.353)b (5.000 | 32.353)b (4.000 | 32.353)b (3.000 | 32.353)b (2.000 | 32.482)b (1.000 | 32.732);;;; Solution Found
+; States evaluated: 39
+; Cost: 33.354
+; Time 0.35
+0.000: (drive-train t18 p59 p60 meter)  [28.155]
+0.000: (drive-train t16 p55 p56 meter)  [29.565]
+0.000: (drive-train t14 p51 p52 meter)  [17.094]
+0.000: (drive-train t12 p47 p48 meter)  [15.686]
+0.000: (drive-train t10 p43 p44 meter)  [15.596]
+0.000: (drive-train t8 p39 p40 meter)  [32.353]
+0.000: (drive-train t6 p35 p36 meter)  [19.328]
+0.000: (drive-train t4 p31 p32 meter)  [26.852]
+0.000: (drive-train t2 p27 p28 meter)  [29.167]
+0.000: (drive-train t19 p61 p62 broad)  [16.667]
+0.000: (drive-train t17 p57 p58 broad)  [16.505]
+0.000: (drive-train t15 p53 p54 broad)  [23.301]
+0.000: (drive-train t13 p49 p50 broad)  [17.925]
+0.000: (drive-train t11 p45 p46 broad)  [23.894]
+0.000: (drive-train t9 p41 p42 broad)  [28.846]
+0.000: (drive-train t7 p37 p38 broad)  [31.481]
+0.000: (drive-train t5 p33 p34 broad)  [20.690]
+0.000: (drive-train t3 p29 p30 broad)  [20.792]
+0.000: (drive-train t1 p25 p26 broad)  [31.731]
+15.597: (board-passengers t10 s9 p44)  [1.000]
+15.687: (board-passengers t12 s11 p48)  [1.000]
+16.506: (board-passengers t17 s16 p58)  [1.000]
+16.668: (board-passengers t19 s18 p62)  [1.000]
+17.095: (board-passengers t14 s13 p52)  [1.000]
+17.926: (board-passengers t13 s12 p50)  [1.000]
+19.329: (board-passengers t6 s5 p36)  [1.000]
+20.691: (board-passengers t5 s4 p34)  [1.000]
+20.793: (board-passengers t3 s2 p30)  [1.000]
+23.302: (board-passengers t15 s14 p54)  [1.000]
+23.895: (board-passengers t11 s10 p46)  [1.000]
+26.853: (board-passengers t4 s3 p32)  [1.000]
+28.156: (board-passengers t18 s17 p60)  [1.000]
+28.847: (board-passengers t9 s8 p42)  [1.000]
+29.168: (board-passengers t2 s1 p28)  [1.000]
+29.566: (board-passengers t16 s15 p56)  [1.000]
+31.482: (board-passengers t7 s6 p38)  [1.000]
+31.732: (board-passengers t1 s0 p26)  [1.000]
+32.354: (board-passengers t8 s7 p40)  [1.000]

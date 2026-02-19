@@ -1,0 +1,24 @@
+Number of literals: 527
+Constructing lookup tables: [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%] [110%] [120%] [130%] [140%]
+Post filtering unreachable actions:  [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%] [110%] [120%] [130%] [140%]
+[01;34mNo analytic limits found, not considering limit effects of goal-only operators[00m
+All the ground actions in this problem are compression-safe
+Initial heuristic = 14.000
+b (13.000 | 12.605)b (12.000 | 25.000)b (11.000 | 29.358)b (10.000 | 29.358)b (9.000 | 29.358)b (8.000 | 29.358)b (7.000 | 29.358)b (6.000 | 29.358)b (5.000 | 29.358)b (4.000 | 29.358)b (3.000 | 29.358)b (2.000 | 29.358)b (1.000 | 29.358);;;; Solution Found
+; States evaluated: 15
+; Cost: 30.359
+; Time 0.05
+0.000: (drive-train t6 p20 p21 meter)  [12.605]
+0.000: (drive-train t4 p16 p17 meter)  [25.000]
+0.000: (drive-train t2 p12 p13 meter)  [29.358]
+0.000: (drive-train t7 p22 p23 broad)  [14.286]
+0.000: (drive-train t5 p18 p19 broad)  [13.793]
+0.000: (drive-train t3 p14 p15 broad)  [23.810]
+0.000: (drive-train t1 p10 p11 broad)  [25.743]
+12.606: (board-passengers t6 s5 p21)  [1.000]
+13.794: (board-passengers t5 s4 p19)  [1.000]
+14.287: (board-passengers t7 s6 p23)  [1.000]
+23.811: (board-passengers t3 s2 p15)  [1.000]
+25.001: (board-passengers t4 s3 p17)  [1.000]
+25.744: (board-passengers t1 s0 p11)  [1.000]
+29.359: (board-passengers t2 s1 p13)  [1.000]

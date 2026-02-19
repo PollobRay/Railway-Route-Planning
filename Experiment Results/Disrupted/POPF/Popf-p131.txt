@@ -1,0 +1,690 @@
+Number of literals: 2285
+Constructing lookup tables: [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+Post filtering unreachable actions:  [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+[01;34mNo analytic limits found, not considering limit effects of goal-only operators[00m
+Pruning (drive-engine e1 p191 p0 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p191 p0 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p194 p0 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p194 p0 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p198 p0 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p198 p0 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p298 p0 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p298 p0 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p178 p10 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p178 p10 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p299 p10 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p299 p10 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p99 p100 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p99 p100 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p104 p103 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p301 p103 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p103 p104 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p108 p107 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p108 p107 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p107 p108 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p107 p108 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p112 p111 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p112 p111 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p111 p112 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p111 p112 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p116 p115 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p116 p115 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p117 p115 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p117 p115 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p115 p116 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p115 p116 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p115 p117 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p115 p117 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p119 p118 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p119 p118 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p120 p118 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p120 p118 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p118 p119 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p118 p119 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p200 p12 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p200 p12 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p118 p120 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p118 p120 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p122 p121 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p122 p121 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p123 p121 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p123 p121 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p121 p122 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p121 p122 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p121 p123 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p121 p123 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p131 p130 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p131 p130 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p132 p130 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p132 p130 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p130 p131 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p130 p131 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p130 p132 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p130 p132 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p137 p136 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p137 p136 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p138 p136 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p138 p136 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p136 p137 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p136 p137 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p136 p138 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p136 p138 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p199 p14 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p199 p14 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p143 p142 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p143 p142 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p144 p142 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p144 p142 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p142 p143 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p142 p143 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p142 p144 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p142 p144 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p149 p148 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p149 p148 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p150 p148 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p150 p148 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p148 p149 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p148 p149 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p148 p150 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p148 p150 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p161 p160 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p161 p160 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p162 p160 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p162 p160 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p160 p161 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p160 p161 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p160 p162 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p160 p162 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p164 p163 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p164 p163 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p165 p163 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p165 p163 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p163 p164 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p163 p164 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p163 p165 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p163 p165 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p170 p169 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p170 p169 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p171 p169 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p171 p169 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p189 p17 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p189 p17 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p169 p170 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p169 p170 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p169 p171 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p169 p171 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p173 p172 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p173 p172 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p174 p172 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p174 p172 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p172 p173 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p172 p173 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p172 p174 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p172 p174 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p19 p175 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p19 p175 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p265 p176 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p265 p176 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p8 p176 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p8 p176 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p252 p177 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p252 p177 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p26 p177 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p26 p177 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p10 p178 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p10 p178 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p192 p178 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p192 p178 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p281 p178 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p281 p178 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p190 p179 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p190 p179 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p182 p180 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p182 p180 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p216 p181 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p216 p181 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p38 p181 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p38 p181 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p180 p182 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p180 p182 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p262 p183 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p262 p183 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p5 p183 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p5 p183 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p33 p184 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p33 p184 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p29 p185 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p29 p185 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p196 p187 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p196 p187 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p220 p187 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p220 p187 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p264 p188 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p264 p188 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p17 p189 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p17 p189 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p175 p19 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p175 p19 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p207 p19 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p207 p19 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p179 p190 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p179 p190 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p0 p191 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p0 p191 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p178 p192 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p178 p192 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p254 p192 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p254 p192 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p201 p193 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p201 p193 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p0 p194 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p0 p194 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p236 p194 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p236 p194 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p187 p196 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p187 p196 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p243 p196 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p243 p196 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p0 p198 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p0 p198 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p14 p199 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p14 p199 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p12 p200 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p12 p200 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p193 p201 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p193 p201 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p235 p203 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p235 p203 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p27 p203 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p27 p203 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p4 p205 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p4 p205 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p19 p207 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p19 p207 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p242 p207 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p242 p207 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p214 p208 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p214 p208 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p247 p211 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p247 p211 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p7 p211 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p7 p211 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p239 p212 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p239 p212 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p208 p214 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p208 p214 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p229 p215 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p229 p215 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p181 p216 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p181 p216 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p258 p218 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p258 p218 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p30 p218 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p30 p218 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p286 p22 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p286 p22 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p187 p220 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p187 p220 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p248 p224 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p248 p224 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p34 p226 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p34 p226 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p38 p228 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p38 p228 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p215 p229 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p215 p229 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p277 p230 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p277 p230 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p283 p230 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p283 p230 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p256 p233 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p256 p233 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p203 p235 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p203 p235 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p261 p235 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p261 p235 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p194 p236 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p194 p236 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p285 p238 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p285 p238 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p32 p238 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p32 p238 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p212 p239 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p212 p239 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p4 p241 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p4 p241 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p207 p242 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p207 p242 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p196 p243 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p196 p243 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p253 p243 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p253 p243 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p211 p247 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p211 p247 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p224 p248 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p224 p248 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p177 p252 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p177 p252 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p243 p253 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p243 p253 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p260 p253 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p260 p253 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p192 p254 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p192 p254 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p29 p255 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p29 p255 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p233 p256 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p233 p256 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p296 p256 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p296 p256 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p4 p257 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p4 p257 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p218 p258 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p218 p258 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p288 p258 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p288 p258 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p177 p26 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p177 p26 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p253 p260 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p253 p260 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p235 p261 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p235 p261 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p183 p262 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p183 p262 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p271 p262 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p271 p262 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p188 p264 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p188 p264 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p266 p264 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p266 p264 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p176 p265 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p176 p265 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p264 p266 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p264 p266 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p274 p266 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p274 p266 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p282 p266 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p282 p266 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p44 p269 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p44 p269 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p203 p27 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p203 p27 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p280 p27 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p280 p27 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p262 p271 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p262 p271 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p42 p272 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p42 p272 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p292 p273 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p292 p273 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p36 p273 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p36 p273 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p266 p274 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p266 p274 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p230 p277 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p230 p277 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p27 p280 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p27 p280 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p178 p281 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p178 p281 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p266 p282 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p266 p282 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p230 p283 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p230 p283 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p238 p285 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p238 p285 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p22 p286 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p22 p286 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p258 p288 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p258 p288 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p185 p29 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p185 p29 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p255 p29 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p255 p29 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p273 p292 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p273 p292 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p31 p293 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p31 p293 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p256 p296 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p256 p296 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p0 p298 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p0 p298 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p10 p299 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p10 p299 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p218 p30 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p218 p30 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p55 p300 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p103 p301 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p293 p31 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p293 p31 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p238 p32 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p238 p32 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p184 p33 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p184 p33 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p226 p34 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p226 p34 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p273 p36 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p273 p36 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p181 p38 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p181 p38 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p228 p38 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p228 p38 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p205 p4 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p205 p4 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p241 p4 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p241 p4 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p257 p4 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p257 p4 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p272 p42 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p272 p42 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p269 p44 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p269 p44 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p48 p47 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p48 p47 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p47 p48 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p47 p48 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p183 p5 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p183 p5 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p52 p51 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p52 p51 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p51 p52 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p51 p52 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p300 p55 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p56 p55 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p55 p56 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p60 p59 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p60 p59 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p59 p60 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p59 p60 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p64 p63 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p64 p63 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p63 p64 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p63 p64 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p68 p67 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p68 p67 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p67 p68 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p67 p68 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p211 p7 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p211 p7 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p72 p71 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p72 p71 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p71 p72 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p71 p72 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p76 p75 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p76 p75 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p75 p76 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p75 p76 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p80 p79 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p80 p79 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p176 p8 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p176 p8 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p79 p80 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p79 p80 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p84 p83 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p84 p83 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p83 p84 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p83 p84 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p88 p87 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p88 p87 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p87 p88 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p87 p88 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p92 p91 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p92 p91 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p91 p92 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p91 p92 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p96 p95 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p96 p95 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p95 p96 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p95 p96 meter) - never appeared in initial RPG
+Pruning (drive-engine e1 p100 p99 meter) - never appeared in initial RPG
+Pruning (drive-engine e2 p100 p99 meter) - never appeared in initial RPG
+Pruning (drive-engine-to-damaged-up-train e1 t28 p99 p100 meter) - never appeared in initial RPG
+Pruning (drive-engine-to-damaged-up-train e2 t28 p99 p100 meter) - never appeared in initial RPG
+Pruning (drive-engine-to-damaged-up-train e1 t30 p301 p103 meter) - never appeared in initial RPG
+Pruning (drive-engine-to-damaged-up-train e1 t30 p103 p104 meter) - never appeared in initial RPG
+Pruning (drive-engine-to-damaged-up-train e1 t32 p107 p108 meter) - never appeared in initial RPG
+Pruning (drive-engine-to-damaged-up-train e2 t32 p107 p108 meter) - never appeared in initial RPG
+Pruning (drive-engine-to-damaged-up-train e1 t34 p111 p112 meter) - never appeared in initial RPG
+Pruning (drive-engine-to-damaged-up-train e2 t34 p111 p112 meter) - never appeared in initial RPG
+Pruning (drive-engine-to-damaged-up-train e1 t2 p47 p48 meter) - never appeared in initial RPG
+Pruning (drive-engine-to-damaged-up-train e2 t2 p47 p48 meter) - never appeared in initial RPG
+Pruning (drive-engine-to-damaged-up-train e1 t4 p51 p52 meter) - never appeared in initial RPG
+Pruning (drive-engine-to-damaged-up-train e2 t4 p51 p52 meter) - never appeared in initial RPG
+Pruning (drive-engine-to-damaged-up-train e2 t6 p300 p55 meter) - never appeared in initial RPG
+Pruning (drive-engine-to-damaged-up-train e2 t6 p55 p56 meter) - never appeared in initial RPG
+Pruning (drive-engine-to-damaged-up-train e1 t8 p59 p60 meter) - never appeared in initial RPG
+Pruning (drive-engine-to-damaged-up-train e2 t8 p59 p60 meter) - never appeared in initial RPG
+Pruning (drive-engine-to-damaged-up-train e1 t10 p63 p64 meter) - never appeared in initial RPG
+Pruning (drive-engine-to-damaged-up-train e2 t10 p63 p64 meter) - never appeared in initial RPG
+Pruning (drive-engine-to-damaged-up-train e1 t12 p67 p68 meter) - never appeared in initial RPG
+Pruning (drive-engine-to-damaged-up-train e2 t12 p67 p68 meter) - never appeared in initial RPG
+Pruning (drive-engine-to-damaged-up-train e1 t14 p71 p72 meter) - never appeared in initial RPG
+Pruning (drive-engine-to-damaged-up-train e2 t14 p71 p72 meter) - never appeared in initial RPG
+Pruning (drive-engine-to-damaged-up-train e1 t16 p75 p76 meter) - never appeared in initial RPG
+Pruning (drive-engine-to-damaged-up-train e2 t16 p75 p76 meter) - never appeared in initial RPG
+Pruning (drive-engine-to-damaged-up-train e1 t18 p79 p80 meter) - never appeared in initial RPG
+Pruning (drive-engine-to-damaged-up-train e2 t18 p79 p80 meter) - never appeared in initial RPG
+Pruning (drive-engine-to-damaged-up-train e1 t20 p83 p84 meter) - never appeared in initial RPG
+Pruning (drive-engine-to-damaged-up-train e2 t20 p83 p84 meter) - never appeared in initial RPG
+Pruning (drive-engine-to-damaged-up-train e1 t22 p87 p88 meter) - never appeared in initial RPG
+Pruning (drive-engine-to-damaged-up-train e2 t22 p87 p88 meter) - never appeared in initial RPG
+Pruning (drive-engine-to-damaged-up-train e1 t24 p91 p92 meter) - never appeared in initial RPG
+Pruning (drive-engine-to-damaged-up-train e2 t24 p91 p92 meter) - never appeared in initial RPG
+Pruning (drive-engine-to-damaged-up-train e1 t26 p95 p96 meter) - never appeared in initial RPG
+Pruning (drive-engine-to-damaged-up-train e2 t26 p95 p96 meter) - never appeared in initial RPG
+Pruning (attach-engine e1 t28 p100) - never appeared in initial RPG
+Pruning (attach-engine e2 t28 p100) - never appeared in initial RPG
+Pruning (attach-engine e1 t30 p103) - never appeared in initial RPG
+Pruning (attach-engine e1 t30 p104) - never appeared in initial RPG
+Pruning (attach-engine e1 t32 p107) - never appeared in initial RPG
+Pruning (attach-engine e2 t32 p107) - never appeared in initial RPG
+Pruning (attach-engine e1 t32 p108) - never appeared in initial RPG
+Pruning (attach-engine e2 t32 p108) - never appeared in initial RPG
+Pruning (attach-engine e1 t34 p111) - never appeared in initial RPG
+Pruning (attach-engine e2 t34 p111) - never appeared in initial RPG
+Pruning (attach-engine e1 t34 p112) - never appeared in initial RPG
+Pruning (attach-engine e2 t34 p112) - never appeared in initial RPG
+Pruning (attach-engine e2 t6 p300) - never appeared in initial RPG
+Pruning (attach-engine e1 t30 p301) - never appeared in initial RPG
+Pruning (attach-engine e1 t2 p47) - never appeared in initial RPG
+Pruning (attach-engine e2 t2 p47) - never appeared in initial RPG
+Pruning (attach-engine e1 t2 p48) - never appeared in initial RPG
+Pruning (attach-engine e2 t2 p48) - never appeared in initial RPG
+Pruning (attach-engine e1 t4 p51) - never appeared in initial RPG
+Pruning (attach-engine e2 t4 p51) - never appeared in initial RPG
+Pruning (attach-engine e1 t4 p52) - never appeared in initial RPG
+Pruning (attach-engine e2 t4 p52) - never appeared in initial RPG
+Pruning (attach-engine e2 t6 p55) - never appeared in initial RPG
+Pruning (attach-engine e2 t6 p56) - never appeared in initial RPG
+Pruning (attach-engine e1 t8 p59) - never appeared in initial RPG
+Pruning (attach-engine e2 t8 p59) - never appeared in initial RPG
+Pruning (attach-engine e1 t8 p60) - never appeared in initial RPG
+Pruning (attach-engine e2 t8 p60) - never appeared in initial RPG
+Pruning (attach-engine e1 t10 p63) - never appeared in initial RPG
+Pruning (attach-engine e2 t10 p63) - never appeared in initial RPG
+Pruning (attach-engine e1 t10 p64) - never appeared in initial RPG
+Pruning (attach-engine e2 t10 p64) - never appeared in initial RPG
+Pruning (attach-engine e1 t12 p67) - never appeared in initial RPG
+Pruning (attach-engine e2 t12 p67) - never appeared in initial RPG
+Pruning (attach-engine e1 t12 p68) - never appeared in initial RPG
+Pruning (attach-engine e2 t12 p68) - never appeared in initial RPG
+Pruning (attach-engine e1 t14 p71) - never appeared in initial RPG
+Pruning (attach-engine e2 t14 p71) - never appeared in initial RPG
+Pruning (attach-engine e1 t14 p72) - never appeared in initial RPG
+Pruning (attach-engine e2 t14 p72) - never appeared in initial RPG
+Pruning (attach-engine e1 t16 p75) - never appeared in initial RPG
+Pruning (attach-engine e2 t16 p75) - never appeared in initial RPG
+Pruning (attach-engine e1 t16 p76) - never appeared in initial RPG
+Pruning (attach-engine e2 t16 p76) - never appeared in initial RPG
+Pruning (attach-engine e1 t18 p79) - never appeared in initial RPG
+Pruning (attach-engine e2 t18 p79) - never appeared in initial RPG
+Pruning (attach-engine e1 t18 p80) - never appeared in initial RPG
+Pruning (attach-engine e2 t18 p80) - never appeared in initial RPG
+Pruning (attach-engine e1 t20 p83) - never appeared in initial RPG
+Pruning (attach-engine e2 t20 p83) - never appeared in initial RPG
+Pruning (attach-engine e1 t20 p84) - never appeared in initial RPG
+Pruning (attach-engine e2 t20 p84) - never appeared in initial RPG
+Pruning (attach-engine e1 t22 p87) - never appeared in initial RPG
+Pruning (attach-engine e2 t22 p87) - never appeared in initial RPG
+Pruning (attach-engine e1 t22 p88) - never appeared in initial RPG
+Pruning (attach-engine e2 t22 p88) - never appeared in initial RPG
+Pruning (attach-engine e1 t24 p91) - never appeared in initial RPG
+Pruning (attach-engine e2 t24 p91) - never appeared in initial RPG
+Pruning (attach-engine e1 t24 p92) - never appeared in initial RPG
+Pruning (attach-engine e2 t24 p92) - never appeared in initial RPG
+Pruning (attach-engine e1 t26 p95) - never appeared in initial RPG
+Pruning (attach-engine e2 t26 p95) - never appeared in initial RPG
+Pruning (attach-engine e1 t26 p96) - never appeared in initial RPG
+Pruning (attach-engine e2 t26 p96) - never appeared in initial RPG
+Pruning (attach-engine e1 t28 p99) - never appeared in initial RPG
+Pruning (attach-engine e2 t28 p99) - never appeared in initial RPG
+Pruning (drive-assisted-train e1 t28 p99 p100 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e2 t28 p99 p100 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e1 t30 p104 p103 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e1 t30 p103 p104 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e1 t32 p108 p107 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e2 t32 p108 p107 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e1 t32 p107 p108 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e2 t32 p107 p108 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e1 t34 p112 p111 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e2 t34 p112 p111 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e1 t34 p111 p112 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e2 t34 p111 p112 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e2 t6 p55 p300 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e1 t30 p103 p301 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e1 t2 p48 p47 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e2 t2 p48 p47 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e1 t2 p47 p48 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e2 t2 p47 p48 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e1 t4 p52 p51 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e2 t4 p52 p51 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e1 t4 p51 p52 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e2 t4 p51 p52 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e2 t6 p56 p55 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e2 t6 p55 p56 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e1 t8 p60 p59 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e2 t8 p60 p59 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e1 t8 p59 p60 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e2 t8 p59 p60 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e1 t10 p64 p63 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e2 t10 p64 p63 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e1 t10 p63 p64 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e2 t10 p63 p64 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e1 t12 p68 p67 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e2 t12 p68 p67 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e1 t12 p67 p68 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e2 t12 p67 p68 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e1 t14 p72 p71 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e2 t14 p72 p71 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e1 t14 p71 p72 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e2 t14 p71 p72 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e1 t16 p76 p75 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e2 t16 p76 p75 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e1 t16 p75 p76 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e2 t16 p75 p76 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e1 t18 p80 p79 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e2 t18 p80 p79 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e1 t18 p79 p80 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e2 t18 p79 p80 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e1 t20 p84 p83 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e2 t20 p84 p83 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e1 t20 p83 p84 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e2 t20 p83 p84 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e1 t22 p88 p87 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e2 t22 p88 p87 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e1 t22 p87 p88 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e2 t22 p87 p88 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e1 t24 p92 p91 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e2 t24 p92 p91 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e1 t24 p91 p92 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e2 t24 p91 p92 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e1 t26 p96 p95 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e2 t26 p96 p95 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e1 t26 p95 p96 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e2 t26 p95 p96 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e1 t28 p100 p99 meter) - never appeared in initial RPG
+Pruning (drive-assisted-train e2 t28 p100 p99 meter) - never appeared in initial RPG
+92% of the ground temporal actions in this problem are compression-safe
+Initial heuristic = 83.000
+b (82.000 | 4.000)b (81.000 | 4.000)b (80.000 | 10.000)b (79.000 | 10.000)b (78.000 | 25.862)b (77.000 | 25.862)b (76.000 | 25.862)b (75.000 | 25.862)b (74.000 | 25.862)b (73.000 | 25.862)b (72.000 | 25.862)b (71.000 | 25.862)b (70.000 | 26.667)b (69.000 | 26.667)b (68.000 | 26.667)b (67.000 | 29.412)b (66.000 | 29.412)b (65.000 | 29.412)b (64.000 | 30.476)b (63.000 | 30.476)b (62.000 | 31.193)b (61.000 | 31.193)b (60.000 | 31.193)b (59.000 | 31.193)b (58.000 | 31.193)b (57.000 | 31.193)b (56.000 | 31.193)b (55.000 | 31.193)b (54.000 | 31.193)b (53.000 | 31.193)b (52.000 | 31.193)b (51.000 | 31.193)b (50.000 | 31.193)b (49.000 | 31.193)b (48.000 | 31.193)b (47.000 | 31.193)b (46.000 | 31.193)b (45.000 | 31.193)b (44.000 | 31.193)b (43.000 | 31.193)b (42.000 | 31.193)b (41.000 | 31.193)b (40.000 | 31.193)b (39.000 | 31.193)b (38.000 | 31.193)b (37.000 | 31.193)b (36.000 | 31.193)b (35.000 | 31.193)b (34.000 | 31.193)b (33.000 | 31.193)b (32.000 | 31.193)b (31.000 | 31.193)b (30.000 | 31.193)b (29.000 | 31.193)b (28.000 | 31.193)b (27.000 | 31.193)b (26.000 | 31.193)b (25.000 | 31.193)b (24.000 | 31.193)b (23.000 | 31.193)b (22.000 | 31.193)b (21.000 | 31.193)b (20.000 | 31.193)b (19.000 | 31.193)b (18.000 | 31.477)b (17.000 | 32.194)b (16.000 | 32.194)b (15.000 | 32.194)b (14.000 | 32.194)b (13.000 | 32.194)b (12.000 | 32.194)b (11.000 | 32.194)b (10.000 | 32.194)b (9.000 | 32.194)b (8.000 | 32.194)b (7.000 | 32.194)b (5.000 | 40.002)b (4.000 | 40.002)b (3.000 | 41.003)
+Resorting to best-first search
+b (82.000 | 22.549)b (82.000 | 21.296)b (82.000 | 17.094)b (82.000 | 13.445)b (82.000 | 4.000)b (81.000 | 22.549)b (80.000 | 22.549)b (79.000 | 22.549)b (78.000 | 22.549)b (77.000 | 25.862)b (77.000 | 22.549)b (76.000 | 25.862)b (75.000 | 25.862)b (74.000 | 25.862)b (73.000 | 25.862)b (72.000 | 25.862)b (71.000 | 25.862)b (70.000 | 25.862)b (69.000 | 26.667)b (69.000 | 25.862)b (68.000 | 26.667)b (67.000 | 26.667)b (66.000 | 29.412)b (66.000 | 26.667)b (65.000 | 29.412)b (64.000 | 29.412)b (63.000 | 30.476)b (63.000 | 29.412)b (62.000 | 30.476)b (61.000 | 31.193)b (61.000 | 30.476)b (60.000 | 31.193)b (59.000 | 31.193)b (58.000 | 31.193)b (57.000 | 31.193)b (56.000 | 31.193)b (55.000 | 31.193)b (54.000 | 31.193)b (53.000 | 31.193)b (52.000 | 31.193)b (51.000 | 31.193)b (50.000 | 31.193)b (49.000 | 31.193)b (48.000 | 31.193)b (47.000 | 31.193)b (46.000 | 31.193)b (45.000 | 31.193)b (44.000 | 31.193)b (43.000 | 31.193)b (42.000 | 31.193)b (41.000 | 31.193)b (40.000 | 31.193)b (38.000 | 40.002)b (37.000 | 40.002)b (36.000 | 40.002)b (35.000 | 40.002)b (34.000 | 40.002)b (33.000 | 40.002)b (32.000 | 40.002)b (31.000 | 40.002)b (30.000 | 40.002)b (29.000 | 40.002)b (28.000 | 40.002)b (27.000 | 40.002)b (26.000 | 40.002)b (25.000 | 40.002)b (24.000 | 40.002)b (23.000 | 40.002)b (22.000 | 40.002)b (21.000 | 40.002)b (20.000 | 40.002)b (19.000 | 40.002)b (18.000 | 40.002)b (17.000 | 40.002)b (16.000 | 40.002)b (15.000 | 40.002)b (14.000 | 40.002)b (13.000 | 40.002)b (12.000 | 40.002)b (11.000 | 40.002)b (10.000 | 40.002)b (9.000 | 40.002)b (8.000 | 40.002)b (7.000 | 40.002)b (6.000 | 40.002)b (5.000 | 40.002)b (4.000 | 40.002)b (3.000 | 41.003)b (3.000 | 41.002)b (2.000 | 41.003)b (1.000 | 41.003);;;; Solution Found
+; States evaluated: 4287
+; Cost: 42.003
+; Time 9.75
+0.000: (drive-train t1 p45 p46 broad)  [22.549]
+0.000: (resolve-train-blockage t23 p89)  [4.000]
+0.000: (resolve-train-blockage t2 p47)  [4.000]
+0.000: (drive-engine-to-damaged-up-train e1 t6 p300 p55 meter)  [10.000]
+0.000: (drive-engine-to-damaged-up-train e2 t30 p301 p103 meter)  [10.000]
+0.000: (drive-train t26 p95 p96 meter)  [25.862]
+0.000: (drive-train t24 p91 p92 meter)  [20.388]
+0.000: (drive-train t22 p87 p88 meter)  [14.655]
+0.000: (drive-train t20 p83 p84 meter)  [20.000]
+0.000: (drive-train t18 p79 p80 meter)  [19.328]
+0.000: (drive-train t16 p75 p76 meter)  [18.095]
+0.000: (drive-train t14 p71 p72 meter)  [15.596]
+0.000: (drive-train t12 p67 p68 meter)  [20.721]
+0.000: (drive-train t10 p63 p64 meter)  [26.667]
+0.000: (drive-train t8 p59 p60 meter)  [13.889]
+0.000: (drive-train t4 p51 p52 meter)  [15.455]
+0.000: (drive-train t34 p111 p112 meter)  [29.412]
+0.000: (drive-train t32 p107 p108 meter)  [15.888]
+0.000: (drive-train t28 p99 p100 meter)  [23.077]
+0.000: (drive-train t27 p97 p98 broad)  [30.476]
+0.000: (drive-train t25 p93 p94 broad)  [17.431]
+0.000: (drive-train t21 p85 p86 broad)  [31.193]
+0.000: (drive-train t19 p81 p82 broad)  [13.445]
+0.000: (drive-train t17 p77 p78 broad)  [17.949]
+0.000: (drive-train t15 p73 p74 broad)  [22.034]
+0.000: (drive-train t13 p69 p70 broad)  [18.103]
+0.000: (drive-train t11 p65 p66 broad)  [17.094]
+0.000: (drive-train t9 p61 p62 broad)  [29.630]
+0.000: (drive-train t7 p57 p58 broad)  [21.296]
+0.000: (drive-train t5 p53 p54 broad)  [28.182]
+0.000: (drive-train t3 p49 p50 broad)  [27.358]
+0.000: (drive-train t35 p113 p114 broad)  [18.644]
+0.000: (drive-train t33 p109 p110 broad)  [18.692]
+0.000: (drive-train t31 p105 p106 broad)  [14.159]
+0.000: (drive-train t29 p101 p102 broad)  [27.451]
+4.001: (drive-train t23 p89 p90 broad)  [15.044]
+4.001: (drive-train t2 p47 p48 meter)  [27.027]
+10.001: (attach-engine e1 t6 p55)  [2.000]
+10.001: (attach-engine e2 t30 p103)  [2.000]
+12.002: (drive-assisted-train e2 t30 p103 p104 meter)  [28.000]
+12.002: (drive-assisted-train e1 t6 p55 p56 meter)  [29.000]
+13.446: (board-passengers t19 s18 p82)  [1.000]
+13.890: (board-passengers t8 s7 p60)  [1.000]
+14.160: (board-passengers t31 s30 p106)  [1.000]
+14.656: (board-passengers t22 s21 p88)  [1.000]
+15.456: (board-passengers t4 s3 p52)  [1.000]
+15.597: (board-passengers t14 s13 p72)  [1.000]
+15.889: (board-passengers t32 s31 p108)  [1.000]
+17.095: (board-passengers t11 s10 p66)  [1.000]
+17.432: (board-passengers t25 s24 p94)  [1.000]
+17.950: (board-passengers t17 s16 p78)  [1.000]
+18.096: (board-passengers t16 s15 p76)  [1.000]
+18.104: (board-passengers t13 s12 p70)  [1.000]
+18.645: (board-passengers t35 s34 p114)  [1.000]
+18.693: (board-passengers t33 s32 p110)  [1.000]
+19.046: (board-passengers t23 s22 p90)  [1.000]
+19.329: (board-passengers t18 s17 p80)  [1.000]
+20.001: (board-passengers t20 s19 p84)  [1.000]
+20.389: (board-passengers t24 s23 p92)  [1.000]
+20.722: (board-passengers t12 s11 p68)  [1.000]
+21.297: (board-passengers t7 s6 p58)  [1.000]
+22.035: (board-passengers t15 s14 p74)  [1.000]
+22.550: (board-passengers t1 s0 p46)  [1.000]
+23.078: (board-passengers t28 s27 p100)  [1.000]
+25.863: (board-passengers t26 s25 p96)  [1.000]
+26.668: (board-passengers t10 s9 p64)  [1.000]
+27.359: (board-passengers t3 s2 p50)  [1.000]
+27.452: (board-passengers t29 s28 p102)  [1.000]
+28.183: (board-passengers t5 s4 p54)  [1.000]
+29.413: (board-passengers t34 s33 p112)  [1.000]
+29.631: (board-passengers t9 s8 p62)  [1.000]
+30.477: (board-passengers t27 s26 p98)  [1.000]
+31.029: (board-passengers t2 s1 p48)  [1.000]
+31.194: (board-passengers t21 s20 p86)  [1.000]
+40.003: (board-passengers t30 s29 p104)  [1.000]
+41.003: (board-passengers t6 s5 p56)  [1.000]

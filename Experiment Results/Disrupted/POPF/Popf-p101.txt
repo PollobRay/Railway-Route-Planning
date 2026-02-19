@@ -1,0 +1,68 @@
+Number of literals: 377
+Constructing lookup tables: [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%] [110%]
+Post filtering unreachable actions:  [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%] [110%]
+[01;34mNo analytic limits found, not considering limit effects of goal-only operators[00m
+Pruning (drive-engine e1 p25 p0 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p26 p0 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p44 p0 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p19 p1 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p20 p1 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p12 p11 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p13 p11 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p11 p12 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p11 p13 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p34 p17 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p1 p19 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p45 p19 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p21 p2 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p1 p20 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p2 p21 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p32 p22 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p0 p25 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p37 p25 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p38 p25 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p0 p26 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p4 p27 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p3 p28 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p28 p3 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p43 p30 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p4 p31 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p22 p32 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p35 p33 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p40 p33 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p17 p34 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p33 p35 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p49 p36 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p25 p37 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p25 p38 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p4 p39 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p27 p4 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p31 p4 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p39 p4 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p33 p40 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p30 p43 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p0 p44 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p19 p45 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p36 p49 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p6 p5 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p5 p6 broad) - never appeared in initial RPG
+Pruning (drive-engine-to-damaged-up-train e1 t1 p5 p6 broad) - never appeared in initial RPG
+Pruning (attach-engine e1 t1 p5) - never appeared in initial RPG
+Pruning (attach-engine e1 t1 p6) - never appeared in initial RPG
+Pruning (drive-assisted-train e1 t1 p6 p5 broad) - never appeared in initial RPG
+Pruning (drive-assisted-train e1 t1 p5 p6 broad) - never appeared in initial RPG
+78% of the ground temporal actions in this problem are compression-safe
+Initial heuristic = 13.000
+b (12.000 | 2.000)b (11.000 | 10.000)b (10.000 | 15.966)b (9.000 | 16.967)b (8.000 | 16.967)b (7.000 | 17.095)b (6.000 | 18.096)b (5.000 | 18.096)b (4.000 | 18.096)b (2.000 | 38.002)b (1.000 | 38.002);;;; Solution Found
+; States evaluated: 13
+; Cost: 39.003
+; Time 0.03
+0.000: (resolve-train-blockage t1 p5)  [2.000]
+0.000: (drive-engine-to-damaged-up-train e1 t3 p50 p9 broad)  [10.000]
+0.000: (drive-train t2 p7 p8 meter)  [15.966]
+2.001: (drive-train t1 p5 p6 broad)  [15.094]
+10.001: (attach-engine e1 t3 p9)  [2.000]
+12.002: (drive-assisted-train e1 t3 p9 p10 broad)  [26.000]
+15.967: (board-passengers t2 s1 p8)  [1.000]
+17.096: (board-passengers t1 s0 p6)  [1.000]
+38.003: (board-passengers t3 s2 p10)  [1.000]

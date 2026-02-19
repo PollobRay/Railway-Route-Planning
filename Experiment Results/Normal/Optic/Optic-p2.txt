@@ -1,0 +1,68 @@
+Number of literals: 370
+Constructing lookup tables: [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%] [110%] [120%] [130%] [140%] [150%] [160%]
+Post filtering unreachable actions:  [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%] [110%] [120%] [130%] [140%] [150%] [160%]
+Seeing if metric is defined in terms of task vars or a minimal value of makespan
+- Yes it is
+Recognised a monotonic-change-induced limit on -1.000*<special>
+- Must be >=  the metric
+[01;34mFor limits: literal goal index 0, fact (train-at t1 p7), is static or a precondition[00m
+[01;34mFor limits: literal goal index 1, fact (train-at t2 p9), is static or a precondition[00m
+[01;34mFor limits: literal goal index 2, fact (train-at t3 p11), is static or a precondition[00m
+[01;34mFor limits: literal goal index 3, fact (train-at t4 p13), is static or a precondition[00m
+[01;31mLooking for achievers for goal index 4, fact (passengers-boarded t1 p7) with fID 360[00m
+ (board-passengers t1 s0 p7)
+  Looking at numeric effects of (board-passengers t1 s0 p7): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t1 s0 p7), of which there are 0
+[01;31mLooking for achievers for goal index 5, fact (passengers-boarded t2 p9) with fID 361[00m
+ (board-passengers t2 s1 p9)
+  Looking at numeric effects of (board-passengers t2 s1 p9): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t2 s1 p9), of which there are 0
+[01;31mLooking for achievers for goal index 6, fact (passengers-boarded t3 p11) with fID 358[00m
+ (board-passengers t3 s2 p11)
+  Looking at numeric effects of (board-passengers t3 s2 p11): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t3 s2 p11), of which there are 0
+[01;31mLooking for achievers for goal index 7, fact (passengers-boarded t4 p13) with fID 359[00m
+ (board-passengers t4 s3 p13)
+  Looking at numeric effects of (board-passengers t4 s3 p13): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t4 s3 p13), of which there are 0
+Action 8 - (board-passengers t3 s2 p11) is uninteresting once we have fact (passengers-boarded t3 p11)
+Action 9 - (board-passengers t4 s3 p13) is uninteresting once we have fact (passengers-boarded t4 p13)
+Action 10 - (board-passengers t1 s0 p7) is uninteresting once we have fact (passengers-boarded t1 p7)
+Action 11 - (board-passengers t2 s1 p9) is uninteresting once we have fact (passengers-boarded t2 p9)
+All the ground actions in this problem are compression-safe
+Initial heuristic = 8.000, admissible cost estimate 26.456
+b (7.000 | 17.307)b (6.000 | 21.568)b (5.000 | 25.454)b (4.000 | 25.454)b (3.000 | 25.454)b (2.000 | 25.454)b (1.000 | 25.454)(G)
+; LP calculated the cost
+
+; Plan found with metric 26.455
+; Theoretical reachable cost 26.456
+; States evaluated so far: 9
+; States pruned based on pre-heuristic cost lower bound: 0
+; Time 0.02
+0.000: (drive-train t2 p8 p9 meter)  [17.307]
+0.000: (drive-train t4 p12 p13 meter)  [21.568]
+0.000: (drive-train t1 p6 p7 broad)  [25.454]
+0.000: (drive-train t3 p10 p11 broad)  [20.754]
+17.308: (board-passengers t2 s1 p9)  [1.000]
+20.755: (board-passengers t3 s2 p11)  [1.000]
+21.569: (board-passengers t4 s3 p13)  [1.000]
+25.455: (board-passengers t1 s0 p7)  [1.000]
+
+ * All goal deadlines now no later than 26.455
+
+Resorting to best-first search
+Running WA* with W = 5.000, not restarting with goal states
+
+Problem Unsolvable
+;;;; Solution Found
+; States evaluated: 9
+; Cost: 26.455
+; Time 0.02
+0.000: (drive-train t2 p8 p9 meter)  [17.307]
+0.000: (drive-train t4 p12 p13 meter)  [21.568]
+0.000: (drive-train t1 p6 p7 broad)  [25.454]
+0.000: (drive-train t3 p10 p11 broad)  [20.754]
+17.308: (board-passengers t2 s1 p9)  [1.000]
+20.755: (board-passengers t3 s2 p11)  [1.000]
+21.569: (board-passengers t4 s3 p13)  [1.000]
+25.455: (board-passengers t1 s0 p7)  [1.000]

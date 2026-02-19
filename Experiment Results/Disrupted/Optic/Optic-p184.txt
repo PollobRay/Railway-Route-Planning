@@ -1,0 +1,1736 @@
+Number of literals: 9328
+Constructing lookup tables: [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+Post filtering unreachable actions:  [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+Seeing if metric is defined in terms of task vars or a minimal value of makespan
+- Yes it is
+Recognised a monotonic-change-induced limit on -1.000*<special>
+- Must be >=  the metric
+[01;34mFor limits: literal goal index 0, fact (train-at t1 p123), is static or a precondition[00m
+[01;34mFor limits: literal goal index 1, fact (train-at t2 p125), is static or a precondition[00m
+[01;34mFor limits: literal goal index 2, fact (train-at t3 p127), is static or a precondition[00m
+[01;34mFor limits: literal goal index 3, fact (train-at t4 p129), is static or a precondition[00m
+[01;34mFor limits: literal goal index 4, fact (train-at t5 p131), is static or a precondition[00m
+[01;34mFor limits: literal goal index 5, fact (train-at t6 p133), is static or a precondition[00m
+[01;34mFor limits: literal goal index 6, fact (train-at t7 p135), is static or a precondition[00m
+[01;34mFor limits: literal goal index 7, fact (train-at t8 p137), is static or a precondition[00m
+[01;34mFor limits: literal goal index 8, fact (train-at t9 p139), is static or a precondition[00m
+[01;34mFor limits: literal goal index 9, fact (train-at t10 p141), is static or a precondition[00m
+[01;34mFor limits: literal goal index 10, fact (train-at t11 p143), is static or a precondition[00m
+[01;34mFor limits: literal goal index 11, fact (train-at t12 p145), is static or a precondition[00m
+[01;34mFor limits: literal goal index 12, fact (train-at t13 p147), is static or a precondition[00m
+[01;34mFor limits: literal goal index 13, fact (train-at t14 p149), is static or a precondition[00m
+[01;34mFor limits: literal goal index 14, fact (train-at t15 p151), is static or a precondition[00m
+[01;34mFor limits: literal goal index 15, fact (train-at t16 p153), is static or a precondition[00m
+[01;34mFor limits: literal goal index 16, fact (train-at t17 p155), is static or a precondition[00m
+[01;34mFor limits: literal goal index 17, fact (train-at t18 p157), is static or a precondition[00m
+[01;34mFor limits: literal goal index 18, fact (train-at t19 p159), is static or a precondition[00m
+[01;34mFor limits: literal goal index 19, fact (train-at t20 p161), is static or a precondition[00m
+[01;34mFor limits: literal goal index 20, fact (train-at t21 p163), is static or a precondition[00m
+[01;34mFor limits: literal goal index 21, fact (train-at t22 p165), is static or a precondition[00m
+[01;34mFor limits: literal goal index 22, fact (train-at t23 p167), is static or a precondition[00m
+[01;34mFor limits: literal goal index 23, fact (train-at t24 p169), is static or a precondition[00m
+[01;34mFor limits: literal goal index 24, fact (train-at t25 p171), is static or a precondition[00m
+[01;34mFor limits: literal goal index 25, fact (train-at t26 p173), is static or a precondition[00m
+[01;34mFor limits: literal goal index 26, fact (train-at t27 p175), is static or a precondition[00m
+[01;34mFor limits: literal goal index 27, fact (train-at t28 p177), is static or a precondition[00m
+[01;34mFor limits: literal goal index 28, fact (train-at t29 p179), is static or a precondition[00m
+[01;34mFor limits: literal goal index 29, fact (train-at t30 p181), is static or a precondition[00m
+[01;34mFor limits: literal goal index 30, fact (train-at t31 p183), is static or a precondition[00m
+[01;34mFor limits: literal goal index 31, fact (train-at t32 p185), is static or a precondition[00m
+[01;34mFor limits: literal goal index 32, fact (train-at t33 p187), is static or a precondition[00m
+[01;34mFor limits: literal goal index 33, fact (train-at t34 p189), is static or a precondition[00m
+[01;34mFor limits: literal goal index 34, fact (train-at t35 p191), is static or a precondition[00m
+[01;34mFor limits: literal goal index 35, fact (train-at t36 p193), is static or a precondition[00m
+[01;34mFor limits: literal goal index 36, fact (train-at t37 p195), is static or a precondition[00m
+[01;34mFor limits: literal goal index 37, fact (train-at t38 p197), is static or a precondition[00m
+[01;34mFor limits: literal goal index 38, fact (train-at t39 p199), is static or a precondition[00m
+[01;34mFor limits: literal goal index 39, fact (train-at t40 p201), is static or a precondition[00m
+[01;34mFor limits: literal goal index 40, fact (train-at t41 p203), is static or a precondition[00m
+[01;34mFor limits: literal goal index 41, fact (train-at t42 p205), is static or a precondition[00m
+[01;34mFor limits: literal goal index 42, fact (train-at t43 p207), is static or a precondition[00m
+[01;34mFor limits: literal goal index 43, fact (train-at t44 p209), is static or a precondition[00m
+[01;34mFor limits: literal goal index 44, fact (train-at t45 p211), is static or a precondition[00m
+[01;34mFor limits: literal goal index 45, fact (train-at t46 p213), is static or a precondition[00m
+[01;34mFor limits: literal goal index 46, fact (train-at t47 p215), is static or a precondition[00m
+[01;34mFor limits: literal goal index 47, fact (train-at t48 p217), is static or a precondition[00m
+[01;34mFor limits: literal goal index 48, fact (train-at t49 p219), is static or a precondition[00m
+[01;34mFor limits: literal goal index 49, fact (train-at t50 p221), is static or a precondition[00m
+[01;34mFor limits: literal goal index 50, fact (train-at t51 p223), is static or a precondition[00m
+[01;34mFor limits: literal goal index 51, fact (train-at t52 p225), is static or a precondition[00m
+[01;34mFor limits: literal goal index 52, fact (train-at t53 p227), is static or a precondition[00m
+[01;34mFor limits: literal goal index 53, fact (train-at t54 p229), is static or a precondition[00m
+[01;34mFor limits: literal goal index 54, fact (train-at t55 p231), is static or a precondition[00m
+[01;34mFor limits: literal goal index 55, fact (train-at t56 p233), is static or a precondition[00m
+[01;34mFor limits: literal goal index 56, fact (train-at t57 p235), is static or a precondition[00m
+[01;34mFor limits: literal goal index 57, fact (train-at t58 p237), is static or a precondition[00m
+[01;34mFor limits: literal goal index 58, fact (train-at t59 p239), is static or a precondition[00m
+[01;34mFor limits: literal goal index 59, fact (train-at t60 p241), is static or a precondition[00m
+[01;34mFor limits: literal goal index 60, fact (train-at t61 p243), is static or a precondition[00m
+[01;34mFor limits: literal goal index 61, fact (train-at t62 p245), is static or a precondition[00m
+[01;34mFor limits: literal goal index 62, fact (train-at t63 p247), is static or a precondition[00m
+[01;34mFor limits: literal goal index 63, fact (train-at t64 p249), is static or a precondition[00m
+[01;34mFor limits: literal goal index 64, fact (train-at t65 p251), is static or a precondition[00m
+[01;34mFor limits: literal goal index 65, fact (train-at t66 p253), is static or a precondition[00m
+[01;34mFor limits: literal goal index 66, fact (train-at t67 p255), is static or a precondition[00m
+[01;34mFor limits: literal goal index 67, fact (train-at t68 p257), is static or a precondition[00m
+[01;34mFor limits: literal goal index 68, fact (train-at t69 p259), is static or a precondition[00m
+[01;34mFor limits: literal goal index 69, fact (train-at t70 p261), is static or a precondition[00m
+[01;34mFor limits: literal goal index 70, fact (train-at t71 p263), is static or a precondition[00m
+[01;34mFor limits: literal goal index 71, fact (train-at t72 p265), is static or a precondition[00m
+[01;34mFor limits: literal goal index 72, fact (train-at t73 p267), is static or a precondition[00m
+[01;34mFor limits: literal goal index 73, fact (train-at t74 p269), is static or a precondition[00m
+[01;34mFor limits: literal goal index 74, fact (train-at t75 p271), is static or a precondition[00m
+[01;34mFor limits: literal goal index 75, fact (train-at t76 p273), is static or a precondition[00m
+[01;34mFor limits: literal goal index 76, fact (train-at t77 p275), is static or a precondition[00m
+[01;34mFor limits: literal goal index 77, fact (train-at t78 p277), is static or a precondition[00m
+[01;34mFor limits: literal goal index 78, fact (train-at t79 p279), is static or a precondition[00m
+[01;34mFor limits: literal goal index 79, fact (train-at t80 p281), is static or a precondition[00m
+[01;34mFor limits: literal goal index 80, fact (train-at t81 p283), is static or a precondition[00m
+[01;34mFor limits: literal goal index 81, fact (train-at t82 p285), is static or a precondition[00m
+[01;34mFor limits: literal goal index 82, fact (train-at t83 p287), is static or a precondition[00m
+[01;34mFor limits: literal goal index 83, fact (train-at t84 p289), is static or a precondition[00m
+[01;34mFor limits: literal goal index 84, fact (train-at t85 p291), is static or a precondition[00m
+[01;34mFor limits: literal goal index 85, fact (train-at t86 p293), is static or a precondition[00m
+[01;34mFor limits: literal goal index 86, fact (train-at t87 p295), is static or a precondition[00m
+[01;34mFor limits: literal goal index 87, fact (train-at t88 p297), is static or a precondition[00m
+[01;34mFor limits: literal goal index 88, fact (train-at t89 p299), is static or a precondition[00m
+[01;34mFor limits: literal goal index 89, fact (train-at t90 p301), is static or a precondition[00m
+[01;34mFor limits: literal goal index 90, fact (train-at t91 p303), is static or a precondition[00m
+[01;34mFor limits: literal goal index 91, fact (train-at t92 p305), is static or a precondition[00m
+[01;34mFor limits: literal goal index 92, fact (train-at t93 p307), is static or a precondition[00m
+[01;34mFor limits: literal goal index 93, fact (train-at t94 p309), is static or a precondition[00m
+[01;34mFor limits: literal goal index 94, fact (train-at t95 p311), is static or a precondition[00m
+[01;34mFor limits: literal goal index 95, fact (train-at t96 p313), is static or a precondition[00m
+[01;34mFor limits: literal goal index 96, fact (train-at t97 p315), is static or a precondition[00m
+[01;31mLooking for achievers for goal index 97, fact (passengers-boarded t1 p123) with fID 8923[00m
+ (board-passengers t1 s0 p123)
+  Looking at numeric effects of (board-passengers t1 s0 p123): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t1 s0 p123), of which there are 0
+[01;31mLooking for achievers for goal index 98, fact (passengers-boarded t2 p125) with fID 8924[00m
+ (board-passengers t2 s1 p125)
+  Looking at numeric effects of (board-passengers t2 s1 p125): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t2 s1 p125), of which there are 0
+[01;31mLooking for achievers for goal index 99, fact (passengers-boarded t3 p127) with fID 8925[00m
+ (board-passengers t3 s2 p127)
+  Looking at numeric effects of (board-passengers t3 s2 p127): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t3 s2 p127), of which there are 0
+[01;31mLooking for achievers for goal index 100, fact (passengers-boarded t4 p129) with fID 8926[00m
+ (board-passengers t4 s3 p129)
+  Looking at numeric effects of (board-passengers t4 s3 p129): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t4 s3 p129), of which there are 0
+[01;31mLooking for achievers for goal index 101, fact (passengers-boarded t5 p131) with fID 8927[00m
+ (board-passengers t5 s4 p131)
+  Looking at numeric effects of (board-passengers t5 s4 p131): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t5 s4 p131), of which there are 0
+[01;31mLooking for achievers for goal index 102, fact (passengers-boarded t6 p133) with fID 8928[00m
+ (board-passengers t6 s5 p133)
+  Looking at numeric effects of (board-passengers t6 s5 p133): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t6 s5 p133), of which there are 0
+[01;31mLooking for achievers for goal index 103, fact (passengers-boarded t7 p135) with fID 8929[00m
+ (board-passengers t7 s6 p135)
+  Looking at numeric effects of (board-passengers t7 s6 p135): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t7 s6 p135), of which there are 0
+[01;31mLooking for achievers for goal index 104, fact (passengers-boarded t8 p137) with fID 8930[00m
+ (board-passengers t8 s7 p137)
+  Looking at numeric effects of (board-passengers t8 s7 p137): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t8 s7 p137), of which there are 0
+[01;31mLooking for achievers for goal index 105, fact (passengers-boarded t9 p139) with fID 8931[00m
+ (board-passengers t9 s8 p139)
+  Looking at numeric effects of (board-passengers t9 s8 p139): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t9 s8 p139), of which there are 0
+[01;31mLooking for achievers for goal index 106, fact (passengers-boarded t10 p141) with fID 8932[00m
+ (board-passengers t10 s9 p141)
+  Looking at numeric effects of (board-passengers t10 s9 p141): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t10 s9 p141), of which there are 0
+[01;31mLooking for achievers for goal index 107, fact (passengers-boarded t11 p143) with fID 8933[00m
+ (board-passengers t11 s10 p143)
+  Looking at numeric effects of (board-passengers t11 s10 p143): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t11 s10 p143), of which there are 0
+[01;31mLooking for achievers for goal index 108, fact (passengers-boarded t12 p145) with fID 8934[00m
+ (board-passengers t12 s11 p145)
+  Looking at numeric effects of (board-passengers t12 s11 p145): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t12 s11 p145), of which there are 0
+[01;31mLooking for achievers for goal index 109, fact (passengers-boarded t13 p147) with fID 8935[00m
+ (board-passengers t13 s12 p147)
+  Looking at numeric effects of (board-passengers t13 s12 p147): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t13 s12 p147), of which there are 0
+[01;31mLooking for achievers for goal index 110, fact (passengers-boarded t14 p149) with fID 8936[00m
+ (board-passengers t14 s13 p149)
+  Looking at numeric effects of (board-passengers t14 s13 p149): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t14 s13 p149), of which there are 0
+[01;31mLooking for achievers for goal index 111, fact (passengers-boarded t15 p151) with fID 8937[00m
+ (board-passengers t15 s14 p151)
+  Looking at numeric effects of (board-passengers t15 s14 p151): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t15 s14 p151), of which there are 0
+[01;31mLooking for achievers for goal index 112, fact (passengers-boarded t16 p153) with fID 8938[00m
+ (board-passengers t16 s15 p153)
+  Looking at numeric effects of (board-passengers t16 s15 p153): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t16 s15 p153), of which there are 0
+[01;31mLooking for achievers for goal index 113, fact (passengers-boarded t17 p155) with fID 8939[00m
+ (board-passengers t17 s16 p155)
+  Looking at numeric effects of (board-passengers t17 s16 p155): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t17 s16 p155), of which there are 0
+[01;31mLooking for achievers for goal index 114, fact (passengers-boarded t18 p157) with fID 8940[00m
+ (board-passengers t18 s17 p157)
+  Looking at numeric effects of (board-passengers t18 s17 p157): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t18 s17 p157), of which there are 0
+[01;31mLooking for achievers for goal index 115, fact (passengers-boarded t19 p159) with fID 8941[00m
+ (board-passengers t19 s18 p159)
+  Looking at numeric effects of (board-passengers t19 s18 p159): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t19 s18 p159), of which there are 0
+[01;31mLooking for achievers for goal index 116, fact (passengers-boarded t20 p161) with fID 8942[00m
+ (board-passengers t20 s19 p161)
+  Looking at numeric effects of (board-passengers t20 s19 p161): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t20 s19 p161), of which there are 0
+[01;31mLooking for achievers for goal index 117, fact (passengers-boarded t21 p163) with fID 8943[00m
+ (board-passengers t21 s20 p163)
+  Looking at numeric effects of (board-passengers t21 s20 p163): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t21 s20 p163), of which there are 0
+[01;31mLooking for achievers for goal index 118, fact (passengers-boarded t22 p165) with fID 8944[00m
+ (board-passengers t22 s21 p165)
+  Looking at numeric effects of (board-passengers t22 s21 p165): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t22 s21 p165), of which there are 0
+[01;31mLooking for achievers for goal index 119, fact (passengers-boarded t23 p167) with fID 8945[00m
+ (board-passengers t23 s22 p167)
+  Looking at numeric effects of (board-passengers t23 s22 p167): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t23 s22 p167), of which there are 0
+[01;31mLooking for achievers for goal index 120, fact (passengers-boarded t24 p169) with fID 8946[00m
+ (board-passengers t24 s23 p169)
+  Looking at numeric effects of (board-passengers t24 s23 p169): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t24 s23 p169), of which there are 0
+[01;31mLooking for achievers for goal index 121, fact (passengers-boarded t25 p171) with fID 8947[00m
+ (board-passengers t25 s24 p171)
+  Looking at numeric effects of (board-passengers t25 s24 p171): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t25 s24 p171), of which there are 0
+[01;31mLooking for achievers for goal index 122, fact (passengers-boarded t26 p173) with fID 8948[00m
+ (board-passengers t26 s25 p173)
+  Looking at numeric effects of (board-passengers t26 s25 p173): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t26 s25 p173), of which there are 0
+[01;31mLooking for achievers for goal index 123, fact (passengers-boarded t27 p175) with fID 8949[00m
+ (board-passengers t27 s26 p175)
+  Looking at numeric effects of (board-passengers t27 s26 p175): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t27 s26 p175), of which there are 0
+[01;31mLooking for achievers for goal index 124, fact (passengers-boarded t28 p177) with fID 8950[00m
+ (board-passengers t28 s27 p177)
+  Looking at numeric effects of (board-passengers t28 s27 p177): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t28 s27 p177), of which there are 0
+[01;31mLooking for achievers for goal index 125, fact (passengers-boarded t29 p179) with fID 8951[00m
+ (board-passengers t29 s28 p179)
+  Looking at numeric effects of (board-passengers t29 s28 p179): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t29 s28 p179), of which there are 0
+[01;31mLooking for achievers for goal index 126, fact (passengers-boarded t30 p181) with fID 8952[00m
+ (board-passengers t30 s29 p181)
+  Looking at numeric effects of (board-passengers t30 s29 p181): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t30 s29 p181), of which there are 0
+[01;31mLooking for achievers for goal index 127, fact (passengers-boarded t31 p183) with fID 8953[00m
+ (board-passengers t31 s30 p183)
+  Looking at numeric effects of (board-passengers t31 s30 p183): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t31 s30 p183), of which there are 0
+[01;31mLooking for achievers for goal index 128, fact (passengers-boarded t32 p185) with fID 8954[00m
+ (board-passengers t32 s31 p185)
+  Looking at numeric effects of (board-passengers t32 s31 p185): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t32 s31 p185), of which there are 0
+[01;31mLooking for achievers for goal index 129, fact (passengers-boarded t33 p187) with fID 8955[00m
+ (board-passengers t33 s32 p187)
+  Looking at numeric effects of (board-passengers t33 s32 p187): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t33 s32 p187), of which there are 0
+[01;31mLooking for achievers for goal index 130, fact (passengers-boarded t34 p189) with fID 8956[00m
+ (board-passengers t34 s33 p189)
+  Looking at numeric effects of (board-passengers t34 s33 p189): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t34 s33 p189), of which there are 0
+[01;31mLooking for achievers for goal index 131, fact (passengers-boarded t35 p191) with fID 8957[00m
+ (board-passengers t35 s34 p191)
+  Looking at numeric effects of (board-passengers t35 s34 p191): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t35 s34 p191), of which there are 0
+[01;31mLooking for achievers for goal index 132, fact (passengers-boarded t36 p193) with fID 8958[00m
+ (board-passengers t36 s35 p193)
+  Looking at numeric effects of (board-passengers t36 s35 p193): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t36 s35 p193), of which there are 0
+[01;31mLooking for achievers for goal index 133, fact (passengers-boarded t37 p195) with fID 8959[00m
+ (board-passengers t37 s36 p195)
+  Looking at numeric effects of (board-passengers t37 s36 p195): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t37 s36 p195), of which there are 0
+[01;31mLooking for achievers for goal index 134, fact (passengers-boarded t38 p197) with fID 8960[00m
+ (board-passengers t38 s37 p197)
+  Looking at numeric effects of (board-passengers t38 s37 p197): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t38 s37 p197), of which there are 0
+[01;31mLooking for achievers for goal index 135, fact (passengers-boarded t39 p199) with fID 8961[00m
+ (board-passengers t39 s38 p199)
+  Looking at numeric effects of (board-passengers t39 s38 p199): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t39 s38 p199), of which there are 0
+[01;31mLooking for achievers for goal index 136, fact (passengers-boarded t40 p201) with fID 8962[00m
+ (board-passengers t40 s39 p201)
+  Looking at numeric effects of (board-passengers t40 s39 p201): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t40 s39 p201), of which there are 0
+[01;31mLooking for achievers for goal index 137, fact (passengers-boarded t41 p203) with fID 8963[00m
+ (board-passengers t41 s40 p203)
+  Looking at numeric effects of (board-passengers t41 s40 p203): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t41 s40 p203), of which there are 0
+[01;31mLooking for achievers for goal index 138, fact (passengers-boarded t42 p205) with fID 8964[00m
+ (board-passengers t42 s41 p205)
+  Looking at numeric effects of (board-passengers t42 s41 p205): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t42 s41 p205), of which there are 0
+[01;31mLooking for achievers for goal index 139, fact (passengers-boarded t43 p207) with fID 8965[00m
+ (board-passengers t43 s42 p207)
+  Looking at numeric effects of (board-passengers t43 s42 p207): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t43 s42 p207), of which there are 0
+[01;31mLooking for achievers for goal index 140, fact (passengers-boarded t44 p209) with fID 8966[00m
+ (board-passengers t44 s43 p209)
+  Looking at numeric effects of (board-passengers t44 s43 p209): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t44 s43 p209), of which there are 0
+[01;31mLooking for achievers for goal index 141, fact (passengers-boarded t45 p211) with fID 8967[00m
+ (board-passengers t45 s44 p211)
+  Looking at numeric effects of (board-passengers t45 s44 p211): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t45 s44 p211), of which there are 0
+[01;31mLooking for achievers for goal index 142, fact (passengers-boarded t46 p213) with fID 8968[00m
+ (board-passengers t46 s45 p213)
+  Looking at numeric effects of (board-passengers t46 s45 p213): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t46 s45 p213), of which there are 0
+[01;31mLooking for achievers for goal index 143, fact (passengers-boarded t47 p215) with fID 8969[00m
+ (board-passengers t47 s46 p215)
+  Looking at numeric effects of (board-passengers t47 s46 p215): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t47 s46 p215), of which there are 0
+[01;31mLooking for achievers for goal index 144, fact (passengers-boarded t48 p217) with fID 8970[00m
+ (board-passengers t48 s47 p217)
+  Looking at numeric effects of (board-passengers t48 s47 p217): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t48 s47 p217), of which there are 0
+[01;31mLooking for achievers for goal index 145, fact (passengers-boarded t49 p219) with fID 8971[00m
+ (board-passengers t49 s48 p219)
+  Looking at numeric effects of (board-passengers t49 s48 p219): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t49 s48 p219), of which there are 0
+[01;31mLooking for achievers for goal index 146, fact (passengers-boarded t50 p221) with fID 8972[00m
+ (board-passengers t50 s49 p221)
+  Looking at numeric effects of (board-passengers t50 s49 p221): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t50 s49 p221), of which there are 0
+[01;31mLooking for achievers for goal index 147, fact (passengers-boarded t51 p223) with fID 8973[00m
+ (board-passengers t51 s50 p223)
+  Looking at numeric effects of (board-passengers t51 s50 p223): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t51 s50 p223), of which there are 0
+[01;31mLooking for achievers for goal index 148, fact (passengers-boarded t52 p225) with fID 8974[00m
+ (board-passengers t52 s51 p225)
+  Looking at numeric effects of (board-passengers t52 s51 p225): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t52 s51 p225), of which there are 0
+[01;31mLooking for achievers for goal index 149, fact (passengers-boarded t53 p227) with fID 8975[00m
+ (board-passengers t53 s52 p227)
+  Looking at numeric effects of (board-passengers t53 s52 p227): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t53 s52 p227), of which there are 0
+[01;31mLooking for achievers for goal index 150, fact (passengers-boarded t54 p229) with fID 8976[00m
+ (board-passengers t54 s53 p229)
+  Looking at numeric effects of (board-passengers t54 s53 p229): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t54 s53 p229), of which there are 0
+[01;31mLooking for achievers for goal index 151, fact (passengers-boarded t55 p231) with fID 8977[00m
+ (board-passengers t55 s54 p231)
+  Looking at numeric effects of (board-passengers t55 s54 p231): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t55 s54 p231), of which there are 0
+[01;31mLooking for achievers for goal index 152, fact (passengers-boarded t56 p233) with fID 8978[00m
+ (board-passengers t56 s55 p233)
+  Looking at numeric effects of (board-passengers t56 s55 p233): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t56 s55 p233), of which there are 0
+[01;31mLooking for achievers for goal index 153, fact (passengers-boarded t57 p235) with fID 8979[00m
+ (board-passengers t57 s56 p235)
+  Looking at numeric effects of (board-passengers t57 s56 p235): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t57 s56 p235), of which there are 0
+[01;31mLooking for achievers for goal index 154, fact (passengers-boarded t58 p237) with fID 8980[00m
+ (board-passengers t58 s57 p237)
+  Looking at numeric effects of (board-passengers t58 s57 p237): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t58 s57 p237), of which there are 0
+[01;31mLooking for achievers for goal index 155, fact (passengers-boarded t59 p239) with fID 8981[00m
+ (board-passengers t59 s58 p239)
+  Looking at numeric effects of (board-passengers t59 s58 p239): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t59 s58 p239), of which there are 0
+[01;31mLooking for achievers for goal index 156, fact (passengers-boarded t60 p241) with fID 8982[00m
+ (board-passengers t60 s59 p241)
+  Looking at numeric effects of (board-passengers t60 s59 p241): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t60 s59 p241), of which there are 0
+[01;31mLooking for achievers for goal index 157, fact (passengers-boarded t61 p243) with fID 8983[00m
+ (board-passengers t61 s60 p243)
+  Looking at numeric effects of (board-passengers t61 s60 p243): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t61 s60 p243), of which there are 0
+[01;31mLooking for achievers for goal index 158, fact (passengers-boarded t62 p245) with fID 8984[00m
+ (board-passengers t62 s61 p245)
+  Looking at numeric effects of (board-passengers t62 s61 p245): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t62 s61 p245), of which there are 0
+[01;31mLooking for achievers for goal index 159, fact (passengers-boarded t63 p247) with fID 8985[00m
+ (board-passengers t63 s62 p247)
+  Looking at numeric effects of (board-passengers t63 s62 p247): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t63 s62 p247), of which there are 0
+[01;31mLooking for achievers for goal index 160, fact (passengers-boarded t64 p249) with fID 8986[00m
+ (board-passengers t64 s63 p249)
+  Looking at numeric effects of (board-passengers t64 s63 p249): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t64 s63 p249), of which there are 0
+[01;31mLooking for achievers for goal index 161, fact (passengers-boarded t65 p251) with fID 8987[00m
+ (board-passengers t65 s64 p251)
+  Looking at numeric effects of (board-passengers t65 s64 p251): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t65 s64 p251), of which there are 0
+[01;31mLooking for achievers for goal index 162, fact (passengers-boarded t66 p253) with fID 8988[00m
+ (board-passengers t66 s65 p253)
+  Looking at numeric effects of (board-passengers t66 s65 p253): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t66 s65 p253), of which there are 0
+[01;31mLooking for achievers for goal index 163, fact (passengers-boarded t67 p255) with fID 8989[00m
+ (board-passengers t67 s66 p255)
+  Looking at numeric effects of (board-passengers t67 s66 p255): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t67 s66 p255), of which there are 0
+[01;31mLooking for achievers for goal index 164, fact (passengers-boarded t68 p257) with fID 8990[00m
+ (board-passengers t68 s67 p257)
+  Looking at numeric effects of (board-passengers t68 s67 p257): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t68 s67 p257), of which there are 0
+[01;31mLooking for achievers for goal index 165, fact (passengers-boarded t69 p259) with fID 8991[00m
+ (board-passengers t69 s68 p259)
+  Looking at numeric effects of (board-passengers t69 s68 p259): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t69 s68 p259), of which there are 0
+[01;31mLooking for achievers for goal index 166, fact (passengers-boarded t70 p261) with fID 8992[00m
+ (board-passengers t70 s69 p261)
+  Looking at numeric effects of (board-passengers t70 s69 p261): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t70 s69 p261), of which there are 0
+[01;31mLooking for achievers for goal index 167, fact (passengers-boarded t71 p263) with fID 8993[00m
+ (board-passengers t71 s70 p263)
+  Looking at numeric effects of (board-passengers t71 s70 p263): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t71 s70 p263), of which there are 0
+[01;31mLooking for achievers for goal index 168, fact (passengers-boarded t72 p265) with fID 8994[00m
+ (board-passengers t72 s71 p265)
+  Looking at numeric effects of (board-passengers t72 s71 p265): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t72 s71 p265), of which there are 0
+[01;31mLooking for achievers for goal index 169, fact (passengers-boarded t73 p267) with fID 8995[00m
+ (board-passengers t73 s72 p267)
+  Looking at numeric effects of (board-passengers t73 s72 p267): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t73 s72 p267), of which there are 0
+[01;31mLooking for achievers for goal index 170, fact (passengers-boarded t74 p269) with fID 8996[00m
+ (board-passengers t74 s73 p269)
+  Looking at numeric effects of (board-passengers t74 s73 p269): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t74 s73 p269), of which there are 0
+[01;31mLooking for achievers for goal index 171, fact (passengers-boarded t75 p271) with fID 8997[00m
+ (board-passengers t75 s74 p271)
+  Looking at numeric effects of (board-passengers t75 s74 p271): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t75 s74 p271), of which there are 0
+[01;31mLooking for achievers for goal index 172, fact (passengers-boarded t76 p273) with fID 8998[00m
+ (board-passengers t76 s75 p273)
+  Looking at numeric effects of (board-passengers t76 s75 p273): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t76 s75 p273), of which there are 0
+[01;31mLooking for achievers for goal index 173, fact (passengers-boarded t77 p275) with fID 8999[00m
+ (board-passengers t77 s76 p275)
+  Looking at numeric effects of (board-passengers t77 s76 p275): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t77 s76 p275), of which there are 0
+[01;31mLooking for achievers for goal index 174, fact (passengers-boarded t78 p277) with fID 9000[00m
+ (board-passengers t78 s77 p277)
+  Looking at numeric effects of (board-passengers t78 s77 p277): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t78 s77 p277), of which there are 0
+[01;31mLooking for achievers for goal index 175, fact (passengers-boarded t79 p279) with fID 9001[00m
+ (board-passengers t79 s78 p279)
+  Looking at numeric effects of (board-passengers t79 s78 p279): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t79 s78 p279), of which there are 0
+[01;31mLooking for achievers for goal index 176, fact (passengers-boarded t80 p281) with fID 9002[00m
+ (board-passengers t80 s79 p281)
+  Looking at numeric effects of (board-passengers t80 s79 p281): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t80 s79 p281), of which there are 0
+[01;31mLooking for achievers for goal index 177, fact (passengers-boarded t81 p283) with fID 9003[00m
+ (board-passengers t81 s80 p283)
+  Looking at numeric effects of (board-passengers t81 s80 p283): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t81 s80 p283), of which there are 0
+[01;31mLooking for achievers for goal index 178, fact (passengers-boarded t82 p285) with fID 9004[00m
+ (board-passengers t82 s81 p285)
+  Looking at numeric effects of (board-passengers t82 s81 p285): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t82 s81 p285), of which there are 0
+[01;31mLooking for achievers for goal index 179, fact (passengers-boarded t83 p287) with fID 9005[00m
+ (board-passengers t83 s82 p287)
+  Looking at numeric effects of (board-passengers t83 s82 p287): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t83 s82 p287), of which there are 0
+[01;31mLooking for achievers for goal index 180, fact (passengers-boarded t84 p289) with fID 9006[00m
+ (board-passengers t84 s83 p289)
+  Looking at numeric effects of (board-passengers t84 s83 p289): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t84 s83 p289), of which there are 0
+[01;31mLooking for achievers for goal index 181, fact (passengers-boarded t85 p291) with fID 9007[00m
+ (board-passengers t85 s84 p291)
+  Looking at numeric effects of (board-passengers t85 s84 p291): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t85 s84 p291), of which there are 0
+[01;31mLooking for achievers for goal index 182, fact (passengers-boarded t86 p293) with fID 9008[00m
+ (board-passengers t86 s85 p293)
+  Looking at numeric effects of (board-passengers t86 s85 p293): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t86 s85 p293), of which there are 0
+[01;31mLooking for achievers for goal index 183, fact (passengers-boarded t87 p295) with fID 9009[00m
+ (board-passengers t87 s86 p295)
+  Looking at numeric effects of (board-passengers t87 s86 p295): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t87 s86 p295), of which there are 0
+[01;31mLooking for achievers for goal index 184, fact (passengers-boarded t88 p297) with fID 9010[00m
+ (board-passengers t88 s87 p297)
+  Looking at numeric effects of (board-passengers t88 s87 p297): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t88 s87 p297), of which there are 0
+[01;31mLooking for achievers for goal index 185, fact (passengers-boarded t89 p299) with fID 9011[00m
+ (board-passengers t89 s88 p299)
+  Looking at numeric effects of (board-passengers t89 s88 p299): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t89 s88 p299), of which there are 0
+[01;31mLooking for achievers for goal index 186, fact (passengers-boarded t90 p301) with fID 9012[00m
+ (board-passengers t90 s89 p301)
+  Looking at numeric effects of (board-passengers t90 s89 p301): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t90 s89 p301), of which there are 0
+[01;31mLooking for achievers for goal index 187, fact (passengers-boarded t91 p303) with fID 9013[00m
+ (board-passengers t91 s90 p303)
+  Looking at numeric effects of (board-passengers t91 s90 p303): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t91 s90 p303), of which there are 0
+[01;31mLooking for achievers for goal index 188, fact (passengers-boarded t92 p305) with fID 9014[00m
+ (board-passengers t92 s91 p305)
+  Looking at numeric effects of (board-passengers t92 s91 p305): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t92 s91 p305), of which there are 0
+[01;31mLooking for achievers for goal index 189, fact (passengers-boarded t93 p307) with fID 9015[00m
+ (board-passengers t93 s92 p307)
+  Looking at numeric effects of (board-passengers t93 s92 p307): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t93 s92 p307), of which there are 0
+[01;31mLooking for achievers for goal index 190, fact (passengers-boarded t94 p309) with fID 9016[00m
+ (board-passengers t94 s93 p309)
+  Looking at numeric effects of (board-passengers t94 s93 p309): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t94 s93 p309), of which there are 0
+[01;31mLooking for achievers for goal index 191, fact (passengers-boarded t95 p311) with fID 9017[00m
+ (board-passengers t95 s94 p311)
+  Looking at numeric effects of (board-passengers t95 s94 p311): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t95 s94 p311), of which there are 0
+[01;31mLooking for achievers for goal index 192, fact (passengers-boarded t96 p313) with fID 9018[00m
+ (board-passengers t96 s95 p313)
+  Looking at numeric effects of (board-passengers t96 s95 p313): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t96 s95 p313), of which there are 0
+[01;31mLooking for achievers for goal index 193, fact (passengers-boarded t97 p315) with fID 9019[00m
+ (board-passengers t97 s96 p315)
+  Looking at numeric effects of (board-passengers t97 s96 p315): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t97 s96 p315), of which there are 0
+Action 4891 - (attach-engine e1 t1 p122) is uninteresting once we have fact (engine-attached e1 t1)
+Action 4892 - (attach-engine e2 t1 p122) is uninteresting once we have fact (engine-attached e2 t1)
+Action 4893 - (attach-engine e4 t1 p122) is uninteresting once we have fact (engine-attached e4 t1)
+Action 4894 - (attach-engine e5 t1 p122) is uninteresting once we have fact (engine-attached e5 t1)
+Action 4895 - (attach-engine e6 t1 p122) is uninteresting once we have fact (engine-attached e6 t1)
+Action 4896 - (attach-engine e7 t1 p122) is uninteresting once we have fact (engine-attached e7 t1)
+Action 4897 - (attach-engine e8 t1 p122) is uninteresting once we have fact (engine-attached e8 t1)
+Action 4898 - (attach-engine e1 t1 p123) is uninteresting once we have fact (engine-attached e1 t1)
+Action 4899 - (attach-engine e2 t1 p123) is uninteresting once we have fact (engine-attached e2 t1)
+Action 4900 - (attach-engine e4 t1 p123) is uninteresting once we have fact (engine-attached e4 t1)
+Action 4901 - (attach-engine e5 t1 p123) is uninteresting once we have fact (engine-attached e5 t1)
+Action 4902 - (attach-engine e6 t1 p123) is uninteresting once we have fact (engine-attached e6 t1)
+Action 4903 - (attach-engine e7 t1 p123) is uninteresting once we have fact (engine-attached e7 t1)
+Action 4904 - (attach-engine e8 t1 p123) is uninteresting once we have fact (engine-attached e8 t1)
+Action 4905 - (attach-engine e3 t2 p124) is uninteresting once we have fact (engine-attached e3 t2)
+Action 4906 - (attach-engine e3 t2 p125) is uninteresting once we have fact (engine-attached e3 t2)
+Action 4907 - (attach-engine e1 t3 p126) is uninteresting once we have fact (engine-attached e1 t3)
+Action 4908 - (attach-engine e2 t3 p126) is uninteresting once we have fact (engine-attached e2 t3)
+Action 4909 - (attach-engine e4 t3 p126) is uninteresting once we have fact (engine-attached e4 t3)
+Action 4910 - (attach-engine e5 t3 p126) is uninteresting once we have fact (engine-attached e5 t3)
+Action 4911 - (attach-engine e6 t3 p126) is uninteresting once we have fact (engine-attached e6 t3)
+Action 4912 - (attach-engine e7 t3 p126) is uninteresting once we have fact (engine-attached e7 t3)
+Action 4913 - (attach-engine e8 t3 p126) is uninteresting once we have fact (engine-attached e8 t3)
+Action 4914 - (attach-engine e1 t3 p127) is uninteresting once we have fact (engine-attached e1 t3)
+Action 4915 - (attach-engine e2 t3 p127) is uninteresting once we have fact (engine-attached e2 t3)
+Action 4916 - (attach-engine e4 t3 p127) is uninteresting once we have fact (engine-attached e4 t3)
+Action 4917 - (attach-engine e5 t3 p127) is uninteresting once we have fact (engine-attached e5 t3)
+Action 4918 - (attach-engine e6 t3 p127) is uninteresting once we have fact (engine-attached e6 t3)
+Action 4919 - (attach-engine e7 t3 p127) is uninteresting once we have fact (engine-attached e7 t3)
+Action 4920 - (attach-engine e8 t3 p127) is uninteresting once we have fact (engine-attached e8 t3)
+Action 4921 - (attach-engine e3 t4 p128) is uninteresting once we have fact (engine-attached e3 t4)
+Action 4922 - (attach-engine e3 t4 p129) is uninteresting once we have fact (engine-attached e3 t4)
+Action 4923 - (attach-engine e1 t5 p130) is uninteresting once we have fact (engine-attached e1 t5)
+Action 4924 - (attach-engine e2 t5 p130) is uninteresting once we have fact (engine-attached e2 t5)
+Action 4925 - (attach-engine e4 t5 p130) is uninteresting once we have fact (engine-attached e4 t5)
+Action 4926 - (attach-engine e5 t5 p130) is uninteresting once we have fact (engine-attached e5 t5)
+Action 4927 - (attach-engine e6 t5 p130) is uninteresting once we have fact (engine-attached e6 t5)
+Action 4928 - (attach-engine e7 t5 p130) is uninteresting once we have fact (engine-attached e7 t5)
+Action 4929 - (attach-engine e8 t5 p130) is uninteresting once we have fact (engine-attached e8 t5)
+Action 4930 - (attach-engine e1 t5 p131) is uninteresting once we have fact (engine-attached e1 t5)
+Action 4931 - (attach-engine e2 t5 p131) is uninteresting once we have fact (engine-attached e2 t5)
+Action 4932 - (attach-engine e4 t5 p131) is uninteresting once we have fact (engine-attached e4 t5)
+Action 4933 - (attach-engine e5 t5 p131) is uninteresting once we have fact (engine-attached e5 t5)
+Action 4934 - (attach-engine e6 t5 p131) is uninteresting once we have fact (engine-attached e6 t5)
+Action 4935 - (attach-engine e7 t5 p131) is uninteresting once we have fact (engine-attached e7 t5)
+Action 4936 - (attach-engine e8 t5 p131) is uninteresting once we have fact (engine-attached e8 t5)
+Action 4937 - (attach-engine e3 t6 p132) is uninteresting once we have fact (engine-attached e3 t6)
+Action 4938 - (attach-engine e3 t6 p133) is uninteresting once we have fact (engine-attached e3 t6)
+Action 4939 - (attach-engine e1 t7 p134) is uninteresting once we have fact (engine-attached e1 t7)
+Action 4940 - (attach-engine e2 t7 p134) is uninteresting once we have fact (engine-attached e2 t7)
+Action 4941 - (attach-engine e4 t7 p134) is uninteresting once we have fact (engine-attached e4 t7)
+Action 4942 - (attach-engine e5 t7 p134) is uninteresting once we have fact (engine-attached e5 t7)
+Action 4943 - (attach-engine e6 t7 p134) is uninteresting once we have fact (engine-attached e6 t7)
+Action 4944 - (attach-engine e7 t7 p134) is uninteresting once we have fact (engine-attached e7 t7)
+Action 4945 - (attach-engine e8 t7 p134) is uninteresting once we have fact (engine-attached e8 t7)
+Action 4946 - (attach-engine e1 t7 p135) is uninteresting once we have fact (engine-attached e1 t7)
+Action 4947 - (attach-engine e2 t7 p135) is uninteresting once we have fact (engine-attached e2 t7)
+Action 4948 - (attach-engine e4 t7 p135) is uninteresting once we have fact (engine-attached e4 t7)
+Action 4949 - (attach-engine e5 t7 p135) is uninteresting once we have fact (engine-attached e5 t7)
+Action 4950 - (attach-engine e6 t7 p135) is uninteresting once we have fact (engine-attached e6 t7)
+Action 4951 - (attach-engine e7 t7 p135) is uninteresting once we have fact (engine-attached e7 t7)
+Action 4952 - (attach-engine e8 t7 p135) is uninteresting once we have fact (engine-attached e8 t7)
+Action 4953 - (attach-engine e3 t8 p136) is uninteresting once we have fact (engine-attached e3 t8)
+Action 4954 - (attach-engine e3 t8 p137) is uninteresting once we have fact (engine-attached e3 t8)
+Action 4955 - (attach-engine e1 t9 p138) is uninteresting once we have fact (engine-attached e1 t9)
+Action 4956 - (attach-engine e2 t9 p138) is uninteresting once we have fact (engine-attached e2 t9)
+Action 4957 - (attach-engine e4 t9 p138) is uninteresting once we have fact (engine-attached e4 t9)
+Action 4958 - (attach-engine e5 t9 p138) is uninteresting once we have fact (engine-attached e5 t9)
+Action 4959 - (attach-engine e6 t9 p138) is uninteresting once we have fact (engine-attached e6 t9)
+Action 4960 - (attach-engine e7 t9 p138) is uninteresting once we have fact (engine-attached e7 t9)
+Action 4961 - (attach-engine e8 t9 p138) is uninteresting once we have fact (engine-attached e8 t9)
+Action 4962 - (attach-engine e1 t9 p139) is uninteresting once we have fact (engine-attached e1 t9)
+Action 4963 - (attach-engine e2 t9 p139) is uninteresting once we have fact (engine-attached e2 t9)
+Action 4964 - (attach-engine e4 t9 p139) is uninteresting once we have fact (engine-attached e4 t9)
+Action 4965 - (attach-engine e5 t9 p139) is uninteresting once we have fact (engine-attached e5 t9)
+Action 4966 - (attach-engine e6 t9 p139) is uninteresting once we have fact (engine-attached e6 t9)
+Action 4967 - (attach-engine e7 t9 p139) is uninteresting once we have fact (engine-attached e7 t9)
+Action 4968 - (attach-engine e8 t9 p139) is uninteresting once we have fact (engine-attached e8 t9)
+Action 4969 - (attach-engine e3 t10 p140) is uninteresting once we have fact (engine-attached e3 t10)
+Action 4970 - (attach-engine e3 t10 p141) is uninteresting once we have fact (engine-attached e3 t10)
+Action 4971 - (attach-engine e1 t11 p142) is uninteresting once we have fact (engine-attached e1 t11)
+Action 4972 - (attach-engine e2 t11 p142) is uninteresting once we have fact (engine-attached e2 t11)
+Action 4973 - (attach-engine e4 t11 p142) is uninteresting once we have fact (engine-attached e4 t11)
+Action 4974 - (attach-engine e5 t11 p142) is uninteresting once we have fact (engine-attached e5 t11)
+Action 4975 - (attach-engine e6 t11 p142) is uninteresting once we have fact (engine-attached e6 t11)
+Action 4976 - (attach-engine e7 t11 p142) is uninteresting once we have fact (engine-attached e7 t11)
+Action 4977 - (attach-engine e8 t11 p142) is uninteresting once we have fact (engine-attached e8 t11)
+Action 4978 - (attach-engine e1 t11 p143) is uninteresting once we have fact (engine-attached e1 t11)
+Action 4979 - (attach-engine e2 t11 p143) is uninteresting once we have fact (engine-attached e2 t11)
+Action 4980 - (attach-engine e4 t11 p143) is uninteresting once we have fact (engine-attached e4 t11)
+Action 4981 - (attach-engine e5 t11 p143) is uninteresting once we have fact (engine-attached e5 t11)
+Action 4982 - (attach-engine e6 t11 p143) is uninteresting once we have fact (engine-attached e6 t11)
+Action 4983 - (attach-engine e7 t11 p143) is uninteresting once we have fact (engine-attached e7 t11)
+Action 4984 - (attach-engine e8 t11 p143) is uninteresting once we have fact (engine-attached e8 t11)
+Action 4985 - (attach-engine e3 t12 p144) is uninteresting once we have fact (engine-attached e3 t12)
+Action 4986 - (attach-engine e3 t12 p145) is uninteresting once we have fact (engine-attached e3 t12)
+Action 4987 - (attach-engine e1 t13 p146) is uninteresting once we have fact (engine-attached e1 t13)
+Action 4988 - (attach-engine e2 t13 p146) is uninteresting once we have fact (engine-attached e2 t13)
+Action 4989 - (attach-engine e4 t13 p146) is uninteresting once we have fact (engine-attached e4 t13)
+Action 4990 - (attach-engine e5 t13 p146) is uninteresting once we have fact (engine-attached e5 t13)
+Action 4991 - (attach-engine e6 t13 p146) is uninteresting once we have fact (engine-attached e6 t13)
+Action 4992 - (attach-engine e7 t13 p146) is uninteresting once we have fact (engine-attached e7 t13)
+Action 4993 - (attach-engine e8 t13 p146) is uninteresting once we have fact (engine-attached e8 t13)
+Action 4994 - (attach-engine e1 t13 p147) is uninteresting once we have fact (engine-attached e1 t13)
+Action 4995 - (attach-engine e2 t13 p147) is uninteresting once we have fact (engine-attached e2 t13)
+Action 4996 - (attach-engine e4 t13 p147) is uninteresting once we have fact (engine-attached e4 t13)
+Action 4997 - (attach-engine e5 t13 p147) is uninteresting once we have fact (engine-attached e5 t13)
+Action 4998 - (attach-engine e6 t13 p147) is uninteresting once we have fact (engine-attached e6 t13)
+Action 4999 - (attach-engine e7 t13 p147) is uninteresting once we have fact (engine-attached e7 t13)
+Action 5000 - (attach-engine e8 t13 p147) is uninteresting once we have fact (engine-attached e8 t13)
+Action 5001 - (attach-engine e3 t14 p148) is uninteresting once we have fact (engine-attached e3 t14)
+Action 5002 - (attach-engine e3 t14 p149) is uninteresting once we have fact (engine-attached e3 t14)
+Action 5003 - (attach-engine e1 t15 p150) is uninteresting once we have fact (engine-attached e1 t15)
+Action 5004 - (attach-engine e2 t15 p150) is uninteresting once we have fact (engine-attached e2 t15)
+Action 5005 - (attach-engine e4 t15 p150) is uninteresting once we have fact (engine-attached e4 t15)
+Action 5006 - (attach-engine e5 t15 p150) is uninteresting once we have fact (engine-attached e5 t15)
+Action 5007 - (attach-engine e6 t15 p150) is uninteresting once we have fact (engine-attached e6 t15)
+Action 5008 - (attach-engine e7 t15 p150) is uninteresting once we have fact (engine-attached e7 t15)
+Action 5009 - (attach-engine e8 t15 p150) is uninteresting once we have fact (engine-attached e8 t15)
+Action 5010 - (attach-engine e1 t15 p151) is uninteresting once we have fact (engine-attached e1 t15)
+Action 5011 - (attach-engine e2 t15 p151) is uninteresting once we have fact (engine-attached e2 t15)
+Action 5012 - (attach-engine e4 t15 p151) is uninteresting once we have fact (engine-attached e4 t15)
+Action 5013 - (attach-engine e5 t15 p151) is uninteresting once we have fact (engine-attached e5 t15)
+Action 5014 - (attach-engine e6 t15 p151) is uninteresting once we have fact (engine-attached e6 t15)
+Action 5015 - (attach-engine e7 t15 p151) is uninteresting once we have fact (engine-attached e7 t15)
+Action 5016 - (attach-engine e8 t15 p151) is uninteresting once we have fact (engine-attached e8 t15)
+Action 5017 - (attach-engine e3 t16 p152) is uninteresting once we have fact (engine-attached e3 t16)
+Action 5018 - (attach-engine e3 t16 p153) is uninteresting once we have fact (engine-attached e3 t16)
+Action 5019 - (attach-engine e1 t17 p154) is uninteresting once we have fact (engine-attached e1 t17)
+Action 5020 - (attach-engine e2 t17 p154) is uninteresting once we have fact (engine-attached e2 t17)
+Action 5021 - (attach-engine e4 t17 p154) is uninteresting once we have fact (engine-attached e4 t17)
+Action 5022 - (attach-engine e5 t17 p154) is uninteresting once we have fact (engine-attached e5 t17)
+Action 5023 - (attach-engine e6 t17 p154) is uninteresting once we have fact (engine-attached e6 t17)
+Action 5024 - (attach-engine e7 t17 p154) is uninteresting once we have fact (engine-attached e7 t17)
+Action 5025 - (attach-engine e8 t17 p154) is uninteresting once we have fact (engine-attached e8 t17)
+Action 5026 - (attach-engine e1 t17 p155) is uninteresting once we have fact (engine-attached e1 t17)
+Action 5027 - (attach-engine e2 t17 p155) is uninteresting once we have fact (engine-attached e2 t17)
+Action 5028 - (attach-engine e4 t17 p155) is uninteresting once we have fact (engine-attached e4 t17)
+Action 5029 - (attach-engine e5 t17 p155) is uninteresting once we have fact (engine-attached e5 t17)
+Action 5030 - (attach-engine e6 t17 p155) is uninteresting once we have fact (engine-attached e6 t17)
+Action 5031 - (attach-engine e7 t17 p155) is uninteresting once we have fact (engine-attached e7 t17)
+Action 5032 - (attach-engine e8 t17 p155) is uninteresting once we have fact (engine-attached e8 t17)
+Action 5033 - (attach-engine e3 t18 p156) is uninteresting once we have fact (engine-attached e3 t18)
+Action 5034 - (attach-engine e3 t18 p157) is uninteresting once we have fact (engine-attached e3 t18)
+Action 5035 - (attach-engine e1 t19 p158) is uninteresting once we have fact (engine-attached e1 t19)
+Action 5036 - (attach-engine e2 t19 p158) is uninteresting once we have fact (engine-attached e2 t19)
+Action 5037 - (attach-engine e4 t19 p158) is uninteresting once we have fact (engine-attached e4 t19)
+Action 5038 - (attach-engine e5 t19 p158) is uninteresting once we have fact (engine-attached e5 t19)
+Action 5039 - (attach-engine e6 t19 p158) is uninteresting once we have fact (engine-attached e6 t19)
+Action 5040 - (attach-engine e7 t19 p158) is uninteresting once we have fact (engine-attached e7 t19)
+Action 5041 - (attach-engine e8 t19 p158) is uninteresting once we have fact (engine-attached e8 t19)
+Action 5042 - (attach-engine e1 t19 p159) is uninteresting once we have fact (engine-attached e1 t19)
+Action 5043 - (attach-engine e2 t19 p159) is uninteresting once we have fact (engine-attached e2 t19)
+Action 5044 - (attach-engine e4 t19 p159) is uninteresting once we have fact (engine-attached e4 t19)
+Action 5045 - (attach-engine e5 t19 p159) is uninteresting once we have fact (engine-attached e5 t19)
+Action 5046 - (attach-engine e6 t19 p159) is uninteresting once we have fact (engine-attached e6 t19)
+Action 5047 - (attach-engine e7 t19 p159) is uninteresting once we have fact (engine-attached e7 t19)
+Action 5048 - (attach-engine e8 t19 p159) is uninteresting once we have fact (engine-attached e8 t19)
+Action 5049 - (attach-engine e3 t20 p160) is uninteresting once we have fact (engine-attached e3 t20)
+Action 5050 - (attach-engine e3 t20 p161) is uninteresting once we have fact (engine-attached e3 t20)
+Action 5051 - (attach-engine e1 t21 p162) is uninteresting once we have fact (engine-attached e1 t21)
+Action 5052 - (attach-engine e2 t21 p162) is uninteresting once we have fact (engine-attached e2 t21)
+Action 5053 - (attach-engine e4 t21 p162) is uninteresting once we have fact (engine-attached e4 t21)
+Action 5054 - (attach-engine e5 t21 p162) is uninteresting once we have fact (engine-attached e5 t21)
+Action 5055 - (attach-engine e6 t21 p162) is uninteresting once we have fact (engine-attached e6 t21)
+Action 5056 - (attach-engine e7 t21 p162) is uninteresting once we have fact (engine-attached e7 t21)
+Action 5057 - (attach-engine e8 t21 p162) is uninteresting once we have fact (engine-attached e8 t21)
+Action 5058 - (attach-engine e1 t21 p163) is uninteresting once we have fact (engine-attached e1 t21)
+Action 5059 - (attach-engine e2 t21 p163) is uninteresting once we have fact (engine-attached e2 t21)
+Action 5060 - (attach-engine e4 t21 p163) is uninteresting once we have fact (engine-attached e4 t21)
+Action 5061 - (attach-engine e5 t21 p163) is uninteresting once we have fact (engine-attached e5 t21)
+Action 5062 - (attach-engine e6 t21 p163) is uninteresting once we have fact (engine-attached e6 t21)
+Action 5063 - (attach-engine e7 t21 p163) is uninteresting once we have fact (engine-attached e7 t21)
+Action 5064 - (attach-engine e8 t21 p163) is uninteresting once we have fact (engine-attached e8 t21)
+Action 5065 - (attach-engine e3 t22 p164) is uninteresting once we have fact (engine-attached e3 t22)
+Action 5066 - (attach-engine e3 t22 p165) is uninteresting once we have fact (engine-attached e3 t22)
+Action 5067 - (attach-engine e1 t23 p166) is uninteresting once we have fact (engine-attached e1 t23)
+Action 5068 - (attach-engine e2 t23 p166) is uninteresting once we have fact (engine-attached e2 t23)
+Action 5069 - (attach-engine e4 t23 p166) is uninteresting once we have fact (engine-attached e4 t23)
+Action 5070 - (attach-engine e5 t23 p166) is uninteresting once we have fact (engine-attached e5 t23)
+Action 5071 - (attach-engine e6 t23 p166) is uninteresting once we have fact (engine-attached e6 t23)
+Action 5072 - (attach-engine e7 t23 p166) is uninteresting once we have fact (engine-attached e7 t23)
+Action 5073 - (attach-engine e8 t23 p166) is uninteresting once we have fact (engine-attached e8 t23)
+Action 5074 - (attach-engine e1 t23 p167) is uninteresting once we have fact (engine-attached e1 t23)
+Action 5075 - (attach-engine e2 t23 p167) is uninteresting once we have fact (engine-attached e2 t23)
+Action 5076 - (attach-engine e4 t23 p167) is uninteresting once we have fact (engine-attached e4 t23)
+Action 5077 - (attach-engine e5 t23 p167) is uninteresting once we have fact (engine-attached e5 t23)
+Action 5078 - (attach-engine e6 t23 p167) is uninteresting once we have fact (engine-attached e6 t23)
+Action 5079 - (attach-engine e7 t23 p167) is uninteresting once we have fact (engine-attached e7 t23)
+Action 5080 - (attach-engine e8 t23 p167) is uninteresting once we have fact (engine-attached e8 t23)
+Action 5081 - (attach-engine e3 t24 p168) is uninteresting once we have fact (engine-attached e3 t24)
+Action 5082 - (attach-engine e3 t24 p169) is uninteresting once we have fact (engine-attached e3 t24)
+Action 5083 - (attach-engine e1 t25 p170) is uninteresting once we have fact (engine-attached e1 t25)
+Action 5084 - (attach-engine e2 t25 p170) is uninteresting once we have fact (engine-attached e2 t25)
+Action 5085 - (attach-engine e4 t25 p170) is uninteresting once we have fact (engine-attached e4 t25)
+Action 5086 - (attach-engine e5 t25 p170) is uninteresting once we have fact (engine-attached e5 t25)
+Action 5087 - (attach-engine e6 t25 p170) is uninteresting once we have fact (engine-attached e6 t25)
+Action 5088 - (attach-engine e7 t25 p170) is uninteresting once we have fact (engine-attached e7 t25)
+Action 5089 - (attach-engine e8 t25 p170) is uninteresting once we have fact (engine-attached e8 t25)
+Action 5090 - (attach-engine e1 t25 p171) is uninteresting once we have fact (engine-attached e1 t25)
+Action 5091 - (attach-engine e2 t25 p171) is uninteresting once we have fact (engine-attached e2 t25)
+Action 5092 - (attach-engine e4 t25 p171) is uninteresting once we have fact (engine-attached e4 t25)
+Action 5093 - (attach-engine e5 t25 p171) is uninteresting once we have fact (engine-attached e5 t25)
+Action 5094 - (attach-engine e6 t25 p171) is uninteresting once we have fact (engine-attached e6 t25)
+Action 5095 - (attach-engine e7 t25 p171) is uninteresting once we have fact (engine-attached e7 t25)
+Action 5096 - (attach-engine e8 t25 p171) is uninteresting once we have fact (engine-attached e8 t25)
+Action 5097 - (attach-engine e3 t26 p172) is uninteresting once we have fact (engine-attached e3 t26)
+Action 5098 - (attach-engine e3 t26 p173) is uninteresting once we have fact (engine-attached e3 t26)
+Action 5099 - (attach-engine e1 t27 p174) is uninteresting once we have fact (engine-attached e1 t27)
+Action 5100 - (attach-engine e2 t27 p174) is uninteresting once we have fact (engine-attached e2 t27)
+Action 5101 - (attach-engine e4 t27 p174) is uninteresting once we have fact (engine-attached e4 t27)
+Action 5102 - (attach-engine e5 t27 p174) is uninteresting once we have fact (engine-attached e5 t27)
+Action 5103 - (attach-engine e6 t27 p174) is uninteresting once we have fact (engine-attached e6 t27)
+Action 5104 - (attach-engine e7 t27 p174) is uninteresting once we have fact (engine-attached e7 t27)
+Action 5105 - (attach-engine e8 t27 p174) is uninteresting once we have fact (engine-attached e8 t27)
+Action 5106 - (attach-engine e1 t27 p175) is uninteresting once we have fact (engine-attached e1 t27)
+Action 5107 - (attach-engine e2 t27 p175) is uninteresting once we have fact (engine-attached e2 t27)
+Action 5108 - (attach-engine e4 t27 p175) is uninteresting once we have fact (engine-attached e4 t27)
+Action 5109 - (attach-engine e5 t27 p175) is uninteresting once we have fact (engine-attached e5 t27)
+Action 5110 - (attach-engine e6 t27 p175) is uninteresting once we have fact (engine-attached e6 t27)
+Action 5111 - (attach-engine e7 t27 p175) is uninteresting once we have fact (engine-attached e7 t27)
+Action 5112 - (attach-engine e8 t27 p175) is uninteresting once we have fact (engine-attached e8 t27)
+Action 5113 - (attach-engine e3 t28 p176) is uninteresting once we have fact (engine-attached e3 t28)
+Action 5114 - (attach-engine e3 t28 p177) is uninteresting once we have fact (engine-attached e3 t28)
+Action 5115 - (attach-engine e1 t29 p178) is uninteresting once we have fact (engine-attached e1 t29)
+Action 5116 - (attach-engine e2 t29 p178) is uninteresting once we have fact (engine-attached e2 t29)
+Action 5117 - (attach-engine e4 t29 p178) is uninteresting once we have fact (engine-attached e4 t29)
+Action 5118 - (attach-engine e5 t29 p178) is uninteresting once we have fact (engine-attached e5 t29)
+Action 5119 - (attach-engine e6 t29 p178) is uninteresting once we have fact (engine-attached e6 t29)
+Action 5120 - (attach-engine e7 t29 p178) is uninteresting once we have fact (engine-attached e7 t29)
+Action 5121 - (attach-engine e8 t29 p178) is uninteresting once we have fact (engine-attached e8 t29)
+Action 5122 - (attach-engine e1 t29 p179) is uninteresting once we have fact (engine-attached e1 t29)
+Action 5123 - (attach-engine e2 t29 p179) is uninteresting once we have fact (engine-attached e2 t29)
+Action 5124 - (attach-engine e4 t29 p179) is uninteresting once we have fact (engine-attached e4 t29)
+Action 5125 - (attach-engine e5 t29 p179) is uninteresting once we have fact (engine-attached e5 t29)
+Action 5126 - (attach-engine e6 t29 p179) is uninteresting once we have fact (engine-attached e6 t29)
+Action 5127 - (attach-engine e7 t29 p179) is uninteresting once we have fact (engine-attached e7 t29)
+Action 5128 - (attach-engine e8 t29 p179) is uninteresting once we have fact (engine-attached e8 t29)
+Action 5129 - (attach-engine e3 t30 p180) is uninteresting once we have fact (engine-attached e3 t30)
+Action 5130 - (attach-engine e3 t30 p181) is uninteresting once we have fact (engine-attached e3 t30)
+Action 5131 - (attach-engine e1 t31 p182) is uninteresting once we have fact (engine-attached e1 t31)
+Action 5132 - (attach-engine e2 t31 p182) is uninteresting once we have fact (engine-attached e2 t31)
+Action 5133 - (attach-engine e4 t31 p182) is uninteresting once we have fact (engine-attached e4 t31)
+Action 5134 - (attach-engine e5 t31 p182) is uninteresting once we have fact (engine-attached e5 t31)
+Action 5135 - (attach-engine e6 t31 p182) is uninteresting once we have fact (engine-attached e6 t31)
+Action 5136 - (attach-engine e7 t31 p182) is uninteresting once we have fact (engine-attached e7 t31)
+Action 5137 - (attach-engine e8 t31 p182) is uninteresting once we have fact (engine-attached e8 t31)
+Action 5138 - (attach-engine e1 t31 p183) is uninteresting once we have fact (engine-attached e1 t31)
+Action 5139 - (attach-engine e2 t31 p183) is uninteresting once we have fact (engine-attached e2 t31)
+Action 5140 - (attach-engine e4 t31 p183) is uninteresting once we have fact (engine-attached e4 t31)
+Action 5141 - (attach-engine e5 t31 p183) is uninteresting once we have fact (engine-attached e5 t31)
+Action 5142 - (attach-engine e6 t31 p183) is uninteresting once we have fact (engine-attached e6 t31)
+Action 5143 - (attach-engine e7 t31 p183) is uninteresting once we have fact (engine-attached e7 t31)
+Action 5144 - (attach-engine e8 t31 p183) is uninteresting once we have fact (engine-attached e8 t31)
+Action 5145 - (attach-engine e3 t32 p184) is uninteresting once we have fact (engine-attached e3 t32)
+Action 5146 - (attach-engine e3 t32 p185) is uninteresting once we have fact (engine-attached e3 t32)
+Action 5147 - (attach-engine e1 t33 p186) is uninteresting once we have fact (engine-attached e1 t33)
+Action 5148 - (attach-engine e2 t33 p186) is uninteresting once we have fact (engine-attached e2 t33)
+Action 5149 - (attach-engine e4 t33 p186) is uninteresting once we have fact (engine-attached e4 t33)
+Action 5150 - (attach-engine e5 t33 p186) is uninteresting once we have fact (engine-attached e5 t33)
+Action 5151 - (attach-engine e6 t33 p186) is uninteresting once we have fact (engine-attached e6 t33)
+Action 5152 - (attach-engine e7 t33 p186) is uninteresting once we have fact (engine-attached e7 t33)
+Action 5153 - (attach-engine e8 t33 p186) is uninteresting once we have fact (engine-attached e8 t33)
+Action 5154 - (attach-engine e1 t33 p187) is uninteresting once we have fact (engine-attached e1 t33)
+Action 5155 - (attach-engine e2 t33 p187) is uninteresting once we have fact (engine-attached e2 t33)
+Action 5156 - (attach-engine e4 t33 p187) is uninteresting once we have fact (engine-attached e4 t33)
+Action 5157 - (attach-engine e5 t33 p187) is uninteresting once we have fact (engine-attached e5 t33)
+Action 5158 - (attach-engine e6 t33 p187) is uninteresting once we have fact (engine-attached e6 t33)
+Action 5159 - (attach-engine e7 t33 p187) is uninteresting once we have fact (engine-attached e7 t33)
+Action 5160 - (attach-engine e8 t33 p187) is uninteresting once we have fact (engine-attached e8 t33)
+Action 5161 - (attach-engine e3 t34 p188) is uninteresting once we have fact (engine-attached e3 t34)
+Action 5162 - (attach-engine e3 t34 p189) is uninteresting once we have fact (engine-attached e3 t34)
+Action 5163 - (attach-engine e1 t35 p190) is uninteresting once we have fact (engine-attached e1 t35)
+Action 5164 - (attach-engine e2 t35 p190) is uninteresting once we have fact (engine-attached e2 t35)
+Action 5165 - (attach-engine e4 t35 p190) is uninteresting once we have fact (engine-attached e4 t35)
+Action 5166 - (attach-engine e5 t35 p190) is uninteresting once we have fact (engine-attached e5 t35)
+Action 5167 - (attach-engine e6 t35 p190) is uninteresting once we have fact (engine-attached e6 t35)
+Action 5168 - (attach-engine e7 t35 p190) is uninteresting once we have fact (engine-attached e7 t35)
+Action 5169 - (attach-engine e8 t35 p190) is uninteresting once we have fact (engine-attached e8 t35)
+Action 5170 - (attach-engine e1 t35 p191) is uninteresting once we have fact (engine-attached e1 t35)
+Action 5171 - (attach-engine e2 t35 p191) is uninteresting once we have fact (engine-attached e2 t35)
+Action 5172 - (attach-engine e4 t35 p191) is uninteresting once we have fact (engine-attached e4 t35)
+Action 5173 - (attach-engine e5 t35 p191) is uninteresting once we have fact (engine-attached e5 t35)
+Action 5174 - (attach-engine e6 t35 p191) is uninteresting once we have fact (engine-attached e6 t35)
+Action 5175 - (attach-engine e7 t35 p191) is uninteresting once we have fact (engine-attached e7 t35)
+Action 5176 - (attach-engine e8 t35 p191) is uninteresting once we have fact (engine-attached e8 t35)
+Action 5177 - (attach-engine e3 t36 p192) is uninteresting once we have fact (engine-attached e3 t36)
+Action 5178 - (attach-engine e3 t36 p193) is uninteresting once we have fact (engine-attached e3 t36)
+Action 5179 - (attach-engine e1 t37 p194) is uninteresting once we have fact (engine-attached e1 t37)
+Action 5180 - (attach-engine e2 t37 p194) is uninteresting once we have fact (engine-attached e2 t37)
+Action 5181 - (attach-engine e4 t37 p194) is uninteresting once we have fact (engine-attached e4 t37)
+Action 5182 - (attach-engine e5 t37 p194) is uninteresting once we have fact (engine-attached e5 t37)
+Action 5183 - (attach-engine e6 t37 p194) is uninteresting once we have fact (engine-attached e6 t37)
+Action 5184 - (attach-engine e7 t37 p194) is uninteresting once we have fact (engine-attached e7 t37)
+Action 5185 - (attach-engine e8 t37 p194) is uninteresting once we have fact (engine-attached e8 t37)
+Action 5186 - (attach-engine e1 t37 p195) is uninteresting once we have fact (engine-attached e1 t37)
+Action 5187 - (attach-engine e2 t37 p195) is uninteresting once we have fact (engine-attached e2 t37)
+Action 5188 - (attach-engine e4 t37 p195) is uninteresting once we have fact (engine-attached e4 t37)
+Action 5189 - (attach-engine e5 t37 p195) is uninteresting once we have fact (engine-attached e5 t37)
+Action 5190 - (attach-engine e6 t37 p195) is uninteresting once we have fact (engine-attached e6 t37)
+Action 5191 - (attach-engine e7 t37 p195) is uninteresting once we have fact (engine-attached e7 t37)
+Action 5192 - (attach-engine e8 t37 p195) is uninteresting once we have fact (engine-attached e8 t37)
+Action 5193 - (attach-engine e3 t38 p196) is uninteresting once we have fact (engine-attached e3 t38)
+Action 5194 - (attach-engine e3 t38 p197) is uninteresting once we have fact (engine-attached e3 t38)
+Action 5195 - (attach-engine e1 t39 p198) is uninteresting once we have fact (engine-attached e1 t39)
+Action 5196 - (attach-engine e2 t39 p198) is uninteresting once we have fact (engine-attached e2 t39)
+Action 5197 - (attach-engine e4 t39 p198) is uninteresting once we have fact (engine-attached e4 t39)
+Action 5198 - (attach-engine e5 t39 p198) is uninteresting once we have fact (engine-attached e5 t39)
+Action 5199 - (attach-engine e6 t39 p198) is uninteresting once we have fact (engine-attached e6 t39)
+Action 5200 - (attach-engine e7 t39 p198) is uninteresting once we have fact (engine-attached e7 t39)
+Action 5201 - (attach-engine e8 t39 p198) is uninteresting once we have fact (engine-attached e8 t39)
+Action 5202 - (attach-engine e1 t39 p199) is uninteresting once we have fact (engine-attached e1 t39)
+Action 5203 - (attach-engine e2 t39 p199) is uninteresting once we have fact (engine-attached e2 t39)
+Action 5204 - (attach-engine e4 t39 p199) is uninteresting once we have fact (engine-attached e4 t39)
+Action 5205 - (attach-engine e5 t39 p199) is uninteresting once we have fact (engine-attached e5 t39)
+Action 5206 - (attach-engine e6 t39 p199) is uninteresting once we have fact (engine-attached e6 t39)
+Action 5207 - (attach-engine e7 t39 p199) is uninteresting once we have fact (engine-attached e7 t39)
+Action 5208 - (attach-engine e8 t39 p199) is uninteresting once we have fact (engine-attached e8 t39)
+Action 5209 - (attach-engine e3 t40 p200) is uninteresting once we have fact (engine-attached e3 t40)
+Action 5210 - (attach-engine e3 t40 p201) is uninteresting once we have fact (engine-attached e3 t40)
+Action 5211 - (attach-engine e1 t41 p202) is uninteresting once we have fact (engine-attached e1 t41)
+Action 5212 - (attach-engine e2 t41 p202) is uninteresting once we have fact (engine-attached e2 t41)
+Action 5213 - (attach-engine e4 t41 p202) is uninteresting once we have fact (engine-attached e4 t41)
+Action 5214 - (attach-engine e5 t41 p202) is uninteresting once we have fact (engine-attached e5 t41)
+Action 5215 - (attach-engine e6 t41 p202) is uninteresting once we have fact (engine-attached e6 t41)
+Action 5216 - (attach-engine e7 t41 p202) is uninteresting once we have fact (engine-attached e7 t41)
+Action 5217 - (attach-engine e8 t41 p202) is uninteresting once we have fact (engine-attached e8 t41)
+Action 5218 - (attach-engine e1 t41 p203) is uninteresting once we have fact (engine-attached e1 t41)
+Action 5219 - (attach-engine e2 t41 p203) is uninteresting once we have fact (engine-attached e2 t41)
+Action 5220 - (attach-engine e4 t41 p203) is uninteresting once we have fact (engine-attached e4 t41)
+Action 5221 - (attach-engine e5 t41 p203) is uninteresting once we have fact (engine-attached e5 t41)
+Action 5222 - (attach-engine e6 t41 p203) is uninteresting once we have fact (engine-attached e6 t41)
+Action 5223 - (attach-engine e7 t41 p203) is uninteresting once we have fact (engine-attached e7 t41)
+Action 5224 - (attach-engine e8 t41 p203) is uninteresting once we have fact (engine-attached e8 t41)
+Action 5225 - (attach-engine e3 t42 p204) is uninteresting once we have fact (engine-attached e3 t42)
+Action 5226 - (attach-engine e3 t42 p205) is uninteresting once we have fact (engine-attached e3 t42)
+Action 5227 - (attach-engine e1 t43 p206) is uninteresting once we have fact (engine-attached e1 t43)
+Action 5228 - (attach-engine e2 t43 p206) is uninteresting once we have fact (engine-attached e2 t43)
+Action 5229 - (attach-engine e4 t43 p206) is uninteresting once we have fact (engine-attached e4 t43)
+Action 5230 - (attach-engine e5 t43 p206) is uninteresting once we have fact (engine-attached e5 t43)
+Action 5231 - (attach-engine e6 t43 p206) is uninteresting once we have fact (engine-attached e6 t43)
+Action 5232 - (attach-engine e7 t43 p206) is uninteresting once we have fact (engine-attached e7 t43)
+Action 5233 - (attach-engine e8 t43 p206) is uninteresting once we have fact (engine-attached e8 t43)
+Action 5234 - (attach-engine e1 t43 p207) is uninteresting once we have fact (engine-attached e1 t43)
+Action 5235 - (attach-engine e2 t43 p207) is uninteresting once we have fact (engine-attached e2 t43)
+Action 5236 - (attach-engine e4 t43 p207) is uninteresting once we have fact (engine-attached e4 t43)
+Action 5237 - (attach-engine e5 t43 p207) is uninteresting once we have fact (engine-attached e5 t43)
+Action 5238 - (attach-engine e6 t43 p207) is uninteresting once we have fact (engine-attached e6 t43)
+Action 5239 - (attach-engine e7 t43 p207) is uninteresting once we have fact (engine-attached e7 t43)
+Action 5240 - (attach-engine e8 t43 p207) is uninteresting once we have fact (engine-attached e8 t43)
+Action 5241 - (attach-engine e3 t44 p208) is uninteresting once we have fact (engine-attached e3 t44)
+Action 5242 - (attach-engine e3 t44 p209) is uninteresting once we have fact (engine-attached e3 t44)
+Action 5243 - (attach-engine e1 t45 p210) is uninteresting once we have fact (engine-attached e1 t45)
+Action 5244 - (attach-engine e2 t45 p210) is uninteresting once we have fact (engine-attached e2 t45)
+Action 5245 - (attach-engine e4 t45 p210) is uninteresting once we have fact (engine-attached e4 t45)
+Action 5246 - (attach-engine e5 t45 p210) is uninteresting once we have fact (engine-attached e5 t45)
+Action 5247 - (attach-engine e6 t45 p210) is uninteresting once we have fact (engine-attached e6 t45)
+Action 5248 - (attach-engine e7 t45 p210) is uninteresting once we have fact (engine-attached e7 t45)
+Action 5249 - (attach-engine e8 t45 p210) is uninteresting once we have fact (engine-attached e8 t45)
+Action 5250 - (attach-engine e1 t45 p211) is uninteresting once we have fact (engine-attached e1 t45)
+Action 5251 - (attach-engine e2 t45 p211) is uninteresting once we have fact (engine-attached e2 t45)
+Action 5252 - (attach-engine e4 t45 p211) is uninteresting once we have fact (engine-attached e4 t45)
+Action 5253 - (attach-engine e5 t45 p211) is uninteresting once we have fact (engine-attached e5 t45)
+Action 5254 - (attach-engine e6 t45 p211) is uninteresting once we have fact (engine-attached e6 t45)
+Action 5255 - (attach-engine e7 t45 p211) is uninteresting once we have fact (engine-attached e7 t45)
+Action 5256 - (attach-engine e8 t45 p211) is uninteresting once we have fact (engine-attached e8 t45)
+Action 5257 - (attach-engine e3 t46 p212) is uninteresting once we have fact (engine-attached e3 t46)
+Action 5258 - (attach-engine e3 t46 p213) is uninteresting once we have fact (engine-attached e3 t46)
+Action 5259 - (attach-engine e1 t47 p214) is uninteresting once we have fact (engine-attached e1 t47)
+Action 5260 - (attach-engine e2 t47 p214) is uninteresting once we have fact (engine-attached e2 t47)
+Action 5261 - (attach-engine e4 t47 p214) is uninteresting once we have fact (engine-attached e4 t47)
+Action 5262 - (attach-engine e5 t47 p214) is uninteresting once we have fact (engine-attached e5 t47)
+Action 5263 - (attach-engine e6 t47 p214) is uninteresting once we have fact (engine-attached e6 t47)
+Action 5264 - (attach-engine e7 t47 p214) is uninteresting once we have fact (engine-attached e7 t47)
+Action 5265 - (attach-engine e8 t47 p214) is uninteresting once we have fact (engine-attached e8 t47)
+Action 5266 - (attach-engine e1 t47 p215) is uninteresting once we have fact (engine-attached e1 t47)
+Action 5267 - (attach-engine e2 t47 p215) is uninteresting once we have fact (engine-attached e2 t47)
+Action 5268 - (attach-engine e4 t47 p215) is uninteresting once we have fact (engine-attached e4 t47)
+Action 5269 - (attach-engine e5 t47 p215) is uninteresting once we have fact (engine-attached e5 t47)
+Action 5270 - (attach-engine e6 t47 p215) is uninteresting once we have fact (engine-attached e6 t47)
+Action 5271 - (attach-engine e7 t47 p215) is uninteresting once we have fact (engine-attached e7 t47)
+Action 5272 - (attach-engine e8 t47 p215) is uninteresting once we have fact (engine-attached e8 t47)
+Action 5273 - (attach-engine e3 t48 p216) is uninteresting once we have fact (engine-attached e3 t48)
+Action 5274 - (attach-engine e3 t48 p217) is uninteresting once we have fact (engine-attached e3 t48)
+Action 5275 - (attach-engine e1 t49 p218) is uninteresting once we have fact (engine-attached e1 t49)
+Action 5276 - (attach-engine e2 t49 p218) is uninteresting once we have fact (engine-attached e2 t49)
+Action 5277 - (attach-engine e4 t49 p218) is uninteresting once we have fact (engine-attached e4 t49)
+Action 5278 - (attach-engine e5 t49 p218) is uninteresting once we have fact (engine-attached e5 t49)
+Action 5279 - (attach-engine e6 t49 p218) is uninteresting once we have fact (engine-attached e6 t49)
+Action 5280 - (attach-engine e7 t49 p218) is uninteresting once we have fact (engine-attached e7 t49)
+Action 5281 - (attach-engine e8 t49 p218) is uninteresting once we have fact (engine-attached e8 t49)
+Action 5282 - (attach-engine e1 t49 p219) is uninteresting once we have fact (engine-attached e1 t49)
+Action 5283 - (attach-engine e2 t49 p219) is uninteresting once we have fact (engine-attached e2 t49)
+Action 5284 - (attach-engine e4 t49 p219) is uninteresting once we have fact (engine-attached e4 t49)
+Action 5285 - (attach-engine e5 t49 p219) is uninteresting once we have fact (engine-attached e5 t49)
+Action 5286 - (attach-engine e6 t49 p219) is uninteresting once we have fact (engine-attached e6 t49)
+Action 5287 - (attach-engine e7 t49 p219) is uninteresting once we have fact (engine-attached e7 t49)
+Action 5288 - (attach-engine e8 t49 p219) is uninteresting once we have fact (engine-attached e8 t49)
+Action 5289 - (attach-engine e3 t50 p220) is uninteresting once we have fact (engine-attached e3 t50)
+Action 5290 - (attach-engine e3 t50 p221) is uninteresting once we have fact (engine-attached e3 t50)
+Action 5291 - (attach-engine e1 t51 p222) is uninteresting once we have fact (engine-attached e1 t51)
+Action 5292 - (attach-engine e2 t51 p222) is uninteresting once we have fact (engine-attached e2 t51)
+Action 5293 - (attach-engine e4 t51 p222) is uninteresting once we have fact (engine-attached e4 t51)
+Action 5294 - (attach-engine e5 t51 p222) is uninteresting once we have fact (engine-attached e5 t51)
+Action 5295 - (attach-engine e6 t51 p222) is uninteresting once we have fact (engine-attached e6 t51)
+Action 5296 - (attach-engine e7 t51 p222) is uninteresting once we have fact (engine-attached e7 t51)
+Action 5297 - (attach-engine e8 t51 p222) is uninteresting once we have fact (engine-attached e8 t51)
+Action 5298 - (attach-engine e1 t51 p223) is uninteresting once we have fact (engine-attached e1 t51)
+Action 5299 - (attach-engine e2 t51 p223) is uninteresting once we have fact (engine-attached e2 t51)
+Action 5300 - (attach-engine e4 t51 p223) is uninteresting once we have fact (engine-attached e4 t51)
+Action 5301 - (attach-engine e5 t51 p223) is uninteresting once we have fact (engine-attached e5 t51)
+Action 5302 - (attach-engine e6 t51 p223) is uninteresting once we have fact (engine-attached e6 t51)
+Action 5303 - (attach-engine e7 t51 p223) is uninteresting once we have fact (engine-attached e7 t51)
+Action 5304 - (attach-engine e8 t51 p223) is uninteresting once we have fact (engine-attached e8 t51)
+Action 5305 - (attach-engine e3 t52 p224) is uninteresting once we have fact (engine-attached e3 t52)
+Action 5306 - (attach-engine e3 t52 p225) is uninteresting once we have fact (engine-attached e3 t52)
+Action 5307 - (attach-engine e1 t53 p226) is uninteresting once we have fact (engine-attached e1 t53)
+Action 5308 - (attach-engine e2 t53 p226) is uninteresting once we have fact (engine-attached e2 t53)
+Action 5309 - (attach-engine e4 t53 p226) is uninteresting once we have fact (engine-attached e4 t53)
+Action 5310 - (attach-engine e5 t53 p226) is uninteresting once we have fact (engine-attached e5 t53)
+Action 5311 - (attach-engine e6 t53 p226) is uninteresting once we have fact (engine-attached e6 t53)
+Action 5312 - (attach-engine e7 t53 p226) is uninteresting once we have fact (engine-attached e7 t53)
+Action 5313 - (attach-engine e8 t53 p226) is uninteresting once we have fact (engine-attached e8 t53)
+Action 5314 - (attach-engine e1 t53 p227) is uninteresting once we have fact (engine-attached e1 t53)
+Action 5315 - (attach-engine e2 t53 p227) is uninteresting once we have fact (engine-attached e2 t53)
+Action 5316 - (attach-engine e4 t53 p227) is uninteresting once we have fact (engine-attached e4 t53)
+Action 5317 - (attach-engine e5 t53 p227) is uninteresting once we have fact (engine-attached e5 t53)
+Action 5318 - (attach-engine e6 t53 p227) is uninteresting once we have fact (engine-attached e6 t53)
+Action 5319 - (attach-engine e7 t53 p227) is uninteresting once we have fact (engine-attached e7 t53)
+Action 5320 - (attach-engine e8 t53 p227) is uninteresting once we have fact (engine-attached e8 t53)
+Action 5321 - (attach-engine e3 t54 p228) is uninteresting once we have fact (engine-attached e3 t54)
+Action 5322 - (attach-engine e3 t54 p229) is uninteresting once we have fact (engine-attached e3 t54)
+Action 5323 - (attach-engine e1 t55 p230) is uninteresting once we have fact (engine-attached e1 t55)
+Action 5324 - (attach-engine e2 t55 p230) is uninteresting once we have fact (engine-attached e2 t55)
+Action 5325 - (attach-engine e4 t55 p230) is uninteresting once we have fact (engine-attached e4 t55)
+Action 5326 - (attach-engine e5 t55 p230) is uninteresting once we have fact (engine-attached e5 t55)
+Action 5327 - (attach-engine e6 t55 p230) is uninteresting once we have fact (engine-attached e6 t55)
+Action 5328 - (attach-engine e7 t55 p230) is uninteresting once we have fact (engine-attached e7 t55)
+Action 5329 - (attach-engine e8 t55 p230) is uninteresting once we have fact (engine-attached e8 t55)
+Action 5330 - (attach-engine e1 t55 p231) is uninteresting once we have fact (engine-attached e1 t55)
+Action 5331 - (attach-engine e2 t55 p231) is uninteresting once we have fact (engine-attached e2 t55)
+Action 5332 - (attach-engine e4 t55 p231) is uninteresting once we have fact (engine-attached e4 t55)
+Action 5333 - (attach-engine e5 t55 p231) is uninteresting once we have fact (engine-attached e5 t55)
+Action 5334 - (attach-engine e6 t55 p231) is uninteresting once we have fact (engine-attached e6 t55)
+Action 5335 - (attach-engine e7 t55 p231) is uninteresting once we have fact (engine-attached e7 t55)
+Action 5336 - (attach-engine e8 t55 p231) is uninteresting once we have fact (engine-attached e8 t55)
+Action 5337 - (attach-engine e3 t56 p232) is uninteresting once we have fact (engine-attached e3 t56)
+Action 5338 - (attach-engine e3 t56 p233) is uninteresting once we have fact (engine-attached e3 t56)
+Action 5339 - (attach-engine e1 t57 p234) is uninteresting once we have fact (engine-attached e1 t57)
+Action 5340 - (attach-engine e2 t57 p234) is uninteresting once we have fact (engine-attached e2 t57)
+Action 5341 - (attach-engine e4 t57 p234) is uninteresting once we have fact (engine-attached e4 t57)
+Action 5342 - (attach-engine e5 t57 p234) is uninteresting once we have fact (engine-attached e5 t57)
+Action 5343 - (attach-engine e6 t57 p234) is uninteresting once we have fact (engine-attached e6 t57)
+Action 5344 - (attach-engine e7 t57 p234) is uninteresting once we have fact (engine-attached e7 t57)
+Action 5345 - (attach-engine e8 t57 p234) is uninteresting once we have fact (engine-attached e8 t57)
+Action 5346 - (attach-engine e1 t57 p235) is uninteresting once we have fact (engine-attached e1 t57)
+Action 5347 - (attach-engine e2 t57 p235) is uninteresting once we have fact (engine-attached e2 t57)
+Action 5348 - (attach-engine e4 t57 p235) is uninteresting once we have fact (engine-attached e4 t57)
+Action 5349 - (attach-engine e5 t57 p235) is uninteresting once we have fact (engine-attached e5 t57)
+Action 5350 - (attach-engine e6 t57 p235) is uninteresting once we have fact (engine-attached e6 t57)
+Action 5351 - (attach-engine e7 t57 p235) is uninteresting once we have fact (engine-attached e7 t57)
+Action 5352 - (attach-engine e8 t57 p235) is uninteresting once we have fact (engine-attached e8 t57)
+Action 5353 - (attach-engine e3 t58 p236) is uninteresting once we have fact (engine-attached e3 t58)
+Action 5354 - (attach-engine e3 t58 p237) is uninteresting once we have fact (engine-attached e3 t58)
+Action 5355 - (attach-engine e1 t59 p238) is uninteresting once we have fact (engine-attached e1 t59)
+Action 5356 - (attach-engine e2 t59 p238) is uninteresting once we have fact (engine-attached e2 t59)
+Action 5357 - (attach-engine e4 t59 p238) is uninteresting once we have fact (engine-attached e4 t59)
+Action 5358 - (attach-engine e5 t59 p238) is uninteresting once we have fact (engine-attached e5 t59)
+Action 5359 - (attach-engine e6 t59 p238) is uninteresting once we have fact (engine-attached e6 t59)
+Action 5360 - (attach-engine e7 t59 p238) is uninteresting once we have fact (engine-attached e7 t59)
+Action 5361 - (attach-engine e8 t59 p238) is uninteresting once we have fact (engine-attached e8 t59)
+Action 5362 - (attach-engine e1 t59 p239) is uninteresting once we have fact (engine-attached e1 t59)
+Action 5363 - (attach-engine e2 t59 p239) is uninteresting once we have fact (engine-attached e2 t59)
+Action 5364 - (attach-engine e4 t59 p239) is uninteresting once we have fact (engine-attached e4 t59)
+Action 5365 - (attach-engine e5 t59 p239) is uninteresting once we have fact (engine-attached e5 t59)
+Action 5366 - (attach-engine e6 t59 p239) is uninteresting once we have fact (engine-attached e6 t59)
+Action 5367 - (attach-engine e7 t59 p239) is uninteresting once we have fact (engine-attached e7 t59)
+Action 5368 - (attach-engine e8 t59 p239) is uninteresting once we have fact (engine-attached e8 t59)
+Action 5369 - (attach-engine e3 t60 p240) is uninteresting once we have fact (engine-attached e3 t60)
+Action 5370 - (attach-engine e3 t60 p241) is uninteresting once we have fact (engine-attached e3 t60)
+Action 5371 - (attach-engine e1 t61 p242) is uninteresting once we have fact (engine-attached e1 t61)
+Action 5372 - (attach-engine e2 t61 p242) is uninteresting once we have fact (engine-attached e2 t61)
+Action 5373 - (attach-engine e4 t61 p242) is uninteresting once we have fact (engine-attached e4 t61)
+Action 5374 - (attach-engine e5 t61 p242) is uninteresting once we have fact (engine-attached e5 t61)
+Action 5375 - (attach-engine e6 t61 p242) is uninteresting once we have fact (engine-attached e6 t61)
+Action 5376 - (attach-engine e7 t61 p242) is uninteresting once we have fact (engine-attached e7 t61)
+Action 5377 - (attach-engine e8 t61 p242) is uninteresting once we have fact (engine-attached e8 t61)
+Action 5378 - (attach-engine e1 t61 p243) is uninteresting once we have fact (engine-attached e1 t61)
+Action 5379 - (attach-engine e2 t61 p243) is uninteresting once we have fact (engine-attached e2 t61)
+Action 5380 - (attach-engine e4 t61 p243) is uninteresting once we have fact (engine-attached e4 t61)
+Action 5381 - (attach-engine e5 t61 p243) is uninteresting once we have fact (engine-attached e5 t61)
+Action 5382 - (attach-engine e6 t61 p243) is uninteresting once we have fact (engine-attached e6 t61)
+Action 5383 - (attach-engine e7 t61 p243) is uninteresting once we have fact (engine-attached e7 t61)
+Action 5384 - (attach-engine e8 t61 p243) is uninteresting once we have fact (engine-attached e8 t61)
+Action 5385 - (attach-engine e3 t62 p244) is uninteresting once we have fact (engine-attached e3 t62)
+Action 5386 - (attach-engine e3 t62 p245) is uninteresting once we have fact (engine-attached e3 t62)
+Action 5387 - (attach-engine e1 t63 p246) is uninteresting once we have fact (engine-attached e1 t63)
+Action 5388 - (attach-engine e2 t63 p246) is uninteresting once we have fact (engine-attached e2 t63)
+Action 5389 - (attach-engine e4 t63 p246) is uninteresting once we have fact (engine-attached e4 t63)
+Action 5390 - (attach-engine e5 t63 p246) is uninteresting once we have fact (engine-attached e5 t63)
+Action 5391 - (attach-engine e6 t63 p246) is uninteresting once we have fact (engine-attached e6 t63)
+Action 5392 - (attach-engine e7 t63 p246) is uninteresting once we have fact (engine-attached e7 t63)
+Action 5393 - (attach-engine e8 t63 p246) is uninteresting once we have fact (engine-attached e8 t63)
+Action 5394 - (attach-engine e1 t63 p247) is uninteresting once we have fact (engine-attached e1 t63)
+Action 5395 - (attach-engine e2 t63 p247) is uninteresting once we have fact (engine-attached e2 t63)
+Action 5396 - (attach-engine e4 t63 p247) is uninteresting once we have fact (engine-attached e4 t63)
+Action 5397 - (attach-engine e5 t63 p247) is uninteresting once we have fact (engine-attached e5 t63)
+Action 5398 - (attach-engine e6 t63 p247) is uninteresting once we have fact (engine-attached e6 t63)
+Action 5399 - (attach-engine e7 t63 p247) is uninteresting once we have fact (engine-attached e7 t63)
+Action 5400 - (attach-engine e8 t63 p247) is uninteresting once we have fact (engine-attached e8 t63)
+Action 5401 - (attach-engine e3 t64 p248) is uninteresting once we have fact (engine-attached e3 t64)
+Action 5402 - (attach-engine e3 t64 p249) is uninteresting once we have fact (engine-attached e3 t64)
+Action 5403 - (attach-engine e1 t65 p250) is uninteresting once we have fact (engine-attached e1 t65)
+Action 5404 - (attach-engine e2 t65 p250) is uninteresting once we have fact (engine-attached e2 t65)
+Action 5405 - (attach-engine e4 t65 p250) is uninteresting once we have fact (engine-attached e4 t65)
+Action 5406 - (attach-engine e5 t65 p250) is uninteresting once we have fact (engine-attached e5 t65)
+Action 5407 - (attach-engine e6 t65 p250) is uninteresting once we have fact (engine-attached e6 t65)
+Action 5408 - (attach-engine e7 t65 p250) is uninteresting once we have fact (engine-attached e7 t65)
+Action 5409 - (attach-engine e8 t65 p250) is uninteresting once we have fact (engine-attached e8 t65)
+Action 5410 - (attach-engine e1 t65 p251) is uninteresting once we have fact (engine-attached e1 t65)
+Action 5411 - (attach-engine e2 t65 p251) is uninteresting once we have fact (engine-attached e2 t65)
+Action 5412 - (attach-engine e4 t65 p251) is uninteresting once we have fact (engine-attached e4 t65)
+Action 5413 - (attach-engine e5 t65 p251) is uninteresting once we have fact (engine-attached e5 t65)
+Action 5414 - (attach-engine e6 t65 p251) is uninteresting once we have fact (engine-attached e6 t65)
+Action 5415 - (attach-engine e7 t65 p251) is uninteresting once we have fact (engine-attached e7 t65)
+Action 5416 - (attach-engine e8 t65 p251) is uninteresting once we have fact (engine-attached e8 t65)
+Action 5417 - (attach-engine e3 t66 p252) is uninteresting once we have fact (engine-attached e3 t66)
+Action 5418 - (attach-engine e3 t66 p253) is uninteresting once we have fact (engine-attached e3 t66)
+Action 5419 - (attach-engine e1 t67 p254) is uninteresting once we have fact (engine-attached e1 t67)
+Action 5420 - (attach-engine e2 t67 p254) is uninteresting once we have fact (engine-attached e2 t67)
+Action 5421 - (attach-engine e4 t67 p254) is uninteresting once we have fact (engine-attached e4 t67)
+Action 5422 - (attach-engine e5 t67 p254) is uninteresting once we have fact (engine-attached e5 t67)
+Action 5423 - (attach-engine e6 t67 p254) is uninteresting once we have fact (engine-attached e6 t67)
+Action 5424 - (attach-engine e7 t67 p254) is uninteresting once we have fact (engine-attached e7 t67)
+Action 5425 - (attach-engine e8 t67 p254) is uninteresting once we have fact (engine-attached e8 t67)
+Action 5426 - (attach-engine e1 t67 p255) is uninteresting once we have fact (engine-attached e1 t67)
+Action 5427 - (attach-engine e2 t67 p255) is uninteresting once we have fact (engine-attached e2 t67)
+Action 5428 - (attach-engine e4 t67 p255) is uninteresting once we have fact (engine-attached e4 t67)
+Action 5429 - (attach-engine e5 t67 p255) is uninteresting once we have fact (engine-attached e5 t67)
+Action 5430 - (attach-engine e6 t67 p255) is uninteresting once we have fact (engine-attached e6 t67)
+Action 5431 - (attach-engine e7 t67 p255) is uninteresting once we have fact (engine-attached e7 t67)
+Action 5432 - (attach-engine e8 t67 p255) is uninteresting once we have fact (engine-attached e8 t67)
+Action 5433 - (attach-engine e3 t68 p256) is uninteresting once we have fact (engine-attached e3 t68)
+Action 5434 - (attach-engine e3 t68 p257) is uninteresting once we have fact (engine-attached e3 t68)
+Action 5435 - (attach-engine e1 t69 p258) is uninteresting once we have fact (engine-attached e1 t69)
+Action 5436 - (attach-engine e2 t69 p258) is uninteresting once we have fact (engine-attached e2 t69)
+Action 5437 - (attach-engine e4 t69 p258) is uninteresting once we have fact (engine-attached e4 t69)
+Action 5438 - (attach-engine e5 t69 p258) is uninteresting once we have fact (engine-attached e5 t69)
+Action 5439 - (attach-engine e6 t69 p258) is uninteresting once we have fact (engine-attached e6 t69)
+Action 5440 - (attach-engine e7 t69 p258) is uninteresting once we have fact (engine-attached e7 t69)
+Action 5441 - (attach-engine e8 t69 p258) is uninteresting once we have fact (engine-attached e8 t69)
+Action 5442 - (attach-engine e1 t69 p259) is uninteresting once we have fact (engine-attached e1 t69)
+Action 5443 - (attach-engine e2 t69 p259) is uninteresting once we have fact (engine-attached e2 t69)
+Action 5444 - (attach-engine e4 t69 p259) is uninteresting once we have fact (engine-attached e4 t69)
+Action 5445 - (attach-engine e5 t69 p259) is uninteresting once we have fact (engine-attached e5 t69)
+Action 5446 - (attach-engine e6 t69 p259) is uninteresting once we have fact (engine-attached e6 t69)
+Action 5447 - (attach-engine e7 t69 p259) is uninteresting once we have fact (engine-attached e7 t69)
+Action 5448 - (attach-engine e8 t69 p259) is uninteresting once we have fact (engine-attached e8 t69)
+Action 5449 - (attach-engine e3 t70 p260) is uninteresting once we have fact (engine-attached e3 t70)
+Action 5450 - (attach-engine e3 t70 p261) is uninteresting once we have fact (engine-attached e3 t70)
+Action 5451 - (attach-engine e1 t71 p262) is uninteresting once we have fact (engine-attached e1 t71)
+Action 5452 - (attach-engine e2 t71 p262) is uninteresting once we have fact (engine-attached e2 t71)
+Action 5453 - (attach-engine e4 t71 p262) is uninteresting once we have fact (engine-attached e4 t71)
+Action 5454 - (attach-engine e5 t71 p262) is uninteresting once we have fact (engine-attached e5 t71)
+Action 5455 - (attach-engine e6 t71 p262) is uninteresting once we have fact (engine-attached e6 t71)
+Action 5456 - (attach-engine e7 t71 p262) is uninteresting once we have fact (engine-attached e7 t71)
+Action 5457 - (attach-engine e8 t71 p262) is uninteresting once we have fact (engine-attached e8 t71)
+Action 5458 - (attach-engine e1 t71 p263) is uninteresting once we have fact (engine-attached e1 t71)
+Action 5459 - (attach-engine e2 t71 p263) is uninteresting once we have fact (engine-attached e2 t71)
+Action 5460 - (attach-engine e4 t71 p263) is uninteresting once we have fact (engine-attached e4 t71)
+Action 5461 - (attach-engine e5 t71 p263) is uninteresting once we have fact (engine-attached e5 t71)
+Action 5462 - (attach-engine e6 t71 p263) is uninteresting once we have fact (engine-attached e6 t71)
+Action 5463 - (attach-engine e7 t71 p263) is uninteresting once we have fact (engine-attached e7 t71)
+Action 5464 - (attach-engine e8 t71 p263) is uninteresting once we have fact (engine-attached e8 t71)
+Action 5465 - (attach-engine e3 t72 p264) is uninteresting once we have fact (engine-attached e3 t72)
+Action 5466 - (attach-engine e3 t72 p265) is uninteresting once we have fact (engine-attached e3 t72)
+Action 5467 - (attach-engine e1 t73 p266) is uninteresting once we have fact (engine-attached e1 t73)
+Action 5468 - (attach-engine e2 t73 p266) is uninteresting once we have fact (engine-attached e2 t73)
+Action 5469 - (attach-engine e4 t73 p266) is uninteresting once we have fact (engine-attached e4 t73)
+Action 5470 - (attach-engine e5 t73 p266) is uninteresting once we have fact (engine-attached e5 t73)
+Action 5471 - (attach-engine e6 t73 p266) is uninteresting once we have fact (engine-attached e6 t73)
+Action 5472 - (attach-engine e7 t73 p266) is uninteresting once we have fact (engine-attached e7 t73)
+Action 5473 - (attach-engine e8 t73 p266) is uninteresting once we have fact (engine-attached e8 t73)
+Action 5474 - (attach-engine e1 t73 p267) is uninteresting once we have fact (engine-attached e1 t73)
+Action 5475 - (attach-engine e2 t73 p267) is uninteresting once we have fact (engine-attached e2 t73)
+Action 5476 - (attach-engine e4 t73 p267) is uninteresting once we have fact (engine-attached e4 t73)
+Action 5477 - (attach-engine e5 t73 p267) is uninteresting once we have fact (engine-attached e5 t73)
+Action 5478 - (attach-engine e6 t73 p267) is uninteresting once we have fact (engine-attached e6 t73)
+Action 5479 - (attach-engine e7 t73 p267) is uninteresting once we have fact (engine-attached e7 t73)
+Action 5480 - (attach-engine e8 t73 p267) is uninteresting once we have fact (engine-attached e8 t73)
+Action 5481 - (attach-engine e3 t74 p268) is uninteresting once we have fact (engine-attached e3 t74)
+Action 5482 - (attach-engine e3 t74 p269) is uninteresting once we have fact (engine-attached e3 t74)
+Action 5483 - (attach-engine e1 t75 p270) is uninteresting once we have fact (engine-attached e1 t75)
+Action 5484 - (attach-engine e2 t75 p270) is uninteresting once we have fact (engine-attached e2 t75)
+Action 5485 - (attach-engine e4 t75 p270) is uninteresting once we have fact (engine-attached e4 t75)
+Action 5486 - (attach-engine e5 t75 p270) is uninteresting once we have fact (engine-attached e5 t75)
+Action 5487 - (attach-engine e6 t75 p270) is uninteresting once we have fact (engine-attached e6 t75)
+Action 5488 - (attach-engine e7 t75 p270) is uninteresting once we have fact (engine-attached e7 t75)
+Action 5489 - (attach-engine e8 t75 p270) is uninteresting once we have fact (engine-attached e8 t75)
+Action 5490 - (attach-engine e1 t75 p271) is uninteresting once we have fact (engine-attached e1 t75)
+Action 5491 - (attach-engine e2 t75 p271) is uninteresting once we have fact (engine-attached e2 t75)
+Action 5492 - (attach-engine e4 t75 p271) is uninteresting once we have fact (engine-attached e4 t75)
+Action 5493 - (attach-engine e5 t75 p271) is uninteresting once we have fact (engine-attached e5 t75)
+Action 5494 - (attach-engine e6 t75 p271) is uninteresting once we have fact (engine-attached e6 t75)
+Action 5495 - (attach-engine e7 t75 p271) is uninteresting once we have fact (engine-attached e7 t75)
+Action 5496 - (attach-engine e8 t75 p271) is uninteresting once we have fact (engine-attached e8 t75)
+Action 5497 - (attach-engine e3 t76 p272) is uninteresting once we have fact (engine-attached e3 t76)
+Action 5498 - (attach-engine e3 t76 p273) is uninteresting once we have fact (engine-attached e3 t76)
+Action 5499 - (attach-engine e1 t77 p274) is uninteresting once we have fact (engine-attached e1 t77)
+Action 5500 - (attach-engine e2 t77 p274) is uninteresting once we have fact (engine-attached e2 t77)
+Action 5501 - (attach-engine e4 t77 p274) is uninteresting once we have fact (engine-attached e4 t77)
+Action 5502 - (attach-engine e5 t77 p274) is uninteresting once we have fact (engine-attached e5 t77)
+Action 5503 - (attach-engine e6 t77 p274) is uninteresting once we have fact (engine-attached e6 t77)
+Action 5504 - (attach-engine e7 t77 p274) is uninteresting once we have fact (engine-attached e7 t77)
+Action 5505 - (attach-engine e8 t77 p274) is uninteresting once we have fact (engine-attached e8 t77)
+Action 5506 - (attach-engine e1 t77 p275) is uninteresting once we have fact (engine-attached e1 t77)
+Action 5507 - (attach-engine e2 t77 p275) is uninteresting once we have fact (engine-attached e2 t77)
+Action 5508 - (attach-engine e4 t77 p275) is uninteresting once we have fact (engine-attached e4 t77)
+Action 5509 - (attach-engine e5 t77 p275) is uninteresting once we have fact (engine-attached e5 t77)
+Action 5510 - (attach-engine e6 t77 p275) is uninteresting once we have fact (engine-attached e6 t77)
+Action 5511 - (attach-engine e7 t77 p275) is uninteresting once we have fact (engine-attached e7 t77)
+Action 5512 - (attach-engine e8 t77 p275) is uninteresting once we have fact (engine-attached e8 t77)
+Action 5513 - (attach-engine e3 t78 p276) is uninteresting once we have fact (engine-attached e3 t78)
+Action 5514 - (attach-engine e3 t78 p277) is uninteresting once we have fact (engine-attached e3 t78)
+Action 5515 - (attach-engine e1 t79 p278) is uninteresting once we have fact (engine-attached e1 t79)
+Action 5516 - (attach-engine e2 t79 p278) is uninteresting once we have fact (engine-attached e2 t79)
+Action 5517 - (attach-engine e4 t79 p278) is uninteresting once we have fact (engine-attached e4 t79)
+Action 5518 - (attach-engine e5 t79 p278) is uninteresting once we have fact (engine-attached e5 t79)
+Action 5519 - (attach-engine e6 t79 p278) is uninteresting once we have fact (engine-attached e6 t79)
+Action 5520 - (attach-engine e7 t79 p278) is uninteresting once we have fact (engine-attached e7 t79)
+Action 5521 - (attach-engine e8 t79 p278) is uninteresting once we have fact (engine-attached e8 t79)
+Action 5522 - (attach-engine e1 t79 p279) is uninteresting once we have fact (engine-attached e1 t79)
+Action 5523 - (attach-engine e2 t79 p279) is uninteresting once we have fact (engine-attached e2 t79)
+Action 5524 - (attach-engine e4 t79 p279) is uninteresting once we have fact (engine-attached e4 t79)
+Action 5525 - (attach-engine e5 t79 p279) is uninteresting once we have fact (engine-attached e5 t79)
+Action 5526 - (attach-engine e6 t79 p279) is uninteresting once we have fact (engine-attached e6 t79)
+Action 5527 - (attach-engine e7 t79 p279) is uninteresting once we have fact (engine-attached e7 t79)
+Action 5528 - (attach-engine e8 t79 p279) is uninteresting once we have fact (engine-attached e8 t79)
+Action 5529 - (attach-engine e3 t80 p280) is uninteresting once we have fact (engine-attached e3 t80)
+Action 5530 - (attach-engine e3 t80 p281) is uninteresting once we have fact (engine-attached e3 t80)
+Action 5531 - (attach-engine e1 t81 p282) is uninteresting once we have fact (engine-attached e1 t81)
+Action 5532 - (attach-engine e2 t81 p282) is uninteresting once we have fact (engine-attached e2 t81)
+Action 5533 - (attach-engine e4 t81 p282) is uninteresting once we have fact (engine-attached e4 t81)
+Action 5534 - (attach-engine e5 t81 p282) is uninteresting once we have fact (engine-attached e5 t81)
+Action 5535 - (attach-engine e6 t81 p282) is uninteresting once we have fact (engine-attached e6 t81)
+Action 5536 - (attach-engine e7 t81 p282) is uninteresting once we have fact (engine-attached e7 t81)
+Action 5537 - (attach-engine e8 t81 p282) is uninteresting once we have fact (engine-attached e8 t81)
+Action 5538 - (attach-engine e1 t81 p283) is uninteresting once we have fact (engine-attached e1 t81)
+Action 5539 - (attach-engine e2 t81 p283) is uninteresting once we have fact (engine-attached e2 t81)
+Action 5540 - (attach-engine e4 t81 p283) is uninteresting once we have fact (engine-attached e4 t81)
+Action 5541 - (attach-engine e5 t81 p283) is uninteresting once we have fact (engine-attached e5 t81)
+Action 5542 - (attach-engine e6 t81 p283) is uninteresting once we have fact (engine-attached e6 t81)
+Action 5543 - (attach-engine e7 t81 p283) is uninteresting once we have fact (engine-attached e7 t81)
+Action 5544 - (attach-engine e8 t81 p283) is uninteresting once we have fact (engine-attached e8 t81)
+Action 5545 - (attach-engine e3 t82 p284) is uninteresting once we have fact (engine-attached e3 t82)
+Action 5546 - (attach-engine e3 t82 p285) is uninteresting once we have fact (engine-attached e3 t82)
+Action 5547 - (attach-engine e1 t83 p286) is uninteresting once we have fact (engine-attached e1 t83)
+Action 5548 - (attach-engine e2 t83 p286) is uninteresting once we have fact (engine-attached e2 t83)
+Action 5549 - (attach-engine e4 t83 p286) is uninteresting once we have fact (engine-attached e4 t83)
+Action 5550 - (attach-engine e5 t83 p286) is uninteresting once we have fact (engine-attached e5 t83)
+Action 5551 - (attach-engine e6 t83 p286) is uninteresting once we have fact (engine-attached e6 t83)
+Action 5552 - (attach-engine e7 t83 p286) is uninteresting once we have fact (engine-attached e7 t83)
+Action 5553 - (attach-engine e8 t83 p286) is uninteresting once we have fact (engine-attached e8 t83)
+Action 5554 - (attach-engine e1 t83 p287) is uninteresting once we have fact (engine-attached e1 t83)
+Action 5555 - (attach-engine e2 t83 p287) is uninteresting once we have fact (engine-attached e2 t83)
+Action 5556 - (attach-engine e4 t83 p287) is uninteresting once we have fact (engine-attached e4 t83)
+Action 5557 - (attach-engine e5 t83 p287) is uninteresting once we have fact (engine-attached e5 t83)
+Action 5558 - (attach-engine e6 t83 p287) is uninteresting once we have fact (engine-attached e6 t83)
+Action 5559 - (attach-engine e7 t83 p287) is uninteresting once we have fact (engine-attached e7 t83)
+Action 5560 - (attach-engine e8 t83 p287) is uninteresting once we have fact (engine-attached e8 t83)
+Action 5561 - (attach-engine e3 t84 p288) is uninteresting once we have fact (engine-attached e3 t84)
+Action 5562 - (attach-engine e3 t84 p289) is uninteresting once we have fact (engine-attached e3 t84)
+Action 5563 - (attach-engine e1 t85 p290) is uninteresting once we have fact (engine-attached e1 t85)
+Action 5564 - (attach-engine e2 t85 p290) is uninteresting once we have fact (engine-attached e2 t85)
+Action 5565 - (attach-engine e4 t85 p290) is uninteresting once we have fact (engine-attached e4 t85)
+Action 5566 - (attach-engine e5 t85 p290) is uninteresting once we have fact (engine-attached e5 t85)
+Action 5567 - (attach-engine e6 t85 p290) is uninteresting once we have fact (engine-attached e6 t85)
+Action 5568 - (attach-engine e7 t85 p290) is uninteresting once we have fact (engine-attached e7 t85)
+Action 5569 - (attach-engine e8 t85 p290) is uninteresting once we have fact (engine-attached e8 t85)
+Action 5570 - (attach-engine e1 t85 p291) is uninteresting once we have fact (engine-attached e1 t85)
+Action 5571 - (attach-engine e2 t85 p291) is uninteresting once we have fact (engine-attached e2 t85)
+Action 5572 - (attach-engine e4 t85 p291) is uninteresting once we have fact (engine-attached e4 t85)
+Action 5573 - (attach-engine e5 t85 p291) is uninteresting once we have fact (engine-attached e5 t85)
+Action 5574 - (attach-engine e6 t85 p291) is uninteresting once we have fact (engine-attached e6 t85)
+Action 5575 - (attach-engine e7 t85 p291) is uninteresting once we have fact (engine-attached e7 t85)
+Action 5576 - (attach-engine e8 t85 p291) is uninteresting once we have fact (engine-attached e8 t85)
+Action 5577 - (attach-engine e3 t86 p292) is uninteresting once we have fact (engine-attached e3 t86)
+Action 5578 - (attach-engine e3 t86 p293) is uninteresting once we have fact (engine-attached e3 t86)
+Action 5579 - (attach-engine e1 t87 p294) is uninteresting once we have fact (engine-attached e1 t87)
+Action 5580 - (attach-engine e2 t87 p294) is uninteresting once we have fact (engine-attached e2 t87)
+Action 5581 - (attach-engine e4 t87 p294) is uninteresting once we have fact (engine-attached e4 t87)
+Action 5582 - (attach-engine e5 t87 p294) is uninteresting once we have fact (engine-attached e5 t87)
+Action 5583 - (attach-engine e6 t87 p294) is uninteresting once we have fact (engine-attached e6 t87)
+Action 5584 - (attach-engine e7 t87 p294) is uninteresting once we have fact (engine-attached e7 t87)
+Action 5585 - (attach-engine e8 t87 p294) is uninteresting once we have fact (engine-attached e8 t87)
+Action 5586 - (attach-engine e1 t87 p295) is uninteresting once we have fact (engine-attached e1 t87)
+Action 5587 - (attach-engine e2 t87 p295) is uninteresting once we have fact (engine-attached e2 t87)
+Action 5588 - (attach-engine e4 t87 p295) is uninteresting once we have fact (engine-attached e4 t87)
+Action 5589 - (attach-engine e5 t87 p295) is uninteresting once we have fact (engine-attached e5 t87)
+Action 5590 - (attach-engine e6 t87 p295) is uninteresting once we have fact (engine-attached e6 t87)
+Action 5591 - (attach-engine e7 t87 p295) is uninteresting once we have fact (engine-attached e7 t87)
+Action 5592 - (attach-engine e8 t87 p295) is uninteresting once we have fact (engine-attached e8 t87)
+Action 5593 - (attach-engine e3 t88 p296) is uninteresting once we have fact (engine-attached e3 t88)
+Action 5594 - (attach-engine e3 t88 p297) is uninteresting once we have fact (engine-attached e3 t88)
+Action 5595 - (attach-engine e1 t89 p298) is uninteresting once we have fact (engine-attached e1 t89)
+Action 5596 - (attach-engine e2 t89 p298) is uninteresting once we have fact (engine-attached e2 t89)
+Action 5597 - (attach-engine e4 t89 p298) is uninteresting once we have fact (engine-attached e4 t89)
+Action 5598 - (attach-engine e5 t89 p298) is uninteresting once we have fact (engine-attached e5 t89)
+Action 5599 - (attach-engine e6 t89 p298) is uninteresting once we have fact (engine-attached e6 t89)
+Action 5600 - (attach-engine e7 t89 p298) is uninteresting once we have fact (engine-attached e7 t89)
+Action 5601 - (attach-engine e8 t89 p298) is uninteresting once we have fact (engine-attached e8 t89)
+Action 5602 - (attach-engine e1 t89 p299) is uninteresting once we have fact (engine-attached e1 t89)
+Action 5603 - (attach-engine e2 t89 p299) is uninteresting once we have fact (engine-attached e2 t89)
+Action 5604 - (attach-engine e4 t89 p299) is uninteresting once we have fact (engine-attached e4 t89)
+Action 5605 - (attach-engine e5 t89 p299) is uninteresting once we have fact (engine-attached e5 t89)
+Action 5606 - (attach-engine e6 t89 p299) is uninteresting once we have fact (engine-attached e6 t89)
+Action 5607 - (attach-engine e7 t89 p299) is uninteresting once we have fact (engine-attached e7 t89)
+Action 5608 - (attach-engine e8 t89 p299) is uninteresting once we have fact (engine-attached e8 t89)
+Action 5609 - (attach-engine e3 t90 p300) is uninteresting once we have fact (engine-attached e3 t90)
+Action 5610 - (attach-engine e3 t90 p301) is uninteresting once we have fact (engine-attached e3 t90)
+Action 5611 - (attach-engine e1 t91 p302) is uninteresting once we have fact (engine-attached e1 t91)
+Action 5612 - (attach-engine e2 t91 p302) is uninteresting once we have fact (engine-attached e2 t91)
+Action 5613 - (attach-engine e4 t91 p302) is uninteresting once we have fact (engine-attached e4 t91)
+Action 5614 - (attach-engine e5 t91 p302) is uninteresting once we have fact (engine-attached e5 t91)
+Action 5615 - (attach-engine e6 t91 p302) is uninteresting once we have fact (engine-attached e6 t91)
+Action 5616 - (attach-engine e7 t91 p302) is uninteresting once we have fact (engine-attached e7 t91)
+Action 5617 - (attach-engine e8 t91 p302) is uninteresting once we have fact (engine-attached e8 t91)
+Action 5618 - (attach-engine e1 t91 p303) is uninteresting once we have fact (engine-attached e1 t91)
+Action 5619 - (attach-engine e2 t91 p303) is uninteresting once we have fact (engine-attached e2 t91)
+Action 5620 - (attach-engine e4 t91 p303) is uninteresting once we have fact (engine-attached e4 t91)
+Action 5621 - (attach-engine e5 t91 p303) is uninteresting once we have fact (engine-attached e5 t91)
+Action 5622 - (attach-engine e6 t91 p303) is uninteresting once we have fact (engine-attached e6 t91)
+Action 5623 - (attach-engine e7 t91 p303) is uninteresting once we have fact (engine-attached e7 t91)
+Action 5624 - (attach-engine e8 t91 p303) is uninteresting once we have fact (engine-attached e8 t91)
+Action 5625 - (attach-engine e3 t92 p304) is uninteresting once we have fact (engine-attached e3 t92)
+Action 5626 - (attach-engine e3 t92 p305) is uninteresting once we have fact (engine-attached e3 t92)
+Action 5627 - (attach-engine e1 t93 p306) is uninteresting once we have fact (engine-attached e1 t93)
+Action 5628 - (attach-engine e2 t93 p306) is uninteresting once we have fact (engine-attached e2 t93)
+Action 5629 - (attach-engine e4 t93 p306) is uninteresting once we have fact (engine-attached e4 t93)
+Action 5630 - (attach-engine e5 t93 p306) is uninteresting once we have fact (engine-attached e5 t93)
+Action 5631 - (attach-engine e6 t93 p306) is uninteresting once we have fact (engine-attached e6 t93)
+Action 5632 - (attach-engine e7 t93 p306) is uninteresting once we have fact (engine-attached e7 t93)
+Action 5633 - (attach-engine e8 t93 p306) is uninteresting once we have fact (engine-attached e8 t93)
+Action 5634 - (attach-engine e1 t93 p307) is uninteresting once we have fact (engine-attached e1 t93)
+Action 5635 - (attach-engine e2 t93 p307) is uninteresting once we have fact (engine-attached e2 t93)
+Action 5636 - (attach-engine e4 t93 p307) is uninteresting once we have fact (engine-attached e4 t93)
+Action 5637 - (attach-engine e5 t93 p307) is uninteresting once we have fact (engine-attached e5 t93)
+Action 5638 - (attach-engine e6 t93 p307) is uninteresting once we have fact (engine-attached e6 t93)
+Action 5639 - (attach-engine e7 t93 p307) is uninteresting once we have fact (engine-attached e7 t93)
+Action 5640 - (attach-engine e8 t93 p307) is uninteresting once we have fact (engine-attached e8 t93)
+Action 5641 - (attach-engine e3 t94 p308) is uninteresting once we have fact (engine-attached e3 t94)
+Action 5642 - (attach-engine e3 t94 p309) is uninteresting once we have fact (engine-attached e3 t94)
+Action 5643 - (attach-engine e1 t95 p310) is uninteresting once we have fact (engine-attached e1 t95)
+Action 5644 - (attach-engine e2 t95 p310) is uninteresting once we have fact (engine-attached e2 t95)
+Action 5645 - (attach-engine e4 t95 p310) is uninteresting once we have fact (engine-attached e4 t95)
+Action 5646 - (attach-engine e5 t95 p310) is uninteresting once we have fact (engine-attached e5 t95)
+Action 5647 - (attach-engine e6 t95 p310) is uninteresting once we have fact (engine-attached e6 t95)
+Action 5648 - (attach-engine e7 t95 p310) is uninteresting once we have fact (engine-attached e7 t95)
+Action 5649 - (attach-engine e8 t95 p310) is uninteresting once we have fact (engine-attached e8 t95)
+Action 5650 - (attach-engine e1 t95 p311) is uninteresting once we have fact (engine-attached e1 t95)
+Action 5651 - (attach-engine e2 t95 p311) is uninteresting once we have fact (engine-attached e2 t95)
+Action 5652 - (attach-engine e4 t95 p311) is uninteresting once we have fact (engine-attached e4 t95)
+Action 5653 - (attach-engine e5 t95 p311) is uninteresting once we have fact (engine-attached e5 t95)
+Action 5654 - (attach-engine e6 t95 p311) is uninteresting once we have fact (engine-attached e6 t95)
+Action 5655 - (attach-engine e7 t95 p311) is uninteresting once we have fact (engine-attached e7 t95)
+Action 5656 - (attach-engine e8 t95 p311) is uninteresting once we have fact (engine-attached e8 t95)
+Action 5657 - (attach-engine e3 t96 p312) is uninteresting once we have fact (engine-attached e3 t96)
+Action 5658 - (attach-engine e3 t96 p313) is uninteresting once we have fact (engine-attached e3 t96)
+Action 5659 - (attach-engine e1 t97 p314) is uninteresting once we have fact (engine-attached e1 t97)
+Action 5660 - (attach-engine e2 t97 p314) is uninteresting once we have fact (engine-attached e2 t97)
+Action 5661 - (attach-engine e4 t97 p314) is uninteresting once we have fact (engine-attached e4 t97)
+Action 5662 - (attach-engine e5 t97 p314) is uninteresting once we have fact (engine-attached e5 t97)
+Action 5663 - (attach-engine e6 t97 p314) is uninteresting once we have fact (engine-attached e6 t97)
+Action 5664 - (attach-engine e7 t97 p314) is uninteresting once we have fact (engine-attached e7 t97)
+Action 5665 - (attach-engine e8 t97 p314) is uninteresting once we have fact (engine-attached e8 t97)
+Action 5666 - (attach-engine e1 t97 p315) is uninteresting once we have fact (engine-attached e1 t97)
+Action 5667 - (attach-engine e2 t97 p315) is uninteresting once we have fact (engine-attached e2 t97)
+Action 5668 - (attach-engine e4 t97 p315) is uninteresting once we have fact (engine-attached e4 t97)
+Action 5669 - (attach-engine e5 t97 p315) is uninteresting once we have fact (engine-attached e5 t97)
+Action 5670 - (attach-engine e6 t97 p315) is uninteresting once we have fact (engine-attached e6 t97)
+Action 5671 - (attach-engine e7 t97 p315) is uninteresting once we have fact (engine-attached e7 t97)
+Action 5672 - (attach-engine e8 t97 p315) is uninteresting once we have fact (engine-attached e8 t97)
+Action 5673 - (attach-engine e1 t19 p834) is uninteresting once we have fact (engine-attached e1 t19)
+Action 5674 - (attach-engine e2 t19 p834) is uninteresting once we have fact (engine-attached e2 t19)
+Action 5675 - (attach-engine e4 t19 p834) is uninteresting once we have fact (engine-attached e4 t19)
+Action 5676 - (attach-engine e5 t19 p834) is uninteresting once we have fact (engine-attached e5 t19)
+Action 5677 - (attach-engine e6 t19 p834) is uninteresting once we have fact (engine-attached e6 t19)
+Action 5678 - (attach-engine e7 t19 p834) is uninteresting once we have fact (engine-attached e7 t19)
+Action 5679 - (attach-engine e8 t19 p834) is uninteresting once we have fact (engine-attached e8 t19)
+Action 5680 - (attach-engine e1 t55 p835) is uninteresting once we have fact (engine-attached e1 t55)
+Action 5681 - (attach-engine e2 t55 p835) is uninteresting once we have fact (engine-attached e2 t55)
+Action 5682 - (attach-engine e4 t55 p835) is uninteresting once we have fact (engine-attached e4 t55)
+Action 5683 - (attach-engine e5 t55 p835) is uninteresting once we have fact (engine-attached e5 t55)
+Action 5684 - (attach-engine e6 t55 p835) is uninteresting once we have fact (engine-attached e6 t55)
+Action 5685 - (attach-engine e7 t55 p835) is uninteresting once we have fact (engine-attached e7 t55)
+Action 5686 - (attach-engine e8 t55 p835) is uninteresting once we have fact (engine-attached e8 t55)
+Action 5687 - (attach-engine e3 t38 p836) is uninteresting once we have fact (engine-attached e3 t38)
+Action 5688 - (attach-engine e1 t73 p837) is uninteresting once we have fact (engine-attached e1 t73)
+Action 5689 - (attach-engine e2 t73 p837) is uninteresting once we have fact (engine-attached e2 t73)
+Action 5690 - (attach-engine e4 t73 p837) is uninteresting once we have fact (engine-attached e4 t73)
+Action 5691 - (attach-engine e5 t73 p837) is uninteresting once we have fact (engine-attached e5 t73)
+Action 5692 - (attach-engine e6 t73 p837) is uninteresting once we have fact (engine-attached e6 t73)
+Action 5693 - (attach-engine e7 t73 p837) is uninteresting once we have fact (engine-attached e7 t73)
+Action 5694 - (attach-engine e8 t73 p837) is uninteresting once we have fact (engine-attached e8 t73)
+Action 5695 - (attach-engine e1 t39 p838) is uninteresting once we have fact (engine-attached e1 t39)
+Action 5696 - (attach-engine e2 t39 p838) is uninteresting once we have fact (engine-attached e2 t39)
+Action 5697 - (attach-engine e4 t39 p838) is uninteresting once we have fact (engine-attached e4 t39)
+Action 5698 - (attach-engine e5 t39 p838) is uninteresting once we have fact (engine-attached e5 t39)
+Action 5699 - (attach-engine e6 t39 p838) is uninteresting once we have fact (engine-attached e6 t39)
+Action 5700 - (attach-engine e7 t39 p838) is uninteresting once we have fact (engine-attached e7 t39)
+Action 5701 - (attach-engine e8 t39 p838) is uninteresting once we have fact (engine-attached e8 t39)
+Action 5702 - (attach-engine e1 t49 p839) is uninteresting once we have fact (engine-attached e1 t49)
+Action 5703 - (attach-engine e2 t49 p839) is uninteresting once we have fact (engine-attached e2 t49)
+Action 5704 - (attach-engine e4 t49 p839) is uninteresting once we have fact (engine-attached e4 t49)
+Action 5705 - (attach-engine e5 t49 p839) is uninteresting once we have fact (engine-attached e5 t49)
+Action 5706 - (attach-engine e6 t49 p839) is uninteresting once we have fact (engine-attached e6 t49)
+Action 5707 - (attach-engine e7 t49 p839) is uninteresting once we have fact (engine-attached e7 t49)
+Action 5708 - (attach-engine e8 t49 p839) is uninteresting once we have fact (engine-attached e8 t49)
+Action 5709 - (attach-engine e1 t35 p840) is uninteresting once we have fact (engine-attached e1 t35)
+Action 5710 - (attach-engine e2 t35 p840) is uninteresting once we have fact (engine-attached e2 t35)
+Action 5711 - (attach-engine e4 t35 p840) is uninteresting once we have fact (engine-attached e4 t35)
+Action 5712 - (attach-engine e5 t35 p840) is uninteresting once we have fact (engine-attached e5 t35)
+Action 5713 - (attach-engine e6 t35 p840) is uninteresting once we have fact (engine-attached e6 t35)
+Action 5714 - (attach-engine e7 t35 p840) is uninteresting once we have fact (engine-attached e7 t35)
+Action 5715 - (attach-engine e8 t35 p840) is uninteresting once we have fact (engine-attached e8 t35)
+Action 5716 - (attach-engine e1 t11 p841) is uninteresting once we have fact (engine-attached e1 t11)
+Action 5717 - (attach-engine e2 t11 p841) is uninteresting once we have fact (engine-attached e2 t11)
+Action 5718 - (attach-engine e4 t11 p841) is uninteresting once we have fact (engine-attached e4 t11)
+Action 5719 - (attach-engine e5 t11 p841) is uninteresting once we have fact (engine-attached e5 t11)
+Action 5720 - (attach-engine e6 t11 p841) is uninteresting once we have fact (engine-attached e6 t11)
+Action 5721 - (attach-engine e7 t11 p841) is uninteresting once we have fact (engine-attached e7 t11)
+Action 5722 - (attach-engine e8 t11 p841) is uninteresting once we have fact (engine-attached e8 t11)
+Action 6555 - (resolve-train-blockage t9 p138) is uninteresting once we have fact (train-not-blocked t9 p138)
+Action 6556 - (resolve-train-blockage t15 p150) is uninteresting once we have fact (train-not-blocked t15 p150)
+Action 6557 - (resolve-train-blockage t28 p176) is uninteresting once we have fact (train-not-blocked t28 p176)
+Action 6558 - (resolve-train-blockage t34 p188) is uninteresting once we have fact (train-not-blocked t34 p188)
+Action 6559 - (resolve-train-blockage t51 p222) is uninteresting once we have fact (train-not-blocked t51 p222)
+Action 6560 - (resolve-train-blockage t52 p224) is uninteresting once we have fact (train-not-blocked t52 p224)
+Action 6561 - (resolve-train-blockage t62 p244) is uninteresting once we have fact (train-not-blocked t62 p244)
+Action 6562 - (resolve-train-blockage t71 p262) is uninteresting once we have fact (train-not-blocked t71 p262)
+Action 6563 - (resolve-train-blockage t88 p296) is uninteresting once we have fact (train-not-blocked t88 p296)
+Action 6564 - (clear-blocked-track p606 p10) is uninteresting once we have fact (track-clear p606 p10)
+Action 6565 - (clear-blocked-track p556 p111) is uninteresting once we have fact (track-clear p556 p111)
+Action 6566 - (clear-blocked-track p648 p17) is uninteresting once we have fact (track-clear p648 p17)
+Action 6567 - (clear-blocked-track p820 p21) is uninteresting once we have fact (track-clear p820 p21)
+Action 6568 - (clear-blocked-track p638 p24) is uninteresting once we have fact (track-clear p638 p24)
+Action 6569 - (clear-blocked-track p318 p316) is uninteresting once we have fact (track-clear p318 p316)
+Action 6570 - (clear-blocked-track p316 p318) is uninteresting once we have fact (track-clear p316 p318)
+Action 6571 - (clear-blocked-track p561 p33) is uninteresting once we have fact (track-clear p561 p33)
+Action 6572 - (clear-blocked-track p341 p340) is uninteresting once we have fact (track-clear p341 p340)
+Action 6573 - (clear-blocked-track p340 p341) is uninteresting once we have fact (track-clear p340 p341)
+Action 6574 - (clear-blocked-track p357 p355) is uninteresting once we have fact (track-clear p357 p355)
+Action 6575 - (clear-blocked-track p355 p357) is uninteresting once we have fact (track-clear p355 p357)
+Action 6576 - (clear-blocked-track p368 p367) is uninteresting once we have fact (track-clear p368 p367)
+Action 6577 - (clear-blocked-track p367 p368) is uninteresting once we have fact (track-clear p367 p368)
+Action 6578 - (clear-blocked-track p372 p370) is uninteresting once we have fact (track-clear p372 p370)
+Action 6579 - (clear-blocked-track p370 p372) is uninteresting once we have fact (track-clear p370 p372)
+Action 6580 - (clear-blocked-track p396 p394) is uninteresting once we have fact (track-clear p396 p394)
+Action 6581 - (clear-blocked-track p394 p396) is uninteresting once we have fact (track-clear p394 p396)
+Action 6582 - (clear-blocked-track p398 p397) is uninteresting once we have fact (track-clear p398 p397)
+Action 6583 - (clear-blocked-track p399 p397) is uninteresting once we have fact (track-clear p399 p397)
+Action 6584 - (clear-blocked-track p397 p398) is uninteresting once we have fact (track-clear p397 p398)
+Action 6585 - (clear-blocked-track p397 p399) is uninteresting once we have fact (track-clear p397 p399)
+Action 6586 - (clear-blocked-track p588 p41) is uninteresting once we have fact (track-clear p588 p41)
+Action 6587 - (clear-blocked-track p586 p43) is uninteresting once we have fact (track-clear p586 p43)
+Action 6588 - (clear-blocked-track p465 p463) is uninteresting once we have fact (track-clear p465 p463)
+Action 6589 - (clear-blocked-track p463 p465) is uninteresting once we have fact (track-clear p463 p465)
+Action 6590 - (clear-blocked-track p730 p47) is uninteresting once we have fact (track-clear p730 p47)
+Action 6591 - (clear-blocked-track p473 p472) is uninteresting once we have fact (track-clear p473 p472)
+Action 6592 - (clear-blocked-track p472 p473) is uninteresting once we have fact (track-clear p472 p473)
+Action 6593 - (clear-blocked-track p482 p481) is uninteresting once we have fact (track-clear p482 p481)
+Action 6594 - (clear-blocked-track p481 p482) is uninteresting once we have fact (track-clear p481 p482)
+Action 6595 - (clear-blocked-track p486 p484) is uninteresting once we have fact (track-clear p486 p484)
+Action 6596 - (clear-blocked-track p484 p486) is uninteresting once we have fact (track-clear p484 p486)
+Action 6597 - (clear-blocked-track p537 p535) is uninteresting once we have fact (track-clear p537 p535)
+Action 6598 - (clear-blocked-track p535 p537) is uninteresting once we have fact (track-clear p535 p537)
+Action 6599 - (clear-blocked-track p591 p54) is uninteresting once we have fact (track-clear p591 p54)
+Action 6600 - (clear-blocked-track p72 p553) is uninteresting once we have fact (track-clear p72 p553)
+Action 6601 - (clear-blocked-track p111 p556) is uninteresting once we have fact (track-clear p111 p556)
+Action 6602 - (clear-blocked-track p33 p561) is uninteresting once we have fact (track-clear p33 p561)
+Action 6603 - (clear-blocked-track p704 p578) is uninteresting once we have fact (track-clear p704 p578)
+Action 6604 - (clear-blocked-track p43 p586) is uninteresting once we have fact (track-clear p43 p586)
+Action 6605 - (clear-blocked-track p41 p588) is uninteresting once we have fact (track-clear p41 p588)
+Action 6606 - (clear-blocked-track p54 p591) is uninteresting once we have fact (track-clear p54 p591)
+Action 6607 - (clear-blocked-track p757 p595) is uninteresting once we have fact (track-clear p757 p595)
+Action 6608 - (clear-blocked-track p10 p606) is uninteresting once we have fact (track-clear p10 p606)
+Action 6609 - (clear-blocked-track p705 p629) is uninteresting once we have fact (track-clear p705 p629)
+Action 6610 - (clear-blocked-track p761 p630) is uninteresting once we have fact (track-clear p761 p630)
+Action 6611 - (clear-blocked-track p24 p638) is uninteresting once we have fact (track-clear p24 p638)
+Action 6612 - (clear-blocked-track p17 p648) is uninteresting once we have fact (track-clear p17 p648)
+Action 6613 - (clear-blocked-track p723 p667) is uninteresting once we have fact (track-clear p723 p667)
+Action 6614 - (clear-blocked-track p708 p689) is uninteresting once we have fact (track-clear p708 p689)
+Action 6615 - (clear-blocked-track p703 p700) is uninteresting once we have fact (track-clear p703 p700)
+Action 6616 - (clear-blocked-track p700 p703) is uninteresting once we have fact (track-clear p700 p703)
+Action 6617 - (clear-blocked-track p578 p704) is uninteresting once we have fact (track-clear p578 p704)
+Action 6618 - (clear-blocked-track p629 p705) is uninteresting once we have fact (track-clear p629 p705)
+Action 6619 - (clear-blocked-track p8 p707) is uninteresting once we have fact (track-clear p8 p707)
+Action 6620 - (clear-blocked-track p689 p708) is uninteresting once we have fact (track-clear p689 p708)
+Action 6621 - (clear-blocked-track p553 p72) is uninteresting once we have fact (track-clear p553 p72)
+Action 6622 - (clear-blocked-track p667 p723) is uninteresting once we have fact (track-clear p667 p723)
+Action 6623 - (clear-blocked-track p47 p730) is uninteresting once we have fact (track-clear p47 p730)
+Action 6624 - (clear-blocked-track p777 p740) is uninteresting once we have fact (track-clear p777 p740)
+Action 6625 - (clear-blocked-track p801 p75) is uninteresting once we have fact (track-clear p801 p75)
+Action 6626 - (clear-blocked-track p595 p757) is uninteresting once we have fact (track-clear p595 p757)
+Action 6627 - (clear-blocked-track p630 p761) is uninteresting once we have fact (track-clear p630 p761)
+Action 6628 - (clear-blocked-track p740 p777) is uninteresting once we have fact (track-clear p740 p777)
+Action 6629 - (clear-blocked-track p821 p795) is uninteresting once we have fact (track-clear p821 p795)
+Action 6630 - (clear-blocked-track p707 p8) is uninteresting once we have fact (track-clear p707 p8)
+Action 6631 - (clear-blocked-track p75 p801) is uninteresting once we have fact (track-clear p75 p801)
+Action 6632 - (clear-blocked-track p21 p820) is uninteresting once we have fact (track-clear p21 p820)
+Action 6633 - (clear-blocked-track p795 p821) is uninteresting once we have fact (track-clear p795 p821)
+Action 6634 - (board-passengers t1 s0 p123) is uninteresting once we have fact (passengers-boarded t1 p123)
+Action 6635 - (board-passengers t2 s1 p125) is uninteresting once we have fact (passengers-boarded t2 p125)
+Action 6636 - (board-passengers t3 s2 p127) is uninteresting once we have fact (passengers-boarded t3 p127)
+Action 6637 - (board-passengers t4 s3 p129) is uninteresting once we have fact (passengers-boarded t4 p129)
+Action 6638 - (board-passengers t5 s4 p131) is uninteresting once we have fact (passengers-boarded t5 p131)
+Action 6639 - (board-passengers t6 s5 p133) is uninteresting once we have fact (passengers-boarded t6 p133)
+Action 6640 - (board-passengers t7 s6 p135) is uninteresting once we have fact (passengers-boarded t7 p135)
+Action 6641 - (board-passengers t8 s7 p137) is uninteresting once we have fact (passengers-boarded t8 p137)
+Action 6642 - (board-passengers t9 s8 p139) is uninteresting once we have fact (passengers-boarded t9 p139)
+Action 6643 - (board-passengers t10 s9 p141) is uninteresting once we have fact (passengers-boarded t10 p141)
+Action 6644 - (board-passengers t11 s10 p143) is uninteresting once we have fact (passengers-boarded t11 p143)
+Action 6645 - (board-passengers t12 s11 p145) is uninteresting once we have fact (passengers-boarded t12 p145)
+Action 6646 - (board-passengers t13 s12 p147) is uninteresting once we have fact (passengers-boarded t13 p147)
+Action 6647 - (board-passengers t14 s13 p149) is uninteresting once we have fact (passengers-boarded t14 p149)
+Action 6648 - (board-passengers t15 s14 p151) is uninteresting once we have fact (passengers-boarded t15 p151)
+Action 6649 - (board-passengers t16 s15 p153) is uninteresting once we have fact (passengers-boarded t16 p153)
+Action 6650 - (board-passengers t17 s16 p155) is uninteresting once we have fact (passengers-boarded t17 p155)
+Action 6651 - (board-passengers t18 s17 p157) is uninteresting once we have fact (passengers-boarded t18 p157)
+Action 6652 - (board-passengers t19 s18 p159) is uninteresting once we have fact (passengers-boarded t19 p159)
+Action 6653 - (board-passengers t20 s19 p161) is uninteresting once we have fact (passengers-boarded t20 p161)
+Action 6654 - (board-passengers t21 s20 p163) is uninteresting once we have fact (passengers-boarded t21 p163)
+Action 6655 - (board-passengers t22 s21 p165) is uninteresting once we have fact (passengers-boarded t22 p165)
+Action 6656 - (board-passengers t23 s22 p167) is uninteresting once we have fact (passengers-boarded t23 p167)
+Action 6657 - (board-passengers t24 s23 p169) is uninteresting once we have fact (passengers-boarded t24 p169)
+Action 6658 - (board-passengers t25 s24 p171) is uninteresting once we have fact (passengers-boarded t25 p171)
+Action 6659 - (board-passengers t26 s25 p173) is uninteresting once we have fact (passengers-boarded t26 p173)
+Action 6660 - (board-passengers t27 s26 p175) is uninteresting once we have fact (passengers-boarded t27 p175)
+Action 6661 - (board-passengers t28 s27 p177) is uninteresting once we have fact (passengers-boarded t28 p177)
+Action 6662 - (board-passengers t29 s28 p179) is uninteresting once we have fact (passengers-boarded t29 p179)
+Action 6663 - (board-passengers t30 s29 p181) is uninteresting once we have fact (passengers-boarded t30 p181)
+Action 6664 - (board-passengers t31 s30 p183) is uninteresting once we have fact (passengers-boarded t31 p183)
+Action 6665 - (board-passengers t32 s31 p185) is uninteresting once we have fact (passengers-boarded t32 p185)
+Action 6666 - (board-passengers t33 s32 p187) is uninteresting once we have fact (passengers-boarded t33 p187)
+Action 6667 - (board-passengers t34 s33 p189) is uninteresting once we have fact (passengers-boarded t34 p189)
+Action 6668 - (board-passengers t35 s34 p191) is uninteresting once we have fact (passengers-boarded t35 p191)
+Action 6669 - (board-passengers t36 s35 p193) is uninteresting once we have fact (passengers-boarded t36 p193)
+Action 6670 - (board-passengers t37 s36 p195) is uninteresting once we have fact (passengers-boarded t37 p195)
+Action 6671 - (board-passengers t38 s37 p197) is uninteresting once we have fact (passengers-boarded t38 p197)
+Action 6672 - (board-passengers t39 s38 p199) is uninteresting once we have fact (passengers-boarded t39 p199)
+Action 6673 - (board-passengers t40 s39 p201) is uninteresting once we have fact (passengers-boarded t40 p201)
+Action 6674 - (board-passengers t41 s40 p203) is uninteresting once we have fact (passengers-boarded t41 p203)
+Action 6675 - (board-passengers t42 s41 p205) is uninteresting once we have fact (passengers-boarded t42 p205)
+Action 6676 - (board-passengers t43 s42 p207) is uninteresting once we have fact (passengers-boarded t43 p207)
+Action 6677 - (board-passengers t44 s43 p209) is uninteresting once we have fact (passengers-boarded t44 p209)
+Action 6678 - (board-passengers t45 s44 p211) is uninteresting once we have fact (passengers-boarded t45 p211)
+Action 6679 - (board-passengers t46 s45 p213) is uninteresting once we have fact (passengers-boarded t46 p213)
+Action 6680 - (board-passengers t47 s46 p215) is uninteresting once we have fact (passengers-boarded t47 p215)
+Action 6681 - (board-passengers t48 s47 p217) is uninteresting once we have fact (passengers-boarded t48 p217)
+Action 6682 - (board-passengers t49 s48 p219) is uninteresting once we have fact (passengers-boarded t49 p219)
+Action 6683 - (board-passengers t50 s49 p221) is uninteresting once we have fact (passengers-boarded t50 p221)
+Action 6684 - (board-passengers t51 s50 p223) is uninteresting once we have fact (passengers-boarded t51 p223)
+Action 6685 - (board-passengers t52 s51 p225) is uninteresting once we have fact (passengers-boarded t52 p225)
+Action 6686 - (board-passengers t53 s52 p227) is uninteresting once we have fact (passengers-boarded t53 p227)
+Action 6687 - (board-passengers t54 s53 p229) is uninteresting once we have fact (passengers-boarded t54 p229)
+Action 6688 - (board-passengers t55 s54 p231) is uninteresting once we have fact (passengers-boarded t55 p231)
+Action 6689 - (board-passengers t56 s55 p233) is uninteresting once we have fact (passengers-boarded t56 p233)
+Action 6690 - (board-passengers t57 s56 p235) is uninteresting once we have fact (passengers-boarded t57 p235)
+Action 6691 - (board-passengers t58 s57 p237) is uninteresting once we have fact (passengers-boarded t58 p237)
+Action 6692 - (board-passengers t59 s58 p239) is uninteresting once we have fact (passengers-boarded t59 p239)
+Action 6693 - (board-passengers t60 s59 p241) is uninteresting once we have fact (passengers-boarded t60 p241)
+Action 6694 - (board-passengers t61 s60 p243) is uninteresting once we have fact (passengers-boarded t61 p243)
+Action 6695 - (board-passengers t62 s61 p245) is uninteresting once we have fact (passengers-boarded t62 p245)
+Action 6696 - (board-passengers t63 s62 p247) is uninteresting once we have fact (passengers-boarded t63 p247)
+Action 6697 - (board-passengers t64 s63 p249) is uninteresting once we have fact (passengers-boarded t64 p249)
+Action 6698 - (board-passengers t65 s64 p251) is uninteresting once we have fact (passengers-boarded t65 p251)
+Action 6699 - (board-passengers t66 s65 p253) is uninteresting once we have fact (passengers-boarded t66 p253)
+Action 6700 - (board-passengers t67 s66 p255) is uninteresting once we have fact (passengers-boarded t67 p255)
+Action 6701 - (board-passengers t68 s67 p257) is uninteresting once we have fact (passengers-boarded t68 p257)
+Action 6702 - (board-passengers t69 s68 p259) is uninteresting once we have fact (passengers-boarded t69 p259)
+Action 6703 - (board-passengers t70 s69 p261) is uninteresting once we have fact (passengers-boarded t70 p261)
+Action 6704 - (board-passengers t71 s70 p263) is uninteresting once we have fact (passengers-boarded t71 p263)
+Action 6705 - (board-passengers t72 s71 p265) is uninteresting once we have fact (passengers-boarded t72 p265)
+Action 6706 - (board-passengers t73 s72 p267) is uninteresting once we have fact (passengers-boarded t73 p267)
+Action 6707 - (board-passengers t74 s73 p269) is uninteresting once we have fact (passengers-boarded t74 p269)
+Action 6708 - (board-passengers t75 s74 p271) is uninteresting once we have fact (passengers-boarded t75 p271)
+Action 6709 - (board-passengers t76 s75 p273) is uninteresting once we have fact (passengers-boarded t76 p273)
+Action 6710 - (board-passengers t77 s76 p275) is uninteresting once we have fact (passengers-boarded t77 p275)
+Action 6711 - (board-passengers t78 s77 p277) is uninteresting once we have fact (passengers-boarded t78 p277)
+Action 6712 - (board-passengers t79 s78 p279) is uninteresting once we have fact (passengers-boarded t79 p279)
+Action 6713 - (board-passengers t80 s79 p281) is uninteresting once we have fact (passengers-boarded t80 p281)
+Action 6714 - (board-passengers t81 s80 p283) is uninteresting once we have fact (passengers-boarded t81 p283)
+Action 6715 - (board-passengers t82 s81 p285) is uninteresting once we have fact (passengers-boarded t82 p285)
+Action 6716 - (board-passengers t83 s82 p287) is uninteresting once we have fact (passengers-boarded t83 p287)
+Action 6717 - (board-passengers t84 s83 p289) is uninteresting once we have fact (passengers-boarded t84 p289)
+Action 6718 - (board-passengers t85 s84 p291) is uninteresting once we have fact (passengers-boarded t85 p291)
+Action 6719 - (board-passengers t86 s85 p293) is uninteresting once we have fact (passengers-boarded t86 p293)
+Action 6720 - (board-passengers t87 s86 p295) is uninteresting once we have fact (passengers-boarded t87 p295)
+Action 6721 - (board-passengers t88 s87 p297) is uninteresting once we have fact (passengers-boarded t88 p297)
+Action 6722 - (board-passengers t89 s88 p299) is uninteresting once we have fact (passengers-boarded t89 p299)
+Action 6723 - (board-passengers t90 s89 p301) is uninteresting once we have fact (passengers-boarded t90 p301)
+Action 6724 - (board-passengers t91 s90 p303) is uninteresting once we have fact (passengers-boarded t91 p303)
+Action 6725 - (board-passengers t92 s91 p305) is uninteresting once we have fact (passengers-boarded t92 p305)
+Action 6726 - (board-passengers t93 s92 p307) is uninteresting once we have fact (passengers-boarded t93 p307)
+Action 6727 - (board-passengers t94 s93 p309) is uninteresting once we have fact (passengers-boarded t94 p309)
+Action 6728 - (board-passengers t95 s94 p311) is uninteresting once we have fact (passengers-boarded t95 p311)
+Action 6729 - (board-passengers t96 s95 p313) is uninteresting once we have fact (passengers-boarded t96 p313)
+Action 6730 - (board-passengers t97 s96 p315) is uninteresting once we have fact (passengers-boarded t97 p315)
+62% of the ground temporal actions in this problem are compression-safe
+Initial heuristic = 252.000, admissible cost estimate 38.476
+b (251.000 | 3.000)b (250.000 | 3.000)b (249.000 | 3.000)b (248.000 | 4.000)b (247.000 | 4.000)b (246.000 | 4.000)b (245.000 | 4.000)b (244.000 | 4.000)b (243.000 | 4.000)b (242.000 | 10.000)b (241.000 | 10.000)b (240.000 | 10.000)b (239.000 | 10.000)b (238.000 | 10.000)b (237.000 | 10.000)b (236.000 | 10.000)b (235.000 | 10.000)b (234.000 | 14.166)b (233.000 | 16.814)b (232.000 | 27.184)b (231.000 | 30.275)b (230.000 | 30.275)b (229.000 | 31.428)b (228.000 | 31.428)b (227.000 | 31.428)b (226.000 | 31.428)b (225.000 | 31.428)b (224.000 | 31.428)b (223.000 | 31.428)b (222.000 | 31.428)b (221.000 | 31.428)b (220.000 | 31.428)b (219.000 | 31.428)b (218.000 | 32.038)b (217.000 | 32.038)b (216.000 | 32.710)b (215.000 | 32.710)b (214.000 | 32.710)b (213.000 | 32.710)b (212.000 | 32.710)b (211.000 | 32.710)b (210.000 | 32.710)b (209.000 | 32.710)b (208.000 | 32.710)b (207.000 | 32.710)b (206.000 | 32.710)b (205.000 | 32.710)b (204.000 | 32.710)b (203.000 | 32.710)b (202.000 | 33.980)b (201.000 | 33.980)b (200.000 | 33.980)b (199.000 | 33.980)b (198.000 | 33.980)b (197.000 | 33.980)b (196.000 | 33.980)b (195.000 | 33.980)b (194.000 | 33.980)b (193.000 | 33.980)b (192.000 | 33.980)b (191.000 | 33.980)b (190.000 | 33.980)b (189.000 | 33.980)b (188.000 | 33.980)b (187.000 | 33.980)b (186.000 | 33.980)b (185.000 | 33.980)b (184.000 | 33.980)b (183.000 | 33.980)b (182.000 | 33.980)b (181.000 | 33.980)b (180.000 | 33.980)b (179.000 | 33.980)b (178.000 | 33.980)b (177.000 | 33.980)b (176.000 | 33.980)b (175.000 | 33.980)b (174.000 | 33.980)b (173.000 | 33.980)b (172.000 | 33.980)b (171.000 | 33.980)b (170.000 | 33.980)b (169.000 | 33.980)b (168.000 | 33.980)b (167.000 | 33.980)b (166.000 | 33.980)b (165.000 | 33.980)b (164.000 | 33.980)b (163.000 | 33.980)b (162.000 | 33.980)b (161.000 | 33.980)b (160.000 | 33.980)b (159.000 | 34.653)b (158.000 | 34.653)b (157.000 | 34.653)b (156.000 | 34.653)b (155.000 | 34.653)b (154.000 | 34.653)b (153.000 | 34.653)b (152.000 | 34.653)b (151.000 | 34.653)b (150.000 | 34.653)b (149.000 | 34.653)b (148.000 | 34.653)b (147.000 | 34.653)b (146.000 | 34.653)b (145.000 | 34.653)b (144.000 | 34.653)b (143.000 | 34.653)b (142.000 | 34.653)b (141.000 | 34.653)b (140.000 | 34.653)b (139.000 | 34.653)b (138.000 | 34.653)b (137.000 | 34.653)b (136.000 | 34.653)b (135.000 | 34.653)b (134.000 | 34.653)b (133.000 | 34.653)b (132.000 | 34.653)b (131.000 | 34.653)b (130.000 | 34.653)b (129.000 | 34.653)b (128.000 | 34.653)b (127.000 | 34.653)b (126.000 | 34.653)b (125.000 | 34.653)b (124.000 | 34.653)b (123.000 | 34.653)b (122.000 | 34.653)b (121.000 | 34.653)b (120.000 | 34.653)b (119.000 | 34.653)b (118.000 | 34.653)b (117.000 | 34.653)b (116.000 | 34.653)b (115.000 | 34.653)b (114.000 | 34.653)b (113.000 | 34.653)b (112.000 | 34.653)b (111.000 | 34.653)b (110.000 | 34.653)b (109.000 | 34.653)b (108.000 | 34.653)b (107.000 | 34.653)b (106.000 | 34.653)b (105.000 | 34.653)b (104.000 | 34.653)b (103.000 | 34.653)b (102.000 | 34.653)b (101.000 | 34.653)b (100.000 | 34.653)b (99.000 | 34.653)b (98.000 | 34.653)b (97.000 | 34.653)b (96.000 | 34.653)b (95.000 | 34.653)b (94.000 | 34.653)b (93.000 | 34.653)b (92.000 | 34.653)b (91.000 | 34.653)b (90.000 | 34.653)b (89.000 | 34.653)b (88.000 | 34.653)b (87.000 | 34.653)b (86.000 | 34.653)b (85.000 | 34.653)b (84.000 | 34.653)b (83.000 | 34.653)b (82.000 | 34.653)b (81.000 | 34.653)b (80.000 | 34.653)b (79.000 | 34.653)b (78.000 | 34.653)b (77.000 | 34.654)b (76.000 | 34.981)b (75.000 | 35.654)b (74.000 | 35.654)b (73.000 | 35.654)b (72.000 | 35.654)b (71.000 | 35.654)b (70.000 | 35.654)b (69.000 | 35.654)b (68.000 | 35.654)b (67.000 | 35.654)b (66.000 | 35.654)b (65.000 | 35.654)b (64.000 | 35.654)b (63.000 | 35.654)b (62.000 | 35.654)b (61.000 | 35.654)b (60.000 | 35.654)b (59.000 | 35.654)b (58.000 | 36.353)b (57.000 | 37.354)b (56.000 | 37.354)b (55.000 | 37.354)b (54.000 | 37.354)b (53.000 | 37.354)b (52.000 | 37.354)b (51.000 | 37.354)b (50.000 | 37.354)b (49.000 | 37.354)b (48.000 | 37.354)b (47.000 | 37.354)b (46.000 | 37.354)b (44.000 | 37.354)b (43.000 | 37.354)b (42.000 | 37.354)b (40.000 | 37.354)b (39.000 | 37.354)b (38.000 | 37.354)b (36.000 | 39.002)b (35.000 | 39.002)b (34.000 | 39.002)b (32.000 | 39.002)b (31.000 | 39.002)b (30.000 | 39.002)b (28.000 | 39.002)b (27.000 | 39.002)b (26.000 | 39.002)b (24.000 | 39.002)b (23.000 | 39.002)b (22.000 | 39.002)b (20.000 | 39.002)b (19.000 | 39.002)b (18.000 | 39.002)b (16.000 | 39.002)b (15.000 | 39.002)b (14.000 | 39.002)b (13.000 | 39.002)b (12.000 | 39.002)b (11.000 | 39.002)b (10.000 | 39.002)b (9.000 | 39.002)b (8.000 | 39.002)b (7.000 | 39.002)b (6.000 | 39.002)b (5.000 | 39.002)b (4.000 | 39.002)b (3.000 | 39.002)b (2.000 | 40.003)b (1.000 | 40.003)(G)
+; LP calculated the cost
+
+; Plan found with metric 40.003
+; Theoretical reachable cost 40.004
+; States evaluated so far: 245
+; States pruned based on pre-heuristic cost lower bound: 0
+; Time 267.47
+0.000: (resolve-train-blockage t88 p296)  [3.000]
+0.000: (resolve-train-blockage t71 p262)  [2.000]
+0.000: (resolve-train-blockage t62 p244)  [2.000]
+0.000: (resolve-train-blockage t52 p224)  [4.000]
+0.000: (resolve-train-blockage t51 p222)  [4.000]
+0.000: (resolve-train-blockage t34 p188)  [4.000]
+0.000: (resolve-train-blockage t28 p176)  [3.000]
+0.000: (resolve-train-blockage t15 p150)  [4.000]
+0.000: (resolve-train-blockage t9 p138)  [2.000]
+0.000: (drive-engine-to-damaged-up-train e3 t38 p836 p196 meter)  [10.000]
+0.000: (drive-engine-to-damaged-up-train e4 t73 p837 p266 broad)  [10.000]
+0.000: (drive-engine-to-damaged-up-train e2 t55 p835 p230 broad)  [10.000]
+0.000: (drive-engine-to-damaged-up-train e6 t49 p839 p218 broad)  [10.000]
+0.000: (drive-engine-to-damaged-up-train e5 t39 p838 p198 broad)  [10.000]
+0.000: (drive-engine-to-damaged-up-train e7 t35 p840 p190 broad)  [10.000]
+0.000: (drive-engine-to-damaged-up-train e1 t19 p834 p158 broad)  [10.000]
+0.000: (drive-engine-to-damaged-up-train e8 t11 p841 p142 broad)  [10.000]
+0.000: (drive-train t96 p312 p313 meter)  [14.166]
+0.000: (drive-train t94 p308 p309 meter)  [16.814]
+0.000: (drive-train t92 p304 p305 meter)  [27.184]
+0.000: (drive-train t90 p300 p301 meter)  [30.275]
+0.000: (drive-train t86 p292 p293 meter)  [20.952]
+0.000: (drive-train t84 p288 p289 meter)  [31.428]
+0.000: (drive-train t82 p284 p285 meter)  [18.446]
+0.000: (drive-train t80 p280 p281 meter)  [21.818]
+0.000: (drive-train t78 p276 p277 meter)  [21.153]
+0.000: (drive-train t76 p272 p273 meter)  [20.560]
+0.000: (drive-train t74 p268 p269 meter)  [29.906]
+0.000: (drive-train t72 p264 p265 meter)  [19.444]
+0.000: (drive-train t70 p260 p261 meter)  [15.740]
+0.000: (drive-train t68 p256 p257 meter)  [14.563]
+0.000: (drive-train t66 p252 p253 meter)  [29.059]
+0.000: (drive-train t64 p248 p249 meter)  [16.666]
+0.000: (drive-train t60 p240 p241 meter)  [32.038]
+0.000: (drive-train t58 p236 p237 meter)  [23.275]
+0.000: (drive-train t56 p232 p233 meter)  [32.710]
+0.000: (drive-train t54 p228 p229 meter)  [18.750]
+0.000: (drive-train t50 p220 p221 meter)  [28.571]
+0.000: (drive-train t48 p216 p217 meter)  [22.522]
+0.000: (drive-train t46 p212 p213 meter)  [18.644]
+0.000: (drive-train t44 p208 p209 meter)  [27.731]
+0.000: (drive-train t42 p204 p205 meter)  [23.275]
+0.000: (drive-train t40 p200 p201 meter)  [18.421]
+0.000: (drive-train t36 p192 p193 meter)  [15.454]
+0.000: (drive-train t32 p184 p185 meter)  [17.094]
+0.000: (drive-train t30 p180 p181 meter)  [13.636]
+0.000: (drive-train t26 p172 p173 meter)  [22.935]
+0.000: (drive-train t24 p168 p169 meter)  [16.346]
+0.000: (drive-train t22 p164 p165 meter)  [29.914]
+0.000: (drive-train t20 p160 p161 meter)  [33.980]
+0.000: (drive-train t18 p156 p157 meter)  [26.923]
+0.000: (drive-train t16 p152 p153 meter)  [18.644]
+0.000: (drive-train t14 p148 p149 meter)  [19.047]
+0.000: (drive-train t12 p144 p145 meter)  [26.050]
+0.000: (drive-train t10 p140 p141 meter)  [25.925]
+0.000: (drive-train t6 p132 p133 meter)  [29.411]
+0.000: (drive-train t4 p128 p129 meter)  [28.571]
+0.000: (drive-train t2 p124 p125 meter)  [31.192]
+0.000: (drive-train t97 p314 p315 broad)  [19.801]
+0.000: (drive-train t95 p310 p311 broad)  [21.186]
+0.000: (drive-train t93 p306 p307 broad)  [23.478]
+0.000: (drive-train t91 p302 p303 broad)  [15.652]
+0.000: (drive-train t89 p298 p299 broad)  [14.912]
+0.000: (drive-train t87 p294 p295 broad)  [31.730]
+0.000: (drive-train t85 p290 p291 broad)  [14.912]
+0.000: (drive-train t83 p286 p287 broad)  [26.666]
+0.000: (drive-train t81 p282 p283 broad)  [24.000]
+0.000: (drive-train t79 p278 p279 broad)  [28.000]
+0.000: (drive-train t77 p274 p275 broad)  [32.352]
+0.000: (drive-train t75 p270 p271 broad)  [13.157]
+0.000: (drive-train t69 p258 p259 broad)  [19.090]
+0.000: (drive-train t67 p254 p255 broad)  [21.698]
+0.000: (drive-train t65 p250 p251 broad)  [19.298]
+0.000: (drive-train t63 p246 p247 broad)  [19.047]
+0.000: (drive-train t61 p242 p243 broad)  [13.675]
+0.000: (drive-train t59 p238 p239 broad)  [16.037]
+0.000: (drive-train t57 p234 p235 broad)  [29.059]
+0.000: (drive-train t53 p226 p227 broad)  [29.310]
+0.000: (drive-train t47 p214 p215 broad)  [30.000]
+0.000: (drive-train t45 p210 p211 broad)  [28.571]
+0.000: (drive-train t43 p206 p207 broad)  [28.947]
+0.000: (drive-train t41 p202 p203 broad)  [29.629]
+0.000: (drive-train t37 p194 p195 broad)  [25.641]
+0.000: (drive-train t33 p186 p187 broad)  [13.513]
+0.000: (drive-train t31 p182 p183 broad)  [17.272]
+0.000: (drive-train t29 p178 p179 broad)  [14.953]
+0.000: (drive-train t27 p174 p175 broad)  [24.347]
+0.000: (drive-train t25 p170 p171 broad)  [28.205]
+0.000: (drive-train t23 p166 p167 broad)  [28.947]
+0.000: (drive-train t21 p162 p163 broad)  [20.388]
+0.000: (drive-train t17 p154 p155 broad)  [15.238]
+0.000: (drive-train t13 p146 p147 broad)  [34.653]
+0.000: (drive-train t7 p134 p135 broad)  [21.621]
+0.000: (drive-train t5 p130 p131 broad)  [16.101]
+0.000: (drive-train t3 p126 p127 broad)  [33.653]
+0.000: (drive-train t1 p122 p123 broad)  [32.673]
+0.002: (drive-train t8 p136 p137 meter)  [24.999]
+2.001: (drive-train t71 p262 p263 broad)  [26.851]
+2.001: (drive-train t62 p244 p245 meter)  [14.035]
+2.001: (drive-train t9 p138 p139 broad)  [27.777]
+3.001: (drive-train t88 p296 p297 meter)  [16.964]
+3.001: (drive-train t28 p176 p177 meter)  [19.827]
+4.001: (drive-train t52 p224 p225 meter)  [32.352]
+4.001: (drive-train t51 p222 p223 broad)  [22.222]
+4.001: (drive-train t34 p188 p189 meter)  [14.782]
+4.001: (drive-train t15 p150 p151 broad)  [19.444]
+10.001: (attach-engine e3 t38 p196)  [2.000]
+10.001: (attach-engine e4 t73 p266)  [2.000]
+10.001: (attach-engine e2 t55 p230)  [2.000]
+10.001: (attach-engine e6 t49 p218)  [2.000]
+10.001: (attach-engine e5 t39 p198)  [2.000]
+10.001: (attach-engine e7 t35 p190)  [2.000]
+10.001: (attach-engine e1 t19 p158)  [2.000]
+10.001: (attach-engine e8 t11 p142)  [2.000]
+12.002: (drive-assisted-train e3 t38 p196 p197 meter)  [18.000]
+12.002: (drive-assisted-train e4 t73 p266 p267 broad)  [16.000]
+12.002: (drive-assisted-train e2 t55 p230 p231 broad)  [27.000]
+12.002: (drive-assisted-train e6 t49 p218 p219 broad)  [25.000]
+12.002: (drive-assisted-train e5 t39 p198 p199 broad)  [25.000]
+12.002: (drive-assisted-train e7 t35 p190 p191 broad)  [27.000]
+12.002: (drive-assisted-train e1 t19 p158 p159 broad)  [15.000]
+12.002: (drive-assisted-train e8 t11 p142 p143 broad)  [23.000]
+13.158: (board-passengers t75 s74 p271)  [1.000]
+13.514: (board-passengers t33 s32 p187)  [1.000]
+13.637: (board-passengers t30 s29 p181)  [1.000]
+13.676: (board-passengers t61 s60 p243)  [1.000]
+14.167: (board-passengers t96 s95 p313)  [1.000]
+14.564: (board-passengers t68 s67 p257)  [1.000]
+14.913: (board-passengers t89 s88 p299)  [1.000]
+14.913: (board-passengers t85 s84 p291)  [1.000]
+14.954: (board-passengers t29 s28 p179)  [1.000]
+15.239: (board-passengers t17 s16 p155)  [1.000]
+15.455: (board-passengers t36 s35 p193)  [1.000]
+15.653: (board-passengers t91 s90 p303)  [1.000]
+15.741: (board-passengers t70 s69 p261)  [1.000]
+16.037: (board-passengers t62 s61 p245)  [1.000]
+16.038: (board-passengers t59 s58 p239)  [1.000]
+16.102: (board-passengers t5 s4 p131)  [1.000]
+16.347: (board-passengers t24 s23 p169)  [1.000]
+16.667: (board-passengers t64 s63 p249)  [1.000]
+16.815: (board-passengers t94 s93 p309)  [1.000]
+17.095: (board-passengers t32 s31 p185)  [1.000]
+17.273: (board-passengers t31 s30 p183)  [1.000]
+18.422: (board-passengers t40 s39 p201)  [1.000]
+18.447: (board-passengers t82 s81 p285)  [1.000]
+18.645: (board-passengers t46 s45 p213)  [1.000]
+18.645: (board-passengers t16 s15 p153)  [1.000]
+18.751: (board-passengers t54 s53 p229)  [1.000]
+18.784: (board-passengers t34 s33 p189)  [1.000]
+19.048: (board-passengers t63 s62 p247)  [1.000]
+19.048: (board-passengers t14 s13 p149)  [1.000]
+19.091: (board-passengers t69 s68 p259)  [1.000]
+19.299: (board-passengers t65 s64 p251)  [1.000]
+19.445: (board-passengers t72 s71 p265)  [1.000]
+19.802: (board-passengers t97 s96 p315)  [1.000]
+19.966: (board-passengers t88 s87 p297)  [1.000]
+20.389: (board-passengers t21 s20 p163)  [1.000]
+20.561: (board-passengers t76 s75 p273)  [1.000]
+20.953: (board-passengers t86 s85 p293)  [1.000]
+21.154: (board-passengers t78 s77 p277)  [1.000]
+21.187: (board-passengers t95 s94 p311)  [1.000]
+21.622: (board-passengers t7 s6 p135)  [1.000]
+21.699: (board-passengers t67 s66 p255)  [1.000]
+21.819: (board-passengers t80 s79 p281)  [1.000]
+22.523: (board-passengers t48 s47 p217)  [1.000]
+22.829: (board-passengers t28 s27 p177)  [1.000]
+22.936: (board-passengers t26 s25 p173)  [1.000]
+23.276: (board-passengers t58 s57 p237)  [1.000]
+23.276: (board-passengers t42 s41 p205)  [1.000]
+23.446: (board-passengers t15 s14 p151)  [1.000]
+23.479: (board-passengers t93 s92 p307)  [1.000]
+24.001: (board-passengers t81 s80 p283)  [1.000]
+24.348: (board-passengers t27 s26 p175)  [1.000]
+25.002: (board-passengers t8 s7 p137)  [1.000]
+25.642: (board-passengers t37 s36 p195)  [1.000]
+25.926: (board-passengers t10 s9 p141)  [1.000]
+26.051: (board-passengers t12 s11 p145)  [1.000]
+26.224: (board-passengers t51 s50 p223)  [1.000]
+26.667: (board-passengers t83 s82 p287)  [1.000]
+26.924: (board-passengers t18 s17 p157)  [1.000]
+27.003: (board-passengers t19 s18 p159)  [1.000]
+27.185: (board-passengers t92 s91 p305)  [1.000]
+27.732: (board-passengers t44 s43 p209)  [1.000]
+28.001: (board-passengers t79 s78 p279)  [1.000]
+28.003: (board-passengers t73 s72 p267)  [1.000]
+28.206: (board-passengers t25 s24 p171)  [1.000]
+28.572: (board-passengers t50 s49 p221)  [1.000]
+28.572: (board-passengers t45 s44 p211)  [1.000]
+28.572: (board-passengers t4 s3 p129)  [1.000]
+28.853: (board-passengers t71 s70 p263)  [1.000]
+28.948: (board-passengers t43 s42 p207)  [1.000]
+28.948: (board-passengers t23 s22 p167)  [1.000]
+29.060: (board-passengers t66 s65 p253)  [1.000]
+29.060: (board-passengers t57 s56 p235)  [1.000]
+29.311: (board-passengers t53 s52 p227)  [1.000]
+29.412: (board-passengers t6 s5 p133)  [1.000]
+29.630: (board-passengers t41 s40 p203)  [1.000]
+29.779: (board-passengers t9 s8 p139)  [1.000]
+29.907: (board-passengers t74 s73 p269)  [1.000]
+29.915: (board-passengers t22 s21 p165)  [1.000]
+30.001: (board-passengers t47 s46 p215)  [1.000]
+30.003: (board-passengers t38 s37 p197)  [1.000]
+30.276: (board-passengers t90 s89 p301)  [1.000]
+31.193: (board-passengers t2 s1 p125)  [1.000]
+31.429: (board-passengers t84 s83 p289)  [1.000]
+31.731: (board-passengers t87 s86 p295)  [1.000]
+32.039: (board-passengers t60 s59 p241)  [1.000]
+32.353: (board-passengers t77 s76 p275)  [1.000]
+32.674: (board-passengers t1 s0 p123)  [1.000]
+32.711: (board-passengers t56 s55 p233)  [1.000]
+33.654: (board-passengers t3 s2 p127)  [1.000]
+33.981: (board-passengers t20 s19 p161)  [1.000]
+34.654: (board-passengers t13 s12 p147)  [1.000]
+35.003: (board-passengers t11 s10 p143)  [1.000]
+36.354: (board-passengers t52 s51 p225)  [1.000]
+37.003: (board-passengers t49 s48 p219)  [1.000]
+37.003: (board-passengers t39 s38 p199)  [1.000]
+39.003: (board-passengers t55 s54 p231)  [1.000]
+39.003: (board-passengers t35 s34 p191)  [1.000]
+
+ * All goal deadlines now no later than 40.003
+
+Resorting to best-first search
+Running WA* with W = 5.000, not restarting with goal states
+b (251.000 | 2.000)b (250.000 | 3.000)b (250.000 | 2.000)b (249.000 | 3.000)b (248.000 | 3.000)b (247.000 | 4.000)b (247.000 | 3.000)b (246.000 | 4.000)b (245.000 | 4.000)b (244.000 | 4.000)b (243.000 | 4.000)b (242.000 | 10.000)b (242.000 | 4.000)b (241.000 | 10.000)b (240.000 | 10.000)b (239.000 | 10.000)b (238.000 | 10.000)b (237.000 | 10.000)b (236.000 | 10.000)b (235.000 | 10.000)b (234.000 | 14.166)b (234.000 | 13.636)b (234.000 | 13.157)b (234.000 | 10.000)b (233.000 | 16.814)b (233.000 | 15.740)b (233.000 | 14.563)b (233.000 | 14.166)b (232.000 | 27.184)b (232.000 | 20.952)b (232.000 | 18.446)b (232.000 | 16.814)b (231.000 | 30.275)b (231.000 | 27.184)b (230.000 | 30.275)b (229.000 | 31.428)b (229.000 | 30.275)b (228.000 | 31.428)b (227.000 | 31.428)b (226.000 | 31.428)b (225.000 | 31.428)b (224.000 | 31.428)b (223.000 | 31.428)b (222.000 | 31.428)b (221.000 | 31.428)b (220.000 | 31.428)b (219.000 | 31.428)b (218.000 | 32.038)b (218.000 | 31.428)b (217.000 | 32.038)b (216.000 | 32.710)b (216.000 | 32.038)b (215.000 | 32.710)b (214.000 | 32.710)b (213.000 | 32.710)b (212.000 | 32.710)b (211.000 | 32.710)b (210.000 | 32.710)b (209.000 | 32.710)b (208.000 | 32.710)b (207.000 | 32.710)b (206.000 | 32.710)b (205.000 | 32.710)b (204.000 | 32.710)b (203.000 | 32.710)b (202.000 | 33.980)b (202.000 | 32.710)b (201.000 | 33.980)b (200.000 | 33.980)b (199.000 | 33.980)b (198.000 | 33.980)b (197.000 | 33.980)b (196.000 | 33.980)b (195.000 | 33.980)b (194.000 | 33.980)b (193.000 | 33.980)b (192.000 | 33.980)b (191.000 | 33.980)b (190.000 | 33.980)b (189.000 | 33.980)b (188.000 | 33.980)b (187.000 | 33.980)b (186.000 | 33.980)b (185.000 | 33.980)b (184.000 | 33.980)b (183.000 | 33.980)b (182.000 | 33.980)b (181.000 | 33.980)b (180.000 | 33.980)b (179.000 | 33.980)b (178.000 | 33.980)b (177.000 | 33.980)b (176.000 | 33.980)b (175.000 | 33.980)b (174.000 | 33.980)b (173.000 | 33.980)b (172.000 | 33.980)b (171.000 | 33.980)b (170.000 | 33.980)b (169.000 | 33.980)b (168.000 | 33.980)b (167.000 | 33.980)b (166.000 | 33.980)b (165.000 | 33.980)b (164.000 | 33.980)b (163.000 | 33.980)b (162.000 | 33.980)b (161.000 | 33.980)b (160.000 | 33.980)b (159.000 | 34.653)b (159.000 | 33.980)b (158.000 | 34.653)b (157.000 | 34.653)b (156.000 | 34.653)b (155.000 | 34.653)b (154.000 | 34.653)b (153.000 | 34.653)b (152.000 | 34.653)b (151.000 | 34.653)b (150.000 | 34.653)b (149.000 | 34.653)b (148.000 | 34.653)b (147.000 | 34.653)b (146.000 | 34.653)b (145.000 | 34.653)b (144.000 | 34.653)b (143.000 | 34.653)b (142.000 | 34.653)b (141.000 | 34.653)b (140.000 | 36.353)b (140.000 | 34.653)b (139.000 | 36.353)b (138.000 | 36.353)b (137.000 | 36.353)b (136.000 | 36.353)b (135.000 | 36.353)b (134.000 | 36.353)b (133.000 | 36.353)b (132.000 | 36.353)b (131.000 | 36.353)b (130.000 | 36.353)b (129.000 | 36.353)b (128.000 | 36.353)b (127.000 | 36.353)b (126.000 | 36.353)b (125.000 | 36.353)b (124.000 | 36.353)b (123.000 | 36.353)b (122.000 | 37.002)b (121.000 | 37.002)b (120.000 | 37.002)b (119.000 | 37.002)b (118.000 | 37.002)b (117.000 | 37.002)b (116.000 | 37.002)b (115.000 | 37.002)b (114.000 | 37.002)b (113.000 | 37.002)b (112.000 | 37.002)b (111.000 | 37.002)b (109.000 | 37.002)b (108.000 | 37.002)b (107.000 | 37.002)b (106.000 | 37.002)b (105.000 | 37.002)b (104.000 | 37.002)b (103.000 | 37.002)b (102.000 | 37.002)b (101.000 | 37.002)b (100.000 | 37.002)b (99.000 | 37.002)b (98.000 | 37.002)b (97.000 | 37.002)b (96.000 | 37.002)b (95.000 | 37.002)b (94.000 | 37.002)b (93.000 | 37.002)b (92.000 | 37.002)b (91.000 | 37.002)b (90.000 | 37.002)b (89.000 | 37.002)b (88.000 | 37.002)b (87.000 | 37.002)b (86.000 | 37.002)b (85.000 | 37.002)b (84.000 | 37.002)b (83.000 | 37.002)b (82.000 | 37.002)b (81.000 | 37.002)b (80.000 | 37.002)b (79.000 | 37.002)b (78.000 | 37.002)b (77.000 | 37.002)b (76.000 | 37.002)b (75.000 | 37.002)b (74.000 | 37.002)b (73.000 | 37.002)b (72.000 | 37.002)b (71.000 | 37.002)b (70.000 | 37.002)b (69.000 | 37.002)b (68.000 | 37.002)b (67.000 | 37.002)b (66.000 | 37.002)b (65.000 | 37.002)b (64.000 | 37.002)b (63.000 | 37.002)b (62.000 | 37.002)b (61.000 | 37.002)b (60.000 | 37.002)b (59.000 | 37.002)b (58.000 | 37.002)b (57.000 | 37.002)b (56.000 | 37.002)b (55.000 | 37.002)b (54.000 | 37.002)b (53.000 | 37.002)b (52.000 | 37.002)b (51.000 | 37.002)b (50.000 | 37.002)b (49.000 | 37.002)b (48.000 | 37.002)b (47.000 | 37.002)b (46.000 | 37.002)b (45.000 | 37.002)b (44.000 | 37.002)b (43.000 | 37.002)b (42.000 | 37.002)b (41.000 | 37.002)b (40.000 | 37.002)b (39.000 | 37.002)b (38.000 | 37.002)b (37.000 | 37.002)b (36.000 | 37.002)b (35.000 | 37.002)b (34.000 | 37.002)b (33.000 | 37.002)b (32.000 | 37.002)b (31.000 | 37.002)b (30.000 | 37.002)b (29.000 | 37.002)b (28.000 | 37.002)b (27.000 | 37.002)b (26.000 | 37.002)b (25.000 | 37.002)b (24.000 | 37.002)b (23.000 | 37.002)b (22.000 | 37.002)b (21.000 | 37.002)b (20.000 | 37.002)b (19.000 | 37.002)b (18.000 | 37.002)b (17.000 | 37.002)b (16.000 | 37.002)b (15.000 | 37.002)b (14.000 | 37.002)b (13.000 | 37.002)b (12.000 | 37.354)b (12.000 | 37.002)b (11.000 | 37.354)b (10.000 | 37.354)b (9.000 | 38.003)b (8.000 | 38.003)terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc

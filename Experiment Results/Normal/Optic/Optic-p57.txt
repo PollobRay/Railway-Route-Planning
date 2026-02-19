@@ -1,0 +1,678 @@
+Number of literals: 3449
+Constructing lookup tables: [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+Post filtering unreachable actions:  [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+Seeing if metric is defined in terms of task vars or a minimal value of makespan
+- Yes it is
+Recognised a monotonic-change-induced limit on -1.000*<special>
+- Must be >=  the metric
+[01;34mFor limits: literal goal index 0, fact (train-at t1 p82), is static or a precondition[00m
+[01;34mFor limits: literal goal index 1, fact (train-at t2 p84), is static or a precondition[00m
+[01;34mFor limits: literal goal index 2, fact (train-at t3 p86), is static or a precondition[00m
+[01;34mFor limits: literal goal index 3, fact (train-at t4 p88), is static or a precondition[00m
+[01;34mFor limits: literal goal index 4, fact (train-at t5 p90), is static or a precondition[00m
+[01;34mFor limits: literal goal index 5, fact (train-at t6 p92), is static or a precondition[00m
+[01;34mFor limits: literal goal index 6, fact (train-at t7 p94), is static or a precondition[00m
+[01;34mFor limits: literal goal index 7, fact (train-at t8 p96), is static or a precondition[00m
+[01;34mFor limits: literal goal index 8, fact (train-at t9 p98), is static or a precondition[00m
+[01;34mFor limits: literal goal index 9, fact (train-at t10 p100), is static or a precondition[00m
+[01;34mFor limits: literal goal index 10, fact (train-at t11 p102), is static or a precondition[00m
+[01;34mFor limits: literal goal index 11, fact (train-at t12 p104), is static or a precondition[00m
+[01;34mFor limits: literal goal index 12, fact (train-at t13 p106), is static or a precondition[00m
+[01;34mFor limits: literal goal index 13, fact (train-at t14 p108), is static or a precondition[00m
+[01;34mFor limits: literal goal index 14, fact (train-at t15 p110), is static or a precondition[00m
+[01;34mFor limits: literal goal index 15, fact (train-at t16 p112), is static or a precondition[00m
+[01;34mFor limits: literal goal index 16, fact (train-at t17 p114), is static or a precondition[00m
+[01;34mFor limits: literal goal index 17, fact (train-at t18 p116), is static or a precondition[00m
+[01;34mFor limits: literal goal index 18, fact (train-at t19 p118), is static or a precondition[00m
+[01;34mFor limits: literal goal index 19, fact (train-at t20 p120), is static or a precondition[00m
+[01;34mFor limits: literal goal index 20, fact (train-at t21 p122), is static or a precondition[00m
+[01;34mFor limits: literal goal index 21, fact (train-at t22 p124), is static or a precondition[00m
+[01;34mFor limits: literal goal index 22, fact (train-at t23 p126), is static or a precondition[00m
+[01;34mFor limits: literal goal index 23, fact (train-at t24 p128), is static or a precondition[00m
+[01;34mFor limits: literal goal index 24, fact (train-at t25 p130), is static or a precondition[00m
+[01;34mFor limits: literal goal index 25, fact (train-at t26 p132), is static or a precondition[00m
+[01;34mFor limits: literal goal index 26, fact (train-at t27 p134), is static or a precondition[00m
+[01;34mFor limits: literal goal index 27, fact (train-at t28 p136), is static or a precondition[00m
+[01;34mFor limits: literal goal index 28, fact (train-at t29 p138), is static or a precondition[00m
+[01;34mFor limits: literal goal index 29, fact (train-at t30 p140), is static or a precondition[00m
+[01;34mFor limits: literal goal index 30, fact (train-at t31 p142), is static or a precondition[00m
+[01;34mFor limits: literal goal index 31, fact (train-at t32 p144), is static or a precondition[00m
+[01;34mFor limits: literal goal index 32, fact (train-at t33 p146), is static or a precondition[00m
+[01;34mFor limits: literal goal index 33, fact (train-at t34 p148), is static or a precondition[00m
+[01;34mFor limits: literal goal index 34, fact (train-at t35 p150), is static or a precondition[00m
+[01;34mFor limits: literal goal index 35, fact (train-at t36 p152), is static or a precondition[00m
+[01;34mFor limits: literal goal index 36, fact (train-at t37 p154), is static or a precondition[00m
+[01;34mFor limits: literal goal index 37, fact (train-at t38 p156), is static or a precondition[00m
+[01;34mFor limits: literal goal index 38, fact (train-at t39 p158), is static or a precondition[00m
+[01;34mFor limits: literal goal index 39, fact (train-at t40 p160), is static or a precondition[00m
+[01;34mFor limits: literal goal index 40, fact (train-at t41 p162), is static or a precondition[00m
+[01;34mFor limits: literal goal index 41, fact (train-at t42 p164), is static or a precondition[00m
+[01;34mFor limits: literal goal index 42, fact (train-at t43 p166), is static or a precondition[00m
+[01;34mFor limits: literal goal index 43, fact (train-at t44 p168), is static or a precondition[00m
+[01;34mFor limits: literal goal index 44, fact (train-at t45 p170), is static or a precondition[00m
+[01;34mFor limits: literal goal index 45, fact (train-at t46 p172), is static or a precondition[00m
+[01;34mFor limits: literal goal index 46, fact (train-at t47 p174), is static or a precondition[00m
+[01;34mFor limits: literal goal index 47, fact (train-at t48 p176), is static or a precondition[00m
+[01;34mFor limits: literal goal index 48, fact (train-at t49 p178), is static or a precondition[00m
+[01;34mFor limits: literal goal index 49, fact (train-at t50 p180), is static or a precondition[00m
+[01;34mFor limits: literal goal index 50, fact (train-at t51 p182), is static or a precondition[00m
+[01;34mFor limits: literal goal index 51, fact (train-at t52 p184), is static or a precondition[00m
+[01;34mFor limits: literal goal index 52, fact (train-at t53 p186), is static or a precondition[00m
+[01;34mFor limits: literal goal index 53, fact (train-at t54 p188), is static or a precondition[00m
+[01;34mFor limits: literal goal index 54, fact (train-at t55 p190), is static or a precondition[00m
+[01;34mFor limits: literal goal index 55, fact (train-at t56 p192), is static or a precondition[00m
+[01;34mFor limits: literal goal index 56, fact (train-at t57 p194), is static or a precondition[00m
+[01;34mFor limits: literal goal index 57, fact (train-at t58 p196), is static or a precondition[00m
+[01;34mFor limits: literal goal index 58, fact (train-at t59 p198), is static or a precondition[00m
+[01;34mFor limits: literal goal index 59, fact (train-at t60 p200), is static or a precondition[00m
+[01;34mFor limits: literal goal index 60, fact (train-at t61 p202), is static or a precondition[00m
+[01;34mFor limits: literal goal index 61, fact (train-at t62 p204), is static or a precondition[00m
+[01;34mFor limits: literal goal index 62, fact (train-at t63 p206), is static or a precondition[00m
+[01;34mFor limits: literal goal index 63, fact (train-at t64 p208), is static or a precondition[00m
+[01;34mFor limits: literal goal index 64, fact (train-at t65 p210), is static or a precondition[00m
+[01;31mLooking for achievers for goal index 65, fact (passengers-boarded t1 p82) with fID 3256[00m
+ (board-passengers t1 s0 p82)
+  Looking at numeric effects of (board-passengers t1 s0 p82): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t1 s0 p82), of which there are 0
+[01;31mLooking for achievers for goal index 66, fact (passengers-boarded t2 p84) with fID 3257[00m
+ (board-passengers t2 s1 p84)
+  Looking at numeric effects of (board-passengers t2 s1 p84): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t2 s1 p84), of which there are 0
+[01;31mLooking for achievers for goal index 67, fact (passengers-boarded t3 p86) with fID 3258[00m
+ (board-passengers t3 s2 p86)
+  Looking at numeric effects of (board-passengers t3 s2 p86): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t3 s2 p86), of which there are 0
+[01;31mLooking for achievers for goal index 68, fact (passengers-boarded t4 p88) with fID 3259[00m
+ (board-passengers t4 s3 p88)
+  Looking at numeric effects of (board-passengers t4 s3 p88): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t4 s3 p88), of which there are 0
+[01;31mLooking for achievers for goal index 69, fact (passengers-boarded t5 p90) with fID 3260[00m
+ (board-passengers t5 s4 p90)
+  Looking at numeric effects of (board-passengers t5 s4 p90): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t5 s4 p90), of which there are 0
+[01;31mLooking for achievers for goal index 70, fact (passengers-boarded t6 p92) with fID 3261[00m
+ (board-passengers t6 s5 p92)
+  Looking at numeric effects of (board-passengers t6 s5 p92): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t6 s5 p92), of which there are 0
+[01;31mLooking for achievers for goal index 71, fact (passengers-boarded t7 p94) with fID 3262[00m
+ (board-passengers t7 s6 p94)
+  Looking at numeric effects of (board-passengers t7 s6 p94): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t7 s6 p94), of which there are 0
+[01;31mLooking for achievers for goal index 72, fact (passengers-boarded t8 p96) with fID 3263[00m
+ (board-passengers t8 s7 p96)
+  Looking at numeric effects of (board-passengers t8 s7 p96): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t8 s7 p96), of which there are 0
+[01;31mLooking for achievers for goal index 73, fact (passengers-boarded t9 p98) with fID 3264[00m
+ (board-passengers t9 s8 p98)
+  Looking at numeric effects of (board-passengers t9 s8 p98): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t9 s8 p98), of which there are 0
+[01;31mLooking for achievers for goal index 74, fact (passengers-boarded t10 p100) with fID 3200[00m
+ (board-passengers t10 s9 p100)
+  Looking at numeric effects of (board-passengers t10 s9 p100): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t10 s9 p100), of which there are 0
+[01;31mLooking for achievers for goal index 75, fact (passengers-boarded t11 p102) with fID 3201[00m
+ (board-passengers t11 s10 p102)
+  Looking at numeric effects of (board-passengers t11 s10 p102): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t11 s10 p102), of which there are 0
+[01;31mLooking for achievers for goal index 76, fact (passengers-boarded t12 p104) with fID 3202[00m
+ (board-passengers t12 s11 p104)
+  Looking at numeric effects of (board-passengers t12 s11 p104): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t12 s11 p104), of which there are 0
+[01;31mLooking for achievers for goal index 77, fact (passengers-boarded t13 p106) with fID 3203[00m
+ (board-passengers t13 s12 p106)
+  Looking at numeric effects of (board-passengers t13 s12 p106): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t13 s12 p106), of which there are 0
+[01;31mLooking for achievers for goal index 78, fact (passengers-boarded t14 p108) with fID 3204[00m
+ (board-passengers t14 s13 p108)
+  Looking at numeric effects of (board-passengers t14 s13 p108): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t14 s13 p108), of which there are 0
+[01;31mLooking for achievers for goal index 79, fact (passengers-boarded t15 p110) with fID 3205[00m
+ (board-passengers t15 s14 p110)
+  Looking at numeric effects of (board-passengers t15 s14 p110): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t15 s14 p110), of which there are 0
+[01;31mLooking for achievers for goal index 80, fact (passengers-boarded t16 p112) with fID 3206[00m
+ (board-passengers t16 s15 p112)
+  Looking at numeric effects of (board-passengers t16 s15 p112): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t16 s15 p112), of which there are 0
+[01;31mLooking for achievers for goal index 81, fact (passengers-boarded t17 p114) with fID 3207[00m
+ (board-passengers t17 s16 p114)
+  Looking at numeric effects of (board-passengers t17 s16 p114): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t17 s16 p114), of which there are 0
+[01;31mLooking for achievers for goal index 82, fact (passengers-boarded t18 p116) with fID 3208[00m
+ (board-passengers t18 s17 p116)
+  Looking at numeric effects of (board-passengers t18 s17 p116): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t18 s17 p116), of which there are 0
+[01;31mLooking for achievers for goal index 83, fact (passengers-boarded t19 p118) with fID 3209[00m
+ (board-passengers t19 s18 p118)
+  Looking at numeric effects of (board-passengers t19 s18 p118): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t19 s18 p118), of which there are 0
+[01;31mLooking for achievers for goal index 84, fact (passengers-boarded t20 p120) with fID 3210[00m
+ (board-passengers t20 s19 p120)
+  Looking at numeric effects of (board-passengers t20 s19 p120): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t20 s19 p120), of which there are 0
+[01;31mLooking for achievers for goal index 85, fact (passengers-boarded t21 p122) with fID 3211[00m
+ (board-passengers t21 s20 p122)
+  Looking at numeric effects of (board-passengers t21 s20 p122): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t21 s20 p122), of which there are 0
+[01;31mLooking for achievers for goal index 86, fact (passengers-boarded t22 p124) with fID 3212[00m
+ (board-passengers t22 s21 p124)
+  Looking at numeric effects of (board-passengers t22 s21 p124): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t22 s21 p124), of which there are 0
+[01;31mLooking for achievers for goal index 87, fact (passengers-boarded t23 p126) with fID 3213[00m
+ (board-passengers t23 s22 p126)
+  Looking at numeric effects of (board-passengers t23 s22 p126): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t23 s22 p126), of which there are 0
+[01;31mLooking for achievers for goal index 88, fact (passengers-boarded t24 p128) with fID 3214[00m
+ (board-passengers t24 s23 p128)
+  Looking at numeric effects of (board-passengers t24 s23 p128): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t24 s23 p128), of which there are 0
+[01;31mLooking for achievers for goal index 89, fact (passengers-boarded t25 p130) with fID 3215[00m
+ (board-passengers t25 s24 p130)
+  Looking at numeric effects of (board-passengers t25 s24 p130): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t25 s24 p130), of which there are 0
+[01;31mLooking for achievers for goal index 90, fact (passengers-boarded t26 p132) with fID 3216[00m
+ (board-passengers t26 s25 p132)
+  Looking at numeric effects of (board-passengers t26 s25 p132): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t26 s25 p132), of which there are 0
+[01;31mLooking for achievers for goal index 91, fact (passengers-boarded t27 p134) with fID 3217[00m
+ (board-passengers t27 s26 p134)
+  Looking at numeric effects of (board-passengers t27 s26 p134): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t27 s26 p134), of which there are 0
+[01;31mLooking for achievers for goal index 92, fact (passengers-boarded t28 p136) with fID 3218[00m
+ (board-passengers t28 s27 p136)
+  Looking at numeric effects of (board-passengers t28 s27 p136): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t28 s27 p136), of which there are 0
+[01;31mLooking for achievers for goal index 93, fact (passengers-boarded t29 p138) with fID 3219[00m
+ (board-passengers t29 s28 p138)
+  Looking at numeric effects of (board-passengers t29 s28 p138): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t29 s28 p138), of which there are 0
+[01;31mLooking for achievers for goal index 94, fact (passengers-boarded t30 p140) with fID 3220[00m
+ (board-passengers t30 s29 p140)
+  Looking at numeric effects of (board-passengers t30 s29 p140): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t30 s29 p140), of which there are 0
+[01;31mLooking for achievers for goal index 95, fact (passengers-boarded t31 p142) with fID 3221[00m
+ (board-passengers t31 s30 p142)
+  Looking at numeric effects of (board-passengers t31 s30 p142): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t31 s30 p142), of which there are 0
+[01;31mLooking for achievers for goal index 96, fact (passengers-boarded t32 p144) with fID 3222[00m
+ (board-passengers t32 s31 p144)
+  Looking at numeric effects of (board-passengers t32 s31 p144): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t32 s31 p144), of which there are 0
+[01;31mLooking for achievers for goal index 97, fact (passengers-boarded t33 p146) with fID 3223[00m
+ (board-passengers t33 s32 p146)
+  Looking at numeric effects of (board-passengers t33 s32 p146): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t33 s32 p146), of which there are 0
+[01;31mLooking for achievers for goal index 98, fact (passengers-boarded t34 p148) with fID 3224[00m
+ (board-passengers t34 s33 p148)
+  Looking at numeric effects of (board-passengers t34 s33 p148): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t34 s33 p148), of which there are 0
+[01;31mLooking for achievers for goal index 99, fact (passengers-boarded t35 p150) with fID 3225[00m
+ (board-passengers t35 s34 p150)
+  Looking at numeric effects of (board-passengers t35 s34 p150): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t35 s34 p150), of which there are 0
+[01;31mLooking for achievers for goal index 100, fact (passengers-boarded t36 p152) with fID 3226[00m
+ (board-passengers t36 s35 p152)
+  Looking at numeric effects of (board-passengers t36 s35 p152): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t36 s35 p152), of which there are 0
+[01;31mLooking for achievers for goal index 101, fact (passengers-boarded t37 p154) with fID 3227[00m
+ (board-passengers t37 s36 p154)
+  Looking at numeric effects of (board-passengers t37 s36 p154): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t37 s36 p154), of which there are 0
+[01;31mLooking for achievers for goal index 102, fact (passengers-boarded t38 p156) with fID 3228[00m
+ (board-passengers t38 s37 p156)
+  Looking at numeric effects of (board-passengers t38 s37 p156): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t38 s37 p156), of which there are 0
+[01;31mLooking for achievers for goal index 103, fact (passengers-boarded t39 p158) with fID 3229[00m
+ (board-passengers t39 s38 p158)
+  Looking at numeric effects of (board-passengers t39 s38 p158): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t39 s38 p158), of which there are 0
+[01;31mLooking for achievers for goal index 104, fact (passengers-boarded t40 p160) with fID 3230[00m
+ (board-passengers t40 s39 p160)
+  Looking at numeric effects of (board-passengers t40 s39 p160): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t40 s39 p160), of which there are 0
+[01;31mLooking for achievers for goal index 105, fact (passengers-boarded t41 p162) with fID 3231[00m
+ (board-passengers t41 s40 p162)
+  Looking at numeric effects of (board-passengers t41 s40 p162): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t41 s40 p162), of which there are 0
+[01;31mLooking for achievers for goal index 106, fact (passengers-boarded t42 p164) with fID 3232[00m
+ (board-passengers t42 s41 p164)
+  Looking at numeric effects of (board-passengers t42 s41 p164): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t42 s41 p164), of which there are 0
+[01;31mLooking for achievers for goal index 107, fact (passengers-boarded t43 p166) with fID 3233[00m
+ (board-passengers t43 s42 p166)
+  Looking at numeric effects of (board-passengers t43 s42 p166): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t43 s42 p166), of which there are 0
+[01;31mLooking for achievers for goal index 108, fact (passengers-boarded t44 p168) with fID 3234[00m
+ (board-passengers t44 s43 p168)
+  Looking at numeric effects of (board-passengers t44 s43 p168): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t44 s43 p168), of which there are 0
+[01;31mLooking for achievers for goal index 109, fact (passengers-boarded t45 p170) with fID 3235[00m
+ (board-passengers t45 s44 p170)
+  Looking at numeric effects of (board-passengers t45 s44 p170): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t45 s44 p170), of which there are 0
+[01;31mLooking for achievers for goal index 110, fact (passengers-boarded t46 p172) with fID 3236[00m
+ (board-passengers t46 s45 p172)
+  Looking at numeric effects of (board-passengers t46 s45 p172): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t46 s45 p172), of which there are 0
+[01;31mLooking for achievers for goal index 111, fact (passengers-boarded t47 p174) with fID 3237[00m
+ (board-passengers t47 s46 p174)
+  Looking at numeric effects of (board-passengers t47 s46 p174): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t47 s46 p174), of which there are 0
+[01;31mLooking for achievers for goal index 112, fact (passengers-boarded t48 p176) with fID 3238[00m
+ (board-passengers t48 s47 p176)
+  Looking at numeric effects of (board-passengers t48 s47 p176): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t48 s47 p176), of which there are 0
+[01;31mLooking for achievers for goal index 113, fact (passengers-boarded t49 p178) with fID 3239[00m
+ (board-passengers t49 s48 p178)
+  Looking at numeric effects of (board-passengers t49 s48 p178): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t49 s48 p178), of which there are 0
+[01;31mLooking for achievers for goal index 114, fact (passengers-boarded t50 p180) with fID 3240[00m
+ (board-passengers t50 s49 p180)
+  Looking at numeric effects of (board-passengers t50 s49 p180): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t50 s49 p180), of which there are 0
+[01;31mLooking for achievers for goal index 115, fact (passengers-boarded t51 p182) with fID 3241[00m
+ (board-passengers t51 s50 p182)
+  Looking at numeric effects of (board-passengers t51 s50 p182): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t51 s50 p182), of which there are 0
+[01;31mLooking for achievers for goal index 116, fact (passengers-boarded t52 p184) with fID 3242[00m
+ (board-passengers t52 s51 p184)
+  Looking at numeric effects of (board-passengers t52 s51 p184): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t52 s51 p184), of which there are 0
+[01;31mLooking for achievers for goal index 117, fact (passengers-boarded t53 p186) with fID 3243[00m
+ (board-passengers t53 s52 p186)
+  Looking at numeric effects of (board-passengers t53 s52 p186): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t53 s52 p186), of which there are 0
+[01;31mLooking for achievers for goal index 118, fact (passengers-boarded t54 p188) with fID 3244[00m
+ (board-passengers t54 s53 p188)
+  Looking at numeric effects of (board-passengers t54 s53 p188): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t54 s53 p188), of which there are 0
+[01;31mLooking for achievers for goal index 119, fact (passengers-boarded t55 p190) with fID 3245[00m
+ (board-passengers t55 s54 p190)
+  Looking at numeric effects of (board-passengers t55 s54 p190): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t55 s54 p190), of which there are 0
+[01;31mLooking for achievers for goal index 120, fact (passengers-boarded t56 p192) with fID 3246[00m
+ (board-passengers t56 s55 p192)
+  Looking at numeric effects of (board-passengers t56 s55 p192): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t56 s55 p192), of which there are 0
+[01;31mLooking for achievers for goal index 121, fact (passengers-boarded t57 p194) with fID 3247[00m
+ (board-passengers t57 s56 p194)
+  Looking at numeric effects of (board-passengers t57 s56 p194): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t57 s56 p194), of which there are 0
+[01;31mLooking for achievers for goal index 122, fact (passengers-boarded t58 p196) with fID 3248[00m
+ (board-passengers t58 s57 p196)
+  Looking at numeric effects of (board-passengers t58 s57 p196): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t58 s57 p196), of which there are 0
+[01;31mLooking for achievers for goal index 123, fact (passengers-boarded t59 p198) with fID 3249[00m
+ (board-passengers t59 s58 p198)
+  Looking at numeric effects of (board-passengers t59 s58 p198): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t59 s58 p198), of which there are 0
+[01;31mLooking for achievers for goal index 124, fact (passengers-boarded t60 p200) with fID 3250[00m
+ (board-passengers t60 s59 p200)
+  Looking at numeric effects of (board-passengers t60 s59 p200): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t60 s59 p200), of which there are 0
+[01;31mLooking for achievers for goal index 125, fact (passengers-boarded t61 p202) with fID 3251[00m
+ (board-passengers t61 s60 p202)
+  Looking at numeric effects of (board-passengers t61 s60 p202): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t61 s60 p202), of which there are 0
+[01;31mLooking for achievers for goal index 126, fact (passengers-boarded t62 p204) with fID 3252[00m
+ (board-passengers t62 s61 p204)
+  Looking at numeric effects of (board-passengers t62 s61 p204): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t62 s61 p204), of which there are 0
+[01;31mLooking for achievers for goal index 127, fact (passengers-boarded t63 p206) with fID 3253[00m
+ (board-passengers t63 s62 p206)
+  Looking at numeric effects of (board-passengers t63 s62 p206): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t63 s62 p206), of which there are 0
+[01;31mLooking for achievers for goal index 128, fact (passengers-boarded t64 p208) with fID 3254[00m
+ (board-passengers t64 s63 p208)
+  Looking at numeric effects of (board-passengers t64 s63 p208): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t64 s63 p208), of which there are 0
+[01;31mLooking for achievers for goal index 129, fact (passengers-boarded t65 p210) with fID 3255[00m
+ (board-passengers t65 s64 p210)
+  Looking at numeric effects of (board-passengers t65 s64 p210): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t65 s64 p210), of which there are 0
+Action 130 - (board-passengers t10 s9 p100) is uninteresting once we have fact (passengers-boarded t10 p100)
+Action 131 - (board-passengers t11 s10 p102) is uninteresting once we have fact (passengers-boarded t11 p102)
+Action 132 - (board-passengers t12 s11 p104) is uninteresting once we have fact (passengers-boarded t12 p104)
+Action 133 - (board-passengers t13 s12 p106) is uninteresting once we have fact (passengers-boarded t13 p106)
+Action 134 - (board-passengers t14 s13 p108) is uninteresting once we have fact (passengers-boarded t14 p108)
+Action 135 - (board-passengers t15 s14 p110) is uninteresting once we have fact (passengers-boarded t15 p110)
+Action 136 - (board-passengers t16 s15 p112) is uninteresting once we have fact (passengers-boarded t16 p112)
+Action 137 - (board-passengers t17 s16 p114) is uninteresting once we have fact (passengers-boarded t17 p114)
+Action 138 - (board-passengers t18 s17 p116) is uninteresting once we have fact (passengers-boarded t18 p116)
+Action 139 - (board-passengers t19 s18 p118) is uninteresting once we have fact (passengers-boarded t19 p118)
+Action 140 - (board-passengers t20 s19 p120) is uninteresting once we have fact (passengers-boarded t20 p120)
+Action 141 - (board-passengers t21 s20 p122) is uninteresting once we have fact (passengers-boarded t21 p122)
+Action 142 - (board-passengers t22 s21 p124) is uninteresting once we have fact (passengers-boarded t22 p124)
+Action 143 - (board-passengers t23 s22 p126) is uninteresting once we have fact (passengers-boarded t23 p126)
+Action 144 - (board-passengers t24 s23 p128) is uninteresting once we have fact (passengers-boarded t24 p128)
+Action 145 - (board-passengers t25 s24 p130) is uninteresting once we have fact (passengers-boarded t25 p130)
+Action 146 - (board-passengers t26 s25 p132) is uninteresting once we have fact (passengers-boarded t26 p132)
+Action 147 - (board-passengers t27 s26 p134) is uninteresting once we have fact (passengers-boarded t27 p134)
+Action 148 - (board-passengers t28 s27 p136) is uninteresting once we have fact (passengers-boarded t28 p136)
+Action 149 - (board-passengers t29 s28 p138) is uninteresting once we have fact (passengers-boarded t29 p138)
+Action 150 - (board-passengers t30 s29 p140) is uninteresting once we have fact (passengers-boarded t30 p140)
+Action 151 - (board-passengers t31 s30 p142) is uninteresting once we have fact (passengers-boarded t31 p142)
+Action 152 - (board-passengers t32 s31 p144) is uninteresting once we have fact (passengers-boarded t32 p144)
+Action 153 - (board-passengers t33 s32 p146) is uninteresting once we have fact (passengers-boarded t33 p146)
+Action 154 - (board-passengers t34 s33 p148) is uninteresting once we have fact (passengers-boarded t34 p148)
+Action 155 - (board-passengers t35 s34 p150) is uninteresting once we have fact (passengers-boarded t35 p150)
+Action 156 - (board-passengers t36 s35 p152) is uninteresting once we have fact (passengers-boarded t36 p152)
+Action 157 - (board-passengers t37 s36 p154) is uninteresting once we have fact (passengers-boarded t37 p154)
+Action 158 - (board-passengers t38 s37 p156) is uninteresting once we have fact (passengers-boarded t38 p156)
+Action 159 - (board-passengers t39 s38 p158) is uninteresting once we have fact (passengers-boarded t39 p158)
+Action 160 - (board-passengers t40 s39 p160) is uninteresting once we have fact (passengers-boarded t40 p160)
+Action 161 - (board-passengers t41 s40 p162) is uninteresting once we have fact (passengers-boarded t41 p162)
+Action 162 - (board-passengers t42 s41 p164) is uninteresting once we have fact (passengers-boarded t42 p164)
+Action 163 - (board-passengers t43 s42 p166) is uninteresting once we have fact (passengers-boarded t43 p166)
+Action 164 - (board-passengers t44 s43 p168) is uninteresting once we have fact (passengers-boarded t44 p168)
+Action 165 - (board-passengers t45 s44 p170) is uninteresting once we have fact (passengers-boarded t45 p170)
+Action 166 - (board-passengers t46 s45 p172) is uninteresting once we have fact (passengers-boarded t46 p172)
+Action 167 - (board-passengers t47 s46 p174) is uninteresting once we have fact (passengers-boarded t47 p174)
+Action 168 - (board-passengers t48 s47 p176) is uninteresting once we have fact (passengers-boarded t48 p176)
+Action 169 - (board-passengers t49 s48 p178) is uninteresting once we have fact (passengers-boarded t49 p178)
+Action 170 - (board-passengers t50 s49 p180) is uninteresting once we have fact (passengers-boarded t50 p180)
+Action 171 - (board-passengers t51 s50 p182) is uninteresting once we have fact (passengers-boarded t51 p182)
+Action 172 - (board-passengers t52 s51 p184) is uninteresting once we have fact (passengers-boarded t52 p184)
+Action 173 - (board-passengers t53 s52 p186) is uninteresting once we have fact (passengers-boarded t53 p186)
+Action 174 - (board-passengers t54 s53 p188) is uninteresting once we have fact (passengers-boarded t54 p188)
+Action 175 - (board-passengers t55 s54 p190) is uninteresting once we have fact (passengers-boarded t55 p190)
+Action 176 - (board-passengers t56 s55 p192) is uninteresting once we have fact (passengers-boarded t56 p192)
+Action 177 - (board-passengers t57 s56 p194) is uninteresting once we have fact (passengers-boarded t57 p194)
+Action 178 - (board-passengers t58 s57 p196) is uninteresting once we have fact (passengers-boarded t58 p196)
+Action 179 - (board-passengers t59 s58 p198) is uninteresting once we have fact (passengers-boarded t59 p198)
+Action 180 - (board-passengers t60 s59 p200) is uninteresting once we have fact (passengers-boarded t60 p200)
+Action 181 - (board-passengers t61 s60 p202) is uninteresting once we have fact (passengers-boarded t61 p202)
+Action 182 - (board-passengers t62 s61 p204) is uninteresting once we have fact (passengers-boarded t62 p204)
+Action 183 - (board-passengers t63 s62 p206) is uninteresting once we have fact (passengers-boarded t63 p206)
+Action 184 - (board-passengers t64 s63 p208) is uninteresting once we have fact (passengers-boarded t64 p208)
+Action 185 - (board-passengers t65 s64 p210) is uninteresting once we have fact (passengers-boarded t65 p210)
+Action 186 - (board-passengers t1 s0 p82) is uninteresting once we have fact (passengers-boarded t1 p82)
+Action 187 - (board-passengers t2 s1 p84) is uninteresting once we have fact (passengers-boarded t2 p84)
+Action 188 - (board-passengers t3 s2 p86) is uninteresting once we have fact (passengers-boarded t3 p86)
+Action 189 - (board-passengers t4 s3 p88) is uninteresting once we have fact (passengers-boarded t4 p88)
+Action 190 - (board-passengers t5 s4 p90) is uninteresting once we have fact (passengers-boarded t5 p90)
+Action 191 - (board-passengers t6 s5 p92) is uninteresting once we have fact (passengers-boarded t6 p92)
+Action 192 - (board-passengers t7 s6 p94) is uninteresting once we have fact (passengers-boarded t7 p94)
+Action 193 - (board-passengers t8 s7 p96) is uninteresting once we have fact (passengers-boarded t8 p96)
+Action 194 - (board-passengers t9 s8 p98) is uninteresting once we have fact (passengers-boarded t9 p98)
+All the ground actions in this problem are compression-safe
+Initial heuristic = 130.000, admissible cost estimate 34.335
+b (129.000 | 24.561)b (128.000 | 31.372)b (127.000 | 31.372)b (126.000 | 32.692)b (125.000 | 32.692)b (124.000 | 33.333)b (123.000 | 33.333)b (122.000 | 33.333)b (121.000 | 33.333)b (120.000 | 33.333)b (119.000 | 33.333)b (118.000 | 33.333)b (117.000 | 33.333)b (116.000 | 33.333)b (115.000 | 33.333)b (114.000 | 33.333)b (113.000 | 33.333)b (112.000 | 33.333)b (111.000 | 33.333)b (110.000 | 33.333)b (109.000 | 33.333)b (108.000 | 33.333)b (107.000 | 33.333)b (106.000 | 33.333)b (105.000 | 33.333)b (104.000 | 33.333)b (103.000 | 33.333)b (102.000 | 33.333)b (101.000 | 33.333)b (100.000 | 33.333)b (99.000 | 33.333)b (98.000 | 33.333)b (97.000 | 33.333)b (96.000 | 33.333)b (95.000 | 33.333)b (94.000 | 33.333)b (93.000 | 33.333)b (92.000 | 33.333)b (91.000 | 33.333)b (90.000 | 33.333)b (89.000 | 33.333)b (88.000 | 33.333)b (87.000 | 33.333)b (86.000 | 33.333)b (85.000 | 33.333)b (84.000 | 33.333)b (83.000 | 33.333)b (82.000 | 33.333)b (81.000 | 33.333)b (80.000 | 33.333)b (79.000 | 33.333)b (78.000 | 33.333)b (77.000 | 33.333)b (76.000 | 33.333)b (75.000 | 33.333)b (74.000 | 33.333)b (73.000 | 33.333)b (72.000 | 33.333)b (71.000 | 33.333)b (70.000 | 33.333)b (69.000 | 33.333)b (68.000 | 33.333)b (67.000 | 33.333)b (66.000 | 33.333)b (65.000 | 33.333)b (64.000 | 33.333)b (63.000 | 33.333)b (62.000 | 33.333)b (61.000 | 33.333)b (60.000 | 33.333)b (59.000 | 33.333)b (58.000 | 33.333)b (57.000 | 33.333)b (56.000 | 33.333)b (55.000 | 33.333)b (54.000 | 33.333)b (53.000 | 33.333)b (52.000 | 33.333)b (51.000 | 33.333)b (50.000 | 33.333)b (49.000 | 33.333)b (48.000 | 33.333)b (47.000 | 33.333)b (46.000 | 33.333)b (45.000 | 33.333)b (44.000 | 33.333)b (43.000 | 33.333)b (42.000 | 33.333)b (41.000 | 33.333)b (40.000 | 33.333)b (39.000 | 33.333)b (38.000 | 33.333)b (37.000 | 33.333)b (36.000 | 33.333)b (35.000 | 33.333)b (34.000 | 33.333)b (33.000 | 33.333)b (32.000 | 33.333)b (31.000 | 33.333)b (30.000 | 33.333)b (29.000 | 33.333)b (28.000 | 33.333)b (27.000 | 33.333)b (26.000 | 33.333)b (25.000 | 33.333)b (24.000 | 33.333)b (23.000 | 33.333)b (22.000 | 33.333)b (21.000 | 33.333)b (20.000 | 33.333)b (19.000 | 33.333)b (18.000 | 33.333)b (17.000 | 33.333)b (16.000 | 33.333)b (15.000 | 33.333)b (14.000 | 33.333)b (13.000 | 33.333)b (12.000 | 33.333)b (11.000 | 33.333)b (10.000 | 33.333)b (9.000 | 33.333)b (8.000 | 33.333)b (7.000 | 33.333)b (6.000 | 33.333)b (5.000 | 33.333)b (4.000 | 33.333)b (3.000 | 33.333)b (2.000 | 33.333)b (1.000 | 33.693)(G)
+; LP calculated the cost
+
+; Plan found with metric 34.334
+; Theoretical reachable cost 34.335
+; States evaluated so far: 131
+; States pruned based on pre-heuristic cost lower bound: 0
+; Time 10.32
+0.000: (drive-train t8 p95 p96 meter)  [24.561]
+0.000: (drive-train t6 p91 p92 meter)  [31.372]
+0.000: (drive-train t4 p87 p88 meter)  [16.190]
+0.000: (drive-train t2 p83 p84 meter)  [32.692]
+0.000: (drive-train t64 p207 p208 meter)  [24.038]
+0.000: (drive-train t62 p203 p204 meter)  [33.333]
+0.000: (drive-train t60 p199 p200 meter)  [23.478]
+0.000: (drive-train t58 p195 p196 meter)  [16.949]
+0.000: (drive-train t54 p187 p188 meter)  [14.953]
+0.000: (drive-train t52 p183 p184 meter)  [15.454]
+0.000: (drive-train t50 p179 p180 meter)  [15.384]
+0.000: (drive-train t48 p175 p176 meter)  [21.739]
+0.000: (drive-train t46 p171 p172 meter)  [27.184]
+0.000: (drive-train t44 p167 p168 meter)  [17.475]
+0.000: (drive-train t42 p163 p164 meter)  [16.964]
+0.000: (drive-train t40 p159 p160 meter)  [16.521]
+0.000: (drive-train t38 p155 p156 meter)  [17.757]
+0.000: (drive-train t36 p151 p152 meter)  [27.619]
+0.000: (drive-train t34 p147 p148 meter)  [17.796]
+0.000: (drive-train t32 p143 p144 meter)  [13.888]
+0.000: (drive-train t30 p139 p140 meter)  [24.778]
+0.000: (drive-train t28 p135 p136 meter)  [14.563]
+0.000: (drive-train t26 p131 p132 meter)  [16.806]
+0.000: (drive-train t24 p127 p128 meter)  [17.391]
+0.000: (drive-train t22 p123 p124 meter)  [14.953]
+0.000: (drive-train t20 p119 p120 meter)  [26.271]
+0.000: (drive-train t18 p115 p116 meter)  [19.626]
+0.000: (drive-train t16 p111 p112 meter)  [26.732]
+0.000: (drive-train t14 p107 p108 meter)  [27.192]
+0.000: (drive-train t12 p103 p104 meter)  [17.094]
+0.000: (drive-train t10 p99 p100 meter)  [22.413]
+0.000: (drive-train t9 p97 p98 broad)  [31.730]
+0.000: (drive-train t7 p93 p94 broad)  [30.909]
+0.000: (drive-train t5 p89 p90 broad)  [24.324]
+0.000: (drive-train t3 p85 p86 broad)  [21.359]
+0.000: (drive-train t65 p209 p210 broad)  [20.370]
+0.000: (drive-train t63 p205 p206 broad)  [23.529]
+0.000: (drive-train t61 p201 p202 broad)  [20.754]
+0.000: (drive-train t59 p197 p198 broad)  [22.807]
+0.000: (drive-train t57 p193 p194 broad)  [23.423]
+0.000: (drive-train t53 p185 p186 broad)  [13.392]
+0.000: (drive-train t49 p177 p178 broad)  [18.803]
+0.000: (drive-train t47 p173 p174 broad)  [17.796]
+0.000: (drive-train t45 p169 p170 broad)  [16.666]
+0.000: (drive-train t43 p165 p166 broad)  [27.450]
+0.000: (drive-train t41 p161 p162 broad)  [29.310]
+0.000: (drive-train t39 p157 p158 broad)  [25.423]
+0.000: (drive-train t37 p153 p154 broad)  [23.076]
+0.000: (drive-train t35 p149 p150 broad)  [14.159]
+0.000: (drive-train t33 p145 p146 broad)  [17.272]
+0.000: (drive-train t31 p141 p142 broad)  [17.924]
+0.000: (drive-train t29 p137 p138 broad)  [27.450]
+0.000: (drive-train t27 p133 p134 broad)  [19.801]
+0.000: (drive-train t25 p129 p130 broad)  [25.892]
+0.000: (drive-train t23 p125 p126 broad)  [17.647]
+0.000: (drive-train t21 p121 p122 broad)  [31.192]
+0.000: (drive-train t19 p117 p118 broad)  [31.372]
+0.000: (drive-train t17 p113 p114 broad)  [32.000]
+0.000: (drive-train t15 p109 p110 broad)  [15.596]
+0.000: (drive-train t13 p105 p106 broad)  [24.509]
+0.000: (drive-train t11 p101 p102 broad)  [20.388]
+0.002: (drive-train t56 p191 p192 meter)  [24.999]
+0.002: (drive-train t1 p81 p82 broad)  [24.999]
+0.002: (drive-train t55 p189 p190 broad)  [24.999]
+0.002: (drive-train t51 p181 p182 broad)  [24.999]
+13.393: (board-passengers t53 s52 p186)  [1.000]
+13.889: (board-passengers t32 s31 p144)  [1.000]
+14.160: (board-passengers t35 s34 p150)  [1.000]
+14.564: (board-passengers t28 s27 p136)  [1.000]
+14.954: (board-passengers t54 s53 p188)  [1.000]
+14.954: (board-passengers t22 s21 p124)  [1.000]
+15.385: (board-passengers t50 s49 p180)  [1.000]
+15.455: (board-passengers t52 s51 p184)  [1.000]
+15.597: (board-passengers t15 s14 p110)  [1.000]
+16.191: (board-passengers t4 s3 p88)  [1.000]
+16.522: (board-passengers t40 s39 p160)  [1.000]
+16.667: (board-passengers t45 s44 p170)  [1.000]
+16.807: (board-passengers t26 s25 p132)  [1.000]
+16.950: (board-passengers t58 s57 p196)  [1.000]
+16.965: (board-passengers t42 s41 p164)  [1.000]
+17.095: (board-passengers t12 s11 p104)  [1.000]
+17.273: (board-passengers t33 s32 p146)  [1.000]
+17.392: (board-passengers t24 s23 p128)  [1.000]
+17.476: (board-passengers t44 s43 p168)  [1.000]
+17.648: (board-passengers t23 s22 p126)  [1.000]
+17.758: (board-passengers t38 s37 p156)  [1.000]
+17.797: (board-passengers t47 s46 p174)  [1.000]
+17.797: (board-passengers t34 s33 p148)  [1.000]
+17.925: (board-passengers t31 s30 p142)  [1.000]
+18.804: (board-passengers t49 s48 p178)  [1.000]
+19.627: (board-passengers t18 s17 p116)  [1.000]
+19.802: (board-passengers t27 s26 p134)  [1.000]
+20.371: (board-passengers t65 s64 p210)  [1.000]
+20.389: (board-passengers t11 s10 p102)  [1.000]
+20.755: (board-passengers t61 s60 p202)  [1.000]
+21.360: (board-passengers t3 s2 p86)  [1.000]
+21.740: (board-passengers t48 s47 p176)  [1.000]
+22.414: (board-passengers t10 s9 p100)  [1.000]
+22.808: (board-passengers t59 s58 p198)  [1.000]
+23.077: (board-passengers t37 s36 p154)  [1.000]
+23.424: (board-passengers t57 s56 p194)  [1.000]
+23.479: (board-passengers t60 s59 p200)  [1.000]
+23.530: (board-passengers t63 s62 p206)  [1.000]
+24.039: (board-passengers t64 s63 p208)  [1.000]
+24.325: (board-passengers t5 s4 p90)  [1.000]
+24.510: (board-passengers t13 s12 p106)  [1.000]
+24.562: (board-passengers t8 s7 p96)  [1.000]
+24.779: (board-passengers t30 s29 p140)  [1.000]
+25.002: (board-passengers t1 s0 p82)  [1.000]
+25.002: (board-passengers t56 s55 p192)  [1.000]
+25.002: (board-passengers t55 s54 p190)  [1.000]
+25.002: (board-passengers t51 s50 p182)  [1.000]
+25.424: (board-passengers t39 s38 p158)  [1.000]
+25.893: (board-passengers t25 s24 p130)  [1.000]
+26.272: (board-passengers t20 s19 p120)  [1.000]
+26.733: (board-passengers t16 s15 p112)  [1.000]
+27.185: (board-passengers t46 s45 p172)  [1.000]
+27.193: (board-passengers t14 s13 p108)  [1.000]
+27.451: (board-passengers t43 s42 p166)  [1.000]
+27.451: (board-passengers t29 s28 p138)  [1.000]
+27.620: (board-passengers t36 s35 p152)  [1.000]
+29.311: (board-passengers t41 s40 p162)  [1.000]
+30.910: (board-passengers t7 s6 p94)  [1.000]
+31.193: (board-passengers t21 s20 p122)  [1.000]
+31.373: (board-passengers t6 s5 p92)  [1.000]
+31.373: (board-passengers t19 s18 p118)  [1.000]
+31.731: (board-passengers t9 s8 p98)  [1.000]
+32.001: (board-passengers t17 s16 p114)  [1.000]
+32.693: (board-passengers t2 s1 p84)  [1.000]
+33.334: (board-passengers t62 s61 p204)  [1.000]
+
+ * All goal deadlines now no later than 34.334
+
+Resorting to best-first search
+Running WA* with W = 5.000, not restarting with goal states
+
+Problem Unsolvable
+;;;; Solution Found
+; States evaluated: 131
+; Cost: 34.334
+; Time 10.33
+0.000: (drive-train t8 p95 p96 meter)  [24.561]
+0.000: (drive-train t6 p91 p92 meter)  [31.372]
+0.000: (drive-train t4 p87 p88 meter)  [16.190]
+0.000: (drive-train t2 p83 p84 meter)  [32.692]
+0.000: (drive-train t64 p207 p208 meter)  [24.038]
+0.000: (drive-train t62 p203 p204 meter)  [33.333]
+0.000: (drive-train t60 p199 p200 meter)  [23.478]
+0.000: (drive-train t58 p195 p196 meter)  [16.949]
+0.000: (drive-train t54 p187 p188 meter)  [14.953]
+0.000: (drive-train t52 p183 p184 meter)  [15.454]
+0.000: (drive-train t50 p179 p180 meter)  [15.384]
+0.000: (drive-train t48 p175 p176 meter)  [21.739]
+0.000: (drive-train t46 p171 p172 meter)  [27.184]
+0.000: (drive-train t44 p167 p168 meter)  [17.475]
+0.000: (drive-train t42 p163 p164 meter)  [16.964]
+0.000: (drive-train t40 p159 p160 meter)  [16.521]
+0.000: (drive-train t38 p155 p156 meter)  [17.757]
+0.000: (drive-train t36 p151 p152 meter)  [27.619]
+0.000: (drive-train t34 p147 p148 meter)  [17.796]
+0.000: (drive-train t32 p143 p144 meter)  [13.888]
+0.000: (drive-train t30 p139 p140 meter)  [24.778]
+0.000: (drive-train t28 p135 p136 meter)  [14.563]
+0.000: (drive-train t26 p131 p132 meter)  [16.806]
+0.000: (drive-train t24 p127 p128 meter)  [17.391]
+0.000: (drive-train t22 p123 p124 meter)  [14.953]
+0.000: (drive-train t20 p119 p120 meter)  [26.271]
+0.000: (drive-train t18 p115 p116 meter)  [19.626]
+0.000: (drive-train t16 p111 p112 meter)  [26.732]
+0.000: (drive-train t14 p107 p108 meter)  [27.192]
+0.000: (drive-train t12 p103 p104 meter)  [17.094]
+0.000: (drive-train t10 p99 p100 meter)  [22.413]
+0.000: (drive-train t9 p97 p98 broad)  [31.730]
+0.000: (drive-train t7 p93 p94 broad)  [30.909]
+0.000: (drive-train t5 p89 p90 broad)  [24.324]
+0.000: (drive-train t3 p85 p86 broad)  [21.359]
+0.000: (drive-train t65 p209 p210 broad)  [20.370]
+0.000: (drive-train t63 p205 p206 broad)  [23.529]
+0.000: (drive-train t61 p201 p202 broad)  [20.754]
+0.000: (drive-train t59 p197 p198 broad)  [22.807]
+0.000: (drive-train t57 p193 p194 broad)  [23.423]
+0.000: (drive-train t53 p185 p186 broad)  [13.392]
+0.000: (drive-train t49 p177 p178 broad)  [18.803]
+0.000: (drive-train t47 p173 p174 broad)  [17.796]
+0.000: (drive-train t45 p169 p170 broad)  [16.666]
+0.000: (drive-train t43 p165 p166 broad)  [27.450]
+0.000: (drive-train t41 p161 p162 broad)  [29.310]
+0.000: (drive-train t39 p157 p158 broad)  [25.423]
+0.000: (drive-train t37 p153 p154 broad)  [23.076]
+0.000: (drive-train t35 p149 p150 broad)  [14.159]
+0.000: (drive-train t33 p145 p146 broad)  [17.272]
+0.000: (drive-train t31 p141 p142 broad)  [17.924]
+0.000: (drive-train t29 p137 p138 broad)  [27.450]
+0.000: (drive-train t27 p133 p134 broad)  [19.801]
+0.000: (drive-train t25 p129 p130 broad)  [25.892]
+0.000: (drive-train t23 p125 p126 broad)  [17.647]
+0.000: (drive-train t21 p121 p122 broad)  [31.192]
+0.000: (drive-train t19 p117 p118 broad)  [31.372]
+0.000: (drive-train t17 p113 p114 broad)  [32.000]
+0.000: (drive-train t15 p109 p110 broad)  [15.596]
+0.000: (drive-train t13 p105 p106 broad)  [24.509]
+0.000: (drive-train t11 p101 p102 broad)  [20.388]
+0.002: (drive-train t56 p191 p192 meter)  [24.999]
+0.002: (drive-train t1 p81 p82 broad)  [24.999]
+0.002: (drive-train t55 p189 p190 broad)  [24.999]
+0.002: (drive-train t51 p181 p182 broad)  [24.999]
+13.393: (board-passengers t53 s52 p186)  [1.000]
+13.889: (board-passengers t32 s31 p144)  [1.000]
+14.160: (board-passengers t35 s34 p150)  [1.000]
+14.564: (board-passengers t28 s27 p136)  [1.000]
+14.954: (board-passengers t54 s53 p188)  [1.000]
+14.954: (board-passengers t22 s21 p124)  [1.000]
+15.385: (board-passengers t50 s49 p180)  [1.000]
+15.455: (board-passengers t52 s51 p184)  [1.000]
+15.597: (board-passengers t15 s14 p110)  [1.000]
+16.191: (board-passengers t4 s3 p88)  [1.000]
+16.522: (board-passengers t40 s39 p160)  [1.000]
+16.667: (board-passengers t45 s44 p170)  [1.000]
+16.807: (board-passengers t26 s25 p132)  [1.000]
+16.950: (board-passengers t58 s57 p196)  [1.000]
+16.965: (board-passengers t42 s41 p164)  [1.000]
+17.095: (board-passengers t12 s11 p104)  [1.000]
+17.273: (board-passengers t33 s32 p146)  [1.000]
+17.392: (board-passengers t24 s23 p128)  [1.000]
+17.476: (board-passengers t44 s43 p168)  [1.000]
+17.648: (board-passengers t23 s22 p126)  [1.000]
+17.758: (board-passengers t38 s37 p156)  [1.000]
+17.797: (board-passengers t47 s46 p174)  [1.000]
+17.797: (board-passengers t34 s33 p148)  [1.000]
+17.925: (board-passengers t31 s30 p142)  [1.000]
+18.804: (board-passengers t49 s48 p178)  [1.000]
+19.627: (board-passengers t18 s17 p116)  [1.000]
+19.802: (board-passengers t27 s26 p134)  [1.000]
+20.371: (board-passengers t65 s64 p210)  [1.000]
+20.389: (board-passengers t11 s10 p102)  [1.000]
+20.755: (board-passengers t61 s60 p202)  [1.000]
+21.360: (board-passengers t3 s2 p86)  [1.000]
+21.740: (board-passengers t48 s47 p176)  [1.000]
+22.414: (board-passengers t10 s9 p100)  [1.000]
+22.808: (board-passengers t59 s58 p198)  [1.000]
+23.077: (board-passengers t37 s36 p154)  [1.000]
+23.424: (board-passengers t57 s56 p194)  [1.000]
+23.479: (board-passengers t60 s59 p200)  [1.000]
+23.530: (board-passengers t63 s62 p206)  [1.000]
+24.039: (board-passengers t64 s63 p208)  [1.000]
+24.325: (board-passengers t5 s4 p90)  [1.000]
+24.510: (board-passengers t13 s12 p106)  [1.000]
+24.562: (board-passengers t8 s7 p96)  [1.000]
+24.779: (board-passengers t30 s29 p140)  [1.000]
+25.002: (board-passengers t1 s0 p82)  [1.000]
+25.002: (board-passengers t56 s55 p192)  [1.000]
+25.002: (board-passengers t55 s54 p190)  [1.000]
+25.002: (board-passengers t51 s50 p182)  [1.000]
+25.424: (board-passengers t39 s38 p158)  [1.000]
+25.893: (board-passengers t25 s24 p130)  [1.000]
+26.272: (board-passengers t20 s19 p120)  [1.000]
+26.733: (board-passengers t16 s15 p112)  [1.000]
+27.185: (board-passengers t46 s45 p172)  [1.000]
+27.193: (board-passengers t14 s13 p108)  [1.000]
+27.451: (board-passengers t43 s42 p166)  [1.000]
+27.451: (board-passengers t29 s28 p138)  [1.000]
+27.620: (board-passengers t36 s35 p152)  [1.000]
+29.311: (board-passengers t41 s40 p162)  [1.000]
+30.910: (board-passengers t7 s6 p94)  [1.000]
+31.193: (board-passengers t21 s20 p122)  [1.000]
+31.373: (board-passengers t6 s5 p92)  [1.000]
+31.373: (board-passengers t19 s18 p118)  [1.000]
+31.731: (board-passengers t9 s8 p98)  [1.000]
+32.001: (board-passengers t17 s16 p114)  [1.000]
+32.693: (board-passengers t2 s1 p84)  [1.000]
+33.334: (board-passengers t62 s61 p204)  [1.000]

@@ -1,0 +1,108 @@
+Number of literals: 583
+Constructing lookup tables: [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%] [110%]
+Post filtering unreachable actions:  [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%] [110%]
+Seeing if metric is defined in terms of task vars or a minimal value of makespan
+- Yes it is
+Recognised a monotonic-change-induced limit on -1.000*<special>
+- Must be >=  the metric
+[01;34mFor limits: literal goal index 0, fact (train-at t1 p12), is static or a precondition[00m
+[01;34mFor limits: literal goal index 1, fact (train-at t2 p14), is static or a precondition[00m
+[01;34mFor limits: literal goal index 2, fact (train-at t3 p16), is static or a precondition[00m
+[01;34mFor limits: literal goal index 3, fact (train-at t4 p18), is static or a precondition[00m
+[01;34mFor limits: literal goal index 4, fact (train-at t5 p20), is static or a precondition[00m
+[01;34mFor limits: literal goal index 5, fact (train-at t6 p22), is static or a precondition[00m
+[01;34mFor limits: literal goal index 6, fact (train-at t7 p24), is static or a precondition[00m
+[01;34mFor limits: literal goal index 7, fact (train-at t8 p26), is static or a precondition[00m
+[01;31mLooking for achievers for goal index 8, fact (passengers-boarded t1 p12) with fID 555[00m
+ (board-passengers t1 s0 p12)
+  Looking at numeric effects of (board-passengers t1 s0 p12): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t1 s0 p12), of which there are 0
+[01;31mLooking for achievers for goal index 9, fact (passengers-boarded t2 p14) with fID 556[00m
+ (board-passengers t2 s1 p14)
+  Looking at numeric effects of (board-passengers t2 s1 p14): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t2 s1 p14), of which there are 0
+[01;31mLooking for achievers for goal index 10, fact (passengers-boarded t3 p16) with fID 557[00m
+ (board-passengers t3 s2 p16)
+  Looking at numeric effects of (board-passengers t3 s2 p16): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t3 s2 p16), of which there are 0
+[01;31mLooking for achievers for goal index 11, fact (passengers-boarded t4 p18) with fID 558[00m
+ (board-passengers t4 s3 p18)
+  Looking at numeric effects of (board-passengers t4 s3 p18): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t4 s3 p18), of which there are 0
+[01;31mLooking for achievers for goal index 12, fact (passengers-boarded t5 p20) with fID 559[00m
+ (board-passengers t5 s4 p20)
+  Looking at numeric effects of (board-passengers t5 s4 p20): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t5 s4 p20), of which there are 0
+[01;31mLooking for achievers for goal index 13, fact (passengers-boarded t6 p22) with fID 560[00m
+ (board-passengers t6 s5 p22)
+  Looking at numeric effects of (board-passengers t6 s5 p22): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t6 s5 p22), of which there are 0
+[01;31mLooking for achievers for goal index 14, fact (passengers-boarded t7 p24) with fID 561[00m
+ (board-passengers t7 s6 p24)
+  Looking at numeric effects of (board-passengers t7 s6 p24): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t7 s6 p24), of which there are 0
+[01;31mLooking for achievers for goal index 15, fact (passengers-boarded t8 p26) with fID 562[00m
+ (board-passengers t8 s7 p26)
+  Looking at numeric effects of (board-passengers t8 s7 p26): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t8 s7 p26), of which there are 0
+Action 16 - (board-passengers t1 s0 p12) is uninteresting once we have fact (passengers-boarded t1 p12)
+Action 17 - (board-passengers t2 s1 p14) is uninteresting once we have fact (passengers-boarded t2 p14)
+Action 18 - (board-passengers t3 s2 p16) is uninteresting once we have fact (passengers-boarded t3 p16)
+Action 19 - (board-passengers t4 s3 p18) is uninteresting once we have fact (passengers-boarded t4 p18)
+Action 20 - (board-passengers t5 s4 p20) is uninteresting once we have fact (passengers-boarded t5 p20)
+Action 21 - (board-passengers t6 s5 p22) is uninteresting once we have fact (passengers-boarded t6 p22)
+Action 22 - (board-passengers t7 s6 p24) is uninteresting once we have fact (passengers-boarded t7 p24)
+Action 23 - (board-passengers t8 s7 p26) is uninteresting once we have fact (passengers-boarded t8 p26)
+All the ground actions in this problem are compression-safe
+Initial heuristic = 16.000, admissible cost estimate 31.190
+b (15.000 | 27.927)b (14.000 | 27.927)b (13.000 | 29.807)b (12.000 | 29.807)b (11.000 | 29.807)b (10.000 | 29.807)b (9.000 | 29.807)b (8.000 | 30.188)b (7.000 | 30.188)b (6.000 | 30.188)b (5.000 | 30.188)b (4.000 | 30.188)b (3.000 | 30.188)b (2.000 | 30.188)b (1.000 | 30.808)(G)
+; LP calculated the cost
+
+; Plan found with metric 31.189
+; Theoretical reachable cost 31.190
+; States evaluated so far: 17
+; States pruned based on pre-heuristic cost lower bound: 0
+; Time 0.07
+0.000: (drive-train t8 p25 p26 meter)  [27.927]
+0.000: (drive-train t6 p21 p22 meter)  [16.363]
+0.000: (drive-train t4 p17 p18 meter)  [29.807]
+0.000: (drive-train t2 p13 p14 meter)  [28.070]
+0.000: (drive-train t7 p23 p24 broad)  [21.153]
+0.000: (drive-train t5 p19 p20 broad)  [27.184]
+0.000: (drive-train t3 p15 p16 broad)  [20.689]
+0.000: (drive-train t1 p11 p12 broad)  [30.188]
+16.364: (board-passengers t6 s5 p22)  [1.000]
+20.690: (board-passengers t3 s2 p16)  [1.000]
+21.154: (board-passengers t7 s6 p24)  [1.000]
+27.185: (board-passengers t5 s4 p20)  [1.000]
+27.928: (board-passengers t8 s7 p26)  [1.000]
+28.071: (board-passengers t2 s1 p14)  [1.000]
+29.808: (board-passengers t4 s3 p18)  [1.000]
+30.189: (board-passengers t1 s0 p12)  [1.000]
+
+ * All goal deadlines now no later than 31.189
+
+Resorting to best-first search
+Running WA* with W = 5.000, not restarting with goal states
+
+Problem Unsolvable
+;;;; Solution Found
+; States evaluated: 17
+; Cost: 31.189
+; Time 0.07
+0.000: (drive-train t8 p25 p26 meter)  [27.927]
+0.000: (drive-train t6 p21 p22 meter)  [16.363]
+0.000: (drive-train t4 p17 p18 meter)  [29.807]
+0.000: (drive-train t2 p13 p14 meter)  [28.070]
+0.000: (drive-train t7 p23 p24 broad)  [21.153]
+0.000: (drive-train t5 p19 p20 broad)  [27.184]
+0.000: (drive-train t3 p15 p16 broad)  [20.689]
+0.000: (drive-train t1 p11 p12 broad)  [30.188]
+16.364: (board-passengers t6 s5 p22)  [1.000]
+20.690: (board-passengers t3 s2 p16)  [1.000]
+21.154: (board-passengers t7 s6 p24)  [1.000]
+27.185: (board-passengers t5 s4 p20)  [1.000]
+27.928: (board-passengers t8 s7 p26)  [1.000]
+28.071: (board-passengers t2 s1 p14)  [1.000]
+29.808: (board-passengers t4 s3 p18)  [1.000]
+30.189: (board-passengers t1 s0 p12)  [1.000]

@@ -1,0 +1,93 @@
+Number of literals: 495
+Constructing lookup tables: [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+Post filtering unreachable actions:  [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+[01;34mNo analytic limits found, not considering limit effects of goal-only operators[00m
+Pruning (drive-engine e1 p29 p0 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p52 p1 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p12 p11 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p11 p12 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p16 p15 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p15 p16 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p21 p20 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p22 p20 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p20 p21 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p20 p22 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p24 p23 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p25 p23 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p23 p24 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p23 p25 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p6 p26 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p35 p27 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p6 p27 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p45 p28 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p6 p28 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p0 p29 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p57 p29 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p36 p30 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p54 p30 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p40 p31 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p42 p31 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p47 p31 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p6 p32 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p41 p33 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p51 p34 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p27 p35 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p43 p35 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p30 p36 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p4 p37 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p37 p4 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p55 p4 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p31 p40 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p33 p41 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p31 p42 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p35 p43 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p65 p44 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p28 p45 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p66 p45 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p31 p47 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p34 p51 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p1 p52 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p61 p52 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p30 p54 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p4 p55 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p64 p55 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p29 p57 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p26 p6 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p27 p6 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p28 p6 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p32 p6 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p52 p61 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p55 p64 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p44 p65 broad) - never appeared in initial RPG
+Pruning (drive-engine e1 p45 p66 broad) - never appeared in initial RPG
+Pruning (drive-engine-to-damaged-up-train e1 t3 p11 p12 broad) - never appeared in initial RPG
+Pruning (drive-engine-to-damaged-up-train e1 t5 p15 p16 broad) - never appeared in initial RPG
+Pruning (attach-engine e1 t3 p11) - never appeared in initial RPG
+Pruning (attach-engine e1 t3 p12) - never appeared in initial RPG
+Pruning (attach-engine e1 t5 p15) - never appeared in initial RPG
+Pruning (attach-engine e1 t5 p16) - never appeared in initial RPG
+Pruning (drive-assisted-train e1 t3 p12 p11 broad) - never appeared in initial RPG
+Pruning (drive-assisted-train e1 t3 p11 p12 broad) - never appeared in initial RPG
+Pruning (drive-assisted-train e1 t5 p16 p15 broad) - never appeared in initial RPG
+Pruning (drive-assisted-train e1 t5 p15 p16 broad) - never appeared in initial RPG
+82% of the ground temporal actions in this problem are compression-safe
+Initial heuristic = 16.000
+b (15.000 | 4.000)b (14.000 | 10.000)b (13.000 | 22.549)b (12.000 | 22.549)b (11.000 | 25.000)b (10.000 | 25.000)b (9.000 | 25.000)b (8.000 | 26.001)b (7.000 | 26.001)b (6.000 | 34.001)b (5.000 | 35.002)b (4.000 | 35.002)b (3.000 | 35.002)
+Resorting to best-first search
+b (15.000 | 22.549)b (15.000 | 4.000)b (14.000 | 22.549)b (13.000 | 22.549)b (12.000 | 22.549)b (11.000 | 25.000)b (11.000 | 22.549)b (10.000 | 25.000)b (9.000 | 34.001)b (9.000 | 25.000)b (8.000 | 34.001)b (7.000 | 34.001)b (6.000 | 34.001)b (5.000 | 34.001)b (4.000 | 34.001)b (3.000 | 35.002)b (2.000 | 35.002)b (1.000 | 35.002);;;; Solution Found
+; States evaluated: 127
+; Cost: 36.003
+; Time 0.08
+0.000: (drive-train t2 p9 p10 meter)  [22.549]
+0.000: (resolve-train-blockage t4 p13)  [4.000]
+0.000: (drive-engine-to-damaged-up-train e1 t1 p67 p7 broad)  [10.000]
+0.000: (drive-train t5 p15 p16 broad)  [20.690]
+0.000: (drive-train t3 p11 p12 broad)  [25.000]
+4.001: (drive-train t4 p13 p14 meter)  [30.000]
+10.001: (attach-engine e1 t1 p7)  [2.000]
+12.002: (drive-assisted-train e1 t1 p7 p8 broad)  [23.000]
+20.691: (board-passengers t5 s4 p16)  [1.000]
+22.550: (board-passengers t2 s1 p10)  [1.000]
+25.001: (board-passengers t3 s2 p12)  [1.000]
+34.002: (board-passengers t4 s3 p14)  [1.000]
+35.003: (board-passengers t1 s0 p8)  [1.000]

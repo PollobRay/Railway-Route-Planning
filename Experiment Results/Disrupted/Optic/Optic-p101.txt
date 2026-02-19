@@ -1,0 +1,72 @@
+Number of literals: 377
+Constructing lookup tables: [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%] [110%]
+Post filtering unreachable actions:  [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%] [110%]
+Seeing if metric is defined in terms of task vars or a minimal value of makespan
+- Yes it is
+Recognised a monotonic-change-induced limit on -1.000*<special>
+- Must be >=  the metric
+[01;34mFor limits: literal goal index 0, fact (train-at t1 p6), is static or a precondition[00m
+[01;34mFor limits: literal goal index 1, fact (train-at t2 p8), is static or a precondition[00m
+[01;34mFor limits: literal goal index 2, fact (train-at t3 p10), is static or a precondition[00m
+[01;31mLooking for achievers for goal index 3, fact (passengers-boarded t1 p6) with fID 367[00m
+ (board-passengers t1 s0 p6)
+  Looking at numeric effects of (board-passengers t1 s0 p6): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t1 s0 p6), of which there are 0
+[01;31mLooking for achievers for goal index 4, fact (passengers-boarded t2 p8) with fID 368[00m
+ (board-passengers t2 s1 p8)
+  Looking at numeric effects of (board-passengers t2 s1 p8): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t2 s1 p8), of which there are 0
+[01;31mLooking for achievers for goal index 5, fact (passengers-boarded t3 p10) with fID 366[00m
+ (board-passengers t3 s2 p10)
+  Looking at numeric effects of (board-passengers t3 s2 p10): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t3 s2 p10), of which there are 0
+Action 58 - (attach-engine e1 t3 p10) is uninteresting once we have fact (engine-attached e1 t3)
+Action 59 - (attach-engine e1 t1 p5) is uninteresting once we have fact (engine-attached e1 t1)
+Action 60 - (attach-engine e1 t3 p50) is uninteresting once we have fact (engine-attached e1 t3)
+Action 61 - (attach-engine e1 t1 p6) is uninteresting once we have fact (engine-attached e1 t1)
+Action 62 - (attach-engine e1 t3 p9) is uninteresting once we have fact (engine-attached e1 t3)
+Action 68 - (resolve-train-blockage t1 p5) is uninteresting once we have fact (train-not-blocked t1 p5)
+Action 69 - (clear-blocked-track p26 p0) is uninteresting once we have fact (track-clear p26 p0)
+Action 70 - (clear-blocked-track p0 p26) is uninteresting once we have fact (track-clear p0 p26)
+Action 71 - (board-passengers t3 s2 p10) is uninteresting once we have fact (passengers-boarded t3 p10)
+Action 72 - (board-passengers t1 s0 p6) is uninteresting once we have fact (passengers-boarded t1 p6)
+Action 73 - (board-passengers t2 s1 p8) is uninteresting once we have fact (passengers-boarded t2 p8)
+73% of the ground temporal actions in this problem are compression-safe
+Initial heuristic = 13.000, admissible cost estimate 36.013
+b (12.000 | 2.000)b (11.000 | 10.000)b (10.000 | 15.966)b (9.000 | 16.967)b (8.000 | 16.967)b (7.000 | 17.095)b (6.000 | 18.096)b (5.000 | 18.096)b (4.000 | 18.096)b (2.000 | 38.002)b (1.000 | 38.002)(G)
+; LP calculated the cost
+
+; Plan found with metric 39.003
+; Theoretical reachable cost 39.004
+; States evaluated so far: 13
+; States pruned based on pre-heuristic cost lower bound: 0
+; Time 0.03
+0.000: (resolve-train-blockage t1 p5)  [2.000]
+0.000: (drive-engine-to-damaged-up-train e1 t3 p50 p9 broad)  [10.000]
+0.000: (drive-train t2 p7 p8 meter)  [15.966]
+2.001: (drive-train t1 p5 p6 broad)  [15.094]
+10.001: (attach-engine e1 t3 p9)  [2.000]
+12.002: (drive-assisted-train e1 t3 p9 p10 broad)  [26.000]
+15.967: (board-passengers t2 s1 p8)  [1.000]
+17.096: (board-passengers t1 s0 p6)  [1.000]
+38.003: (board-passengers t3 s2 p10)  [1.000]
+
+ * All goal deadlines now no later than 39.003
+
+Resorting to best-first search
+Running WA* with W = 5.000, not restarting with goal states
+b (12.000 | 15.966)b (12.000 | 2.000)b (11.000 | 15.966)b (10.000 | 15.966)b (9.000 | 15.966)b (8.000 | 17.095)b (8.000 | 15.966)b (7.000 | 17.095)b (6.000 | 17.095)b (5.000 | 17.095)b (4.000 | 18.096)
+Problem Unsolvable
+;;;; Solution Found
+; States evaluated: 5623
+; Cost: 39.003
+; Time 2.60
+0.000: (resolve-train-blockage t1 p5)  [2.000]
+0.000: (drive-engine-to-damaged-up-train e1 t3 p50 p9 broad)  [10.000]
+0.000: (drive-train t2 p7 p8 meter)  [15.966]
+2.001: (drive-train t1 p5 p6 broad)  [15.094]
+10.001: (attach-engine e1 t3 p9)  [2.000]
+12.002: (drive-assisted-train e1 t3 p9 p10 broad)  [26.000]
+15.967: (board-passengers t2 s1 p8)  [1.000]
+17.096: (board-passengers t1 s0 p6)  [1.000]
+38.003: (board-passengers t3 s2 p10)  [1.000]

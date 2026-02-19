@@ -1,0 +1,82 @@
+Number of literals: 425
+Constructing lookup tables: [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%] [110%]
+Post filtering unreachable actions:  [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%] [110%]
+Seeing if metric is defined in terms of task vars or a minimal value of makespan
+- Yes it is
+Recognised a monotonic-change-induced limit on -1.000*<special>
+- Must be >=  the metric
+[01;34mFor limits: literal goal index 0, fact (train-at t1 p7), is static or a precondition[00m
+[01;34mFor limits: literal goal index 1, fact (train-at t2 p9), is static or a precondition[00m
+[01;34mFor limits: literal goal index 2, fact (train-at t3 p11), is static or a precondition[00m
+[01;34mFor limits: literal goal index 3, fact (train-at t4 p13), is static or a precondition[00m
+[01;31mLooking for achievers for goal index 4, fact (passengers-boarded t1 p7) with fID 415[00m
+ (board-passengers t1 s0 p7)
+  Looking at numeric effects of (board-passengers t1 s0 p7): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t1 s0 p7), of which there are 0
+[01;31mLooking for achievers for goal index 5, fact (passengers-boarded t2 p9) with fID 416[00m
+ (board-passengers t2 s1 p9)
+  Looking at numeric effects of (board-passengers t2 s1 p9): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t2 s1 p9), of which there are 0
+[01;31mLooking for achievers for goal index 6, fact (passengers-boarded t3 p11) with fID 413[00m
+ (board-passengers t3 s2 p11)
+  Looking at numeric effects of (board-passengers t3 s2 p11): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t3 s2 p11), of which there are 0
+[01;31mLooking for achievers for goal index 7, fact (passengers-boarded t4 p13) with fID 414[00m
+ (board-passengers t4 s3 p13)
+  Looking at numeric effects of (board-passengers t4 s3 p13): 0 and 0
+  No troublesome numerics - looking at conditional effects on (board-passengers t4 s3 p13), of which there are 0
+Action 56 - (attach-engine e1 t3 p10) is uninteresting once we have fact (engine-attached e1 t3)
+Action 57 - (attach-engine e1 t3 p11) is uninteresting once we have fact (engine-attached e1 t3)
+Action 58 - (attach-engine e1 t3 p58) is uninteresting once we have fact (engine-attached e1 t3)
+Action 59 - (attach-engine e1 t1 p6) is uninteresting once we have fact (engine-attached e1 t1)
+Action 60 - (attach-engine e1 t1 p7) is uninteresting once we have fact (engine-attached e1 t1)
+Action 66 - (resolve-train-blockage t4 p12) is uninteresting once we have fact (train-not-blocked t4 p12)
+Action 67 - (clear-blocked-track p36 p31) is uninteresting once we have fact (track-clear p36 p31)
+Action 68 - (clear-blocked-track p31 p36) is uninteresting once we have fact (track-clear p31 p36)
+Action 69 - (board-passengers t3 s2 p11) is uninteresting once we have fact (passengers-boarded t3 p11)
+Action 70 - (board-passengers t4 s3 p13) is uninteresting once we have fact (passengers-boarded t4 p13)
+Action 71 - (board-passengers t1 s0 p7) is uninteresting once we have fact (passengers-boarded t1 p7)
+Action 72 - (board-passengers t2 s1 p9) is uninteresting once we have fact (passengers-boarded t2 p9)
+75% of the ground temporal actions in this problem are compression-safe
+Initial heuristic = 15.000, admissible cost estimate 33.759
+b (14.000 | 2.000)b (13.000 | 10.000)b (12.000 | 17.307)b (11.000 | 25.454)b (10.000 | 25.454)b (9.000 | 26.455)b (8.000 | 26.455)b (7.000 | 26.455)b (6.000 | 26.455)b (5.000 | 26.455)b (4.000 | 26.455)b (2.000 | 34.002)b (1.000 | 34.002)(G)
+; LP calculated the cost
+
+; Plan found with metric 35.003
+; Theoretical reachable cost 35.004
+; States evaluated so far: 15
+; States pruned based on pre-heuristic cost lower bound: 0
+; Time 0.04
+0.000: (resolve-train-blockage t4 p12)  [2.000]
+0.000: (drive-engine-to-damaged-up-train e1 t3 p58 p10 broad)  [10.000]
+0.000: (drive-train t2 p8 p9 meter)  [17.307]
+0.000: (drive-train t1 p6 p7 broad)  [25.454]
+2.001: (drive-train t4 p12 p13 meter)  [21.568]
+10.001: (attach-engine e1 t3 p10)  [2.000]
+12.002: (drive-assisted-train e1 t3 p10 p11 broad)  [22.000]
+17.308: (board-passengers t2 s1 p9)  [1.000]
+23.570: (board-passengers t4 s3 p13)  [1.000]
+25.455: (board-passengers t1 s0 p7)  [1.000]
+34.003: (board-passengers t3 s2 p11)  [1.000]
+
+ * All goal deadlines now no later than 35.003
+
+Resorting to best-first search
+Running WA* with W = 5.000, not restarting with goal states
+b (14.000 | 17.307)b (14.000 | 2.000)b (13.000 | 17.307)b (12.000 | 17.307)b (11.000 | 25.454)b (11.000 | 17.307)b (10.000 | 25.454)b (9.000 | 25.454)b (8.000 | 25.454)b (7.000 | 25.454)b (6.000 | 25.454)b (5.000 | 25.454)b (4.000 | 26.455)
+Problem Unsolvable
+;;;; Solution Found
+; States evaluated: 119414
+; Cost: 35.003
+; Time 114.91
+0.000: (resolve-train-blockage t4 p12)  [2.000]
+0.000: (drive-engine-to-damaged-up-train e1 t3 p58 p10 broad)  [10.000]
+0.000: (drive-train t2 p8 p9 meter)  [17.307]
+0.000: (drive-train t1 p6 p7 broad)  [25.454]
+2.001: (drive-train t4 p12 p13 meter)  [21.568]
+10.001: (attach-engine e1 t3 p10)  [2.000]
+12.002: (drive-assisted-train e1 t3 p10 p11 broad)  [22.000]
+17.308: (board-passengers t2 s1 p9)  [1.000]
+23.570: (board-passengers t4 s3 p13)  [1.000]
+25.455: (board-passengers t1 s0 p7)  [1.000]
+34.003: (board-passengers t3 s2 p11)  [1.000]
