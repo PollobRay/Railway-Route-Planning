@@ -1,0 +1,211 @@
+Type-checking drive-train
+...action passes type checking.
+Type-checking drive-engine
+...action passes type checking.
+Type-checking drive-engine-to-damaged-up-train
+...action passes type checking.
+Type-checking drive-engine-to-damaged-down-train
+...action passes type checking.
+Type-checking attach-engine
+...action passes type checking.
+Type-checking drive-assisted-train
+...action passes type checking.
+Type-checking resolve-train-blockage
+...action passes type checking.
+Type-checking clear-blocked-track
+...action passes type checking.
+Type-checking board-passengers
+...action passes type checking.
+Type-checking turnout
+...action passes type checking.
+Checking plan: Popf-p2.txt
+Plan to validate:
+
+Plan size: 13
+0:
+(drive-train t4 p12 p13 meter) - start
+(drive-train t1 p6 p7 broad) - start
+(drive-train t2 p8 p9 meter) - start
+(drive-train t3 p10 p11 broad) - start
+ 
+17.308:
+Invariant for (drive-train t4 p12 p13 meter)
+Invariant for (drive-train t1 p6 p7 broad)
+Invariant for (drive-train t2 p8 p9 meter)
+Invariant for (drive-train t3 p10 p11 broad)
+ 
+17.308:
+(drive-train t2 p8 p9 meter) - end
+ 
+17.309:
+Invariant for (drive-train t4 p12 p13 meter)
+Invariant for (drive-train t1 p6 p7 broad)
+Invariant for (drive-train t3 p10 p11 broad)
+ 
+17.309:
+(board-passengers t2 s1 p9) - start
+ 
+18.309:
+Invariant for (drive-train t4 p12 p13 meter)
+Invariant for (drive-train t1 p6 p7 broad)
+Invariant for (drive-train t3 p10 p11 broad)
+Invariant for (board-passengers t2 s1 p9)
+ 
+18.309:
+(board-passengers t2 s1 p9) - end
+ 
+20.755:
+Invariant for (drive-train t4 p12 p13 meter)
+Invariant for (drive-train t1 p6 p7 broad)
+Invariant for (drive-train t3 p10 p11 broad)
+ 
+20.755:
+(drive-train t3 p10 p11 broad) - end
+ 
+20.756:
+Invariant for (drive-train t4 p12 p13 meter)
+Invariant for (drive-train t1 p6 p7 broad)
+ 
+20.756:
+(board-passengers t3 s2 p11) - start
+ 
+21.569:
+Invariant for (drive-train t4 p12 p13 meter)
+Invariant for (drive-train t1 p6 p7 broad)
+Invariant for (board-passengers t3 s2 p11)
+ 
+21.569:
+(drive-train t4 p12 p13 meter) - end
+ 
+21.57:
+Invariant for (drive-train t1 p6 p7 broad)
+Invariant for (board-passengers t3 s2 p11)
+ 
+21.57:
+(board-passengers t4 s3 p13) - start
+ 
+21.756:
+Invariant for (drive-train t1 p6 p7 broad)
+Invariant for (board-passengers t3 s2 p11)
+Invariant for (board-passengers t4 s3 p13)
+ 
+21.756:
+(board-passengers t3 s2 p11) - end
+ 
+22.57:
+Invariant for (drive-train t1 p6 p7 broad)
+Invariant for (board-passengers t4 s3 p13)
+ 
+22.57:
+(board-passengers t4 s3 p13) - end
+ 
+25.455:
+Invariant for (drive-train t1 p6 p7 broad)
+ 
+25.455:
+(drive-train t1 p6 p7 broad) - end
+ 
+25.456:
+(board-passengers t1 s0 p7) - start
+ 
+26.456:
+Invariant for (board-passengers t1 s0 p7)
+ 
+26.456:
+(board-passengers t1 s0 p7) - end
+ 
+
+Plan Validation details
+-----------------------
+
+Checking next happening (time 0)
+Deleting (train-at t4 p12)
+Deleting (track-accessible p12 p13)
+Deleting (track-accessible p13 p12)
+Deleting (train-at t1 p6)
+Deleting (track-accessible p6 p7)
+Deleting (track-accessible p7 p6)
+Deleting (train-at t2 p8)
+Deleting (track-accessible p8 p9)
+Deleting (track-accessible p9 p8)
+Deleting (train-at t3 p10)
+Deleting (track-accessible p10 p11)
+Deleting (track-accessible p11 p10)
+Adding (free p12)
+Adding (free p6)
+Adding (free p8)
+Adding (free p10)
+
+Checking next happening (time 17.308)
+
+Checking next happening (time 17.308)
+Deleting (free p9)
+Adding (train-at t2 p9)
+Adding (track-accessible p8 p9)
+Adding (track-accessible p9 p8)
+
+Checking next happening (time 17.309)
+
+Checking next happening (time 17.309)
+
+Checking next happening (time 18.309)
+
+Checking next happening (time 18.309)
+Adding (passengers-boarded t2 p9)
+
+Checking next happening (time 20.755)
+
+Checking next happening (time 20.755)
+Deleting (free p11)
+Adding (train-at t3 p11)
+Adding (track-accessible p10 p11)
+Adding (track-accessible p11 p10)
+
+Checking next happening (time 20.756)
+
+Checking next happening (time 20.756)
+
+Checking next happening (time 21.569)
+
+Checking next happening (time 21.569)
+Deleting (free p13)
+Adding (train-at t4 p13)
+Adding (track-accessible p12 p13)
+Adding (track-accessible p13 p12)
+
+Checking next happening (time 21.57)
+
+Checking next happening (time 21.57)
+
+Checking next happening (time 21.756)
+
+Checking next happening (time 21.756)
+Adding (passengers-boarded t3 p11)
+
+Checking next happening (time 22.57)
+
+Checking next happening (time 22.57)
+Adding (passengers-boarded t4 p13)
+
+Checking next happening (time 25.455)
+
+Checking next happening (time 25.455)
+Deleting (free p7)
+Adding (train-at t1 p7)
+Adding (track-accessible p6 p7)
+Adding (track-accessible p7 p6)
+
+Checking next happening (time 25.456)
+
+Checking next happening (time 26.456)
+
+Checking next happening (time 26.456)
+Adding (passengers-boarded t1 p7)
+Plan executed successfully - checking goal
+Plan valid
+Final value: 26.456
+
+Successful plans:
+Value: 26.456
+ Popf-p2.txt 
+
