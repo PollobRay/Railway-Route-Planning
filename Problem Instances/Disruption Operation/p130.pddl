@@ -2770,8 +2770,8 @@
         (= (engine-attach-time e1) 2)
 
         ;; Distances
-        (= (distance p45 p46) 17)
-        (= (distance p46 p45) 17)
+        (= (distance p45 p46) 36.5) 
+        (= (distance p46 p45) 36.5)
         (= (distance p47 p48) 20)
         (= (distance p48 p47) 20)
         (= (distance p49 p50) 32)
@@ -2832,8 +2832,8 @@
         (= (distance p104 p103) 25)
         (= (distance p105 p106) 16)
         (= (distance p106 p105) 16)
-        (= (distance p107 p108) 35)
-        (= (distance p108 p107) 35)
+        (= (distance p107 p108) 42.3)
+        (= (distance p108 p107) 42.3)
         (= (distance p109 p110) 26)
         (= (distance p110 p109) 26)
         (= (distance p111 p112) 21)

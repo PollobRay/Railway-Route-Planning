@@ -6419,8 +6419,8 @@
         ;; Distances
         (= (distance p100 p101) 30)
         (= (distance p101 p100) 30)
-        (= (distance p102 p103) 33)
-        (= (distance p103 p102) 33)
+        (= (distance p102 p103) 44.3)
+        (= (distance p103 p102) 44.3)
         (= (distance p104 p105) 29)
         (= (distance p105 p104) 29)
         (= (distance p106 p107) 20)

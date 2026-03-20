@@ -96,29 +96,29 @@ Action 164 - (board-passengers t10 s9 p36) is uninteresting once we have fact (p
 Action 165 - (board-passengers t11 s10 p38) is uninteresting once we have fact (passengers-boarded t11 p38)
 Action 166 - (board-passengers t12 s11 p40) is uninteresting once we have fact (passengers-boarded t12 p40)
 76% of the ground temporal actions in this problem are compression-safe
-Initial heuristic = 30.000, admissible cost estimate 34.335
-b (29.000 | 4.000)b (28.000 | 10.000)b (27.000 | 27.777)b (26.000 | 27.777)b (25.000 | 27.777)b (24.000 | 28.181)b (23.000 | 33.333)b (22.000 | 33.333)b (21.000 | 33.333)b (20.000 | 33.333)b (19.000 | 33.333)b (18.000 | 33.333)b (17.000 | 33.333)b (16.000 | 33.333)b (15.000 | 33.333)b (14.000 | 33.333)b (13.000 | 33.333)b (12.000 | 33.333)b (11.000 | 33.333)b (10.000 | 33.333)b (9.000 | 33.333)b (8.000 | 34.334)b (7.000 | 34.334)b (6.000 | 34.334)b (5.000 | 34.334)b (4.000 | 34.334)b (3.000 | 34.334)
+Initial heuristic = 30.000, admissible cost estimate 96.240
+b (29.000 | 4.000)b (28.000 | 10.000)b (27.000 | 50.505)b (26.000 | 50.505)b (25.000 | 50.505)b (24.000 | 62.626)b (23.000 | 95.238)b (22.000 | 95.238)b (21.000 | 95.238)b (20.000 | 95.238)b (19.000 | 95.238)b (18.000 | 95.238)b (17.000 | 95.238)b (16.000 | 95.238)b (15.000 | 95.238)b (14.000 | 95.238)b (13.000 | 95.238)b (12.000 | 95.238)b (11.000 | 95.238)b (10.000 | 95.238)b (9.000 | 95.238)b (8.000 | 96.239)b (7.000 | 96.239)b (6.000 | 96.239)b (5.000 | 96.239)b (4.000 | 96.239)b (3.000 | 96.239)
 Resorting to best-first search
 Running WA* with W = 5.000, not restarting with goal states
-b (29.000 | 22.772)b (29.000 | 14.851)b (29.000 | 4.000)b (28.000 | 22.772)b (27.000 | 22.772)b (26.000 | 27.777)b (26.000 | 23.853)b (26.000 | 22.772)b (25.000 | 27.777)b (24.000 | 27.777)b (23.000 | 28.181)b (23.000 | 27.777)b (22.000 | 33.333)b (22.000 | 28.181)b (21.000 | 33.333)b (20.000 | 33.333)b (19.000 | 33.333)b (18.000 | 33.333)b (17.000 | 33.333)b (16.000 | 33.333)b (15.000 | 33.333)b (14.000 | 33.333)b (13.000 | 33.333)b (12.000 | 33.333)b (11.000 | 33.333)b (10.000 | 33.333)b (9.000 | 33.333)b (8.000 | 33.333)b (7.000 | 33.333)b (6.000 | 33.333)b (5.000 | 33.333)b (4.000 | 33.333)b (3.000 | 34.334)b (3.000 | 33.333)b (2.000 | 34.334)b (1.000 | 34.334)(G)
+b (29.000 | 22.772)b (29.000 | 14.851)b (29.000 | 4.000)b (28.000 | 22.772)b (27.000 | 22.772)b (26.000 | 50.505)b (26.000 | 23.853)b (26.000 | 22.772)b (25.000 | 50.505)b (24.000 | 50.505)b (23.000 | 62.626)b (23.000 | 50.505)b (22.000 | 95.238)b (22.000 | 62.626)b (21.000 | 95.238)b (20.000 | 95.238)b (19.000 | 95.238)b (18.000 | 95.238)b (17.000 | 95.238)b (16.000 | 95.238)b (15.000 | 95.238)b (14.000 | 95.238)b (13.000 | 95.238)b (12.000 | 95.238)b (11.000 | 95.238)b (10.000 | 95.238)b (9.000 | 95.238)b (8.000 | 95.238)b (7.000 | 95.238)b (6.000 | 95.238)b (5.000 | 95.238)b (4.000 | 95.238)b (3.000 | 96.239)b (3.000 | 95.238)b (2.000 | 96.239)b (1.000 | 96.239)(G)
 ; LP calculated the cost
 
-; Plan found with metric 34.334
-; Theoretical reachable cost 34.335
+; Plan found with metric 96.239
+; Theoretical reachable cost 96.240
 ; States evaluated so far: 547
 ; States pruned based on pre-heuristic cost lower bound: 0
-; Time 0.64
+; Time 1.19
 0.000: (drive-train t1 p17 p18 broad)  [22.772]
 0.000: (resolve-train-blockage t8 p31)  [4.000]
 0.000: (drive-engine-to-damaged-up-train e1 t10 p127 p35 meter)  [10.000]
-0.000: (drive-train t12 p39 p40 meter)  [27.777]
+0.000: (drive-train t12 p39 p40 meter)  [50.505]
 0.000: (drive-train t6 p27 p28 meter)  [23.853]
 0.000: (drive-train t4 p23 p24 meter)  [18.446]
-0.000: (drive-train t2 p19 p20 meter)  [28.181]
-0.000: (drive-train t11 p37 p38 broad)  [33.333]
+0.000: (drive-train t2 p19 p20 meter)  [62.626]
+0.000: (drive-train t11 p37 p38 broad)  [95.238]
 0.000: (drive-train t9 p33 p34 broad)  [21.782]
 0.000: (drive-train t7 p29 p30 broad)  [14.851]
-0.000: (drive-train t5 p25 p26 broad)  [23.931]
+0.000: (drive-train t5 p25 p26 broad)  [36.817]
 0.000: (drive-train t3 p21 p22 broad)  [24.074]
 4.001: (drive-train t8 p31 p32 meter)  [24.770]
 10.001: (attach-engine e1 t10 p35)  [2.000]
@@ -128,32 +128,32 @@ b (29.000 | 22.772)b (29.000 | 14.851)b (29.000 | 4.000)b (28.000 | 22.772)b (27
 21.783: (board-passengers t9 s8 p34)  [1.000]
 22.773: (board-passengers t1 s0 p18)  [1.000]
 23.854: (board-passengers t6 s5 p28)  [1.000]
-23.932: (board-passengers t5 s4 p26)  [1.000]
 24.075: (board-passengers t3 s2 p22)  [1.000]
-27.778: (board-passengers t12 s11 p40)  [1.000]
-28.182: (board-passengers t2 s1 p20)  [1.000]
 28.772: (board-passengers t8 s7 p32)  [1.000]
 32.003: (board-passengers t10 s9 p36)  [1.000]
-33.334: (board-passengers t11 s10 p38)  [1.000]
+36.818: (board-passengers t5 s4 p26)  [1.000]
+50.506: (board-passengers t12 s11 p40)  [1.000]
+62.627: (board-passengers t2 s1 p20)  [1.000]
+95.239: (board-passengers t11 s10 p38)  [1.000]
 
- * All goal deadlines now no later than 34.334
+ * All goal deadlines now no later than 96.239
 
 Problem Unsolvable
 ;;;; Solution Found
 ; States evaluated: 547
-; Cost: 34.334
-; Time 0.65
+; Cost: 96.239
+; Time 1.20
 0.000: (drive-train t1 p17 p18 broad)  [22.772]
 0.000: (resolve-train-blockage t8 p31)  [4.000]
 0.000: (drive-engine-to-damaged-up-train e1 t10 p127 p35 meter)  [10.000]
-0.000: (drive-train t12 p39 p40 meter)  [27.777]
+0.000: (drive-train t12 p39 p40 meter)  [50.505]
 0.000: (drive-train t6 p27 p28 meter)  [23.853]
 0.000: (drive-train t4 p23 p24 meter)  [18.446]
-0.000: (drive-train t2 p19 p20 meter)  [28.181]
-0.000: (drive-train t11 p37 p38 broad)  [33.333]
+0.000: (drive-train t2 p19 p20 meter)  [62.626]
+0.000: (drive-train t11 p37 p38 broad)  [95.238]
 0.000: (drive-train t9 p33 p34 broad)  [21.782]
 0.000: (drive-train t7 p29 p30 broad)  [14.851]
-0.000: (drive-train t5 p25 p26 broad)  [23.931]
+0.000: (drive-train t5 p25 p26 broad)  [36.817]
 0.000: (drive-train t3 p21 p22 broad)  [24.074]
 4.001: (drive-train t8 p31 p32 meter)  [24.770]
 10.001: (attach-engine e1 t10 p35)  [2.000]
@@ -163,10 +163,10 @@ Problem Unsolvable
 21.783: (board-passengers t9 s8 p34)  [1.000]
 22.773: (board-passengers t1 s0 p18)  [1.000]
 23.854: (board-passengers t6 s5 p28)  [1.000]
-23.932: (board-passengers t5 s4 p26)  [1.000]
 24.075: (board-passengers t3 s2 p22)  [1.000]
-27.778: (board-passengers t12 s11 p40)  [1.000]
-28.182: (board-passengers t2 s1 p20)  [1.000]
 28.772: (board-passengers t8 s7 p32)  [1.000]
 32.003: (board-passengers t10 s9 p36)  [1.000]
-33.334: (board-passengers t11 s10 p38)  [1.000]
+36.818: (board-passengers t5 s4 p26)  [1.000]
+50.506: (board-passengers t12 s11 p40)  [1.000]
+62.627: (board-passengers t2 s1 p20)  [1.000]
+95.239: (board-passengers t11 s10 p38)  [1.000]

@@ -224,7 +224,7 @@ b (69.000 | 29.090)b (68.000 | 29.090)b (67.000 | 29.090)b (66.000 | 29.090)b (6
 ; Theoretical reachable cost 34.020
 ; States evaluated so far: 71
 ; States pruned based on pre-heuristic cost lower bound: 0
-; Time 1.74
+; Time 2.46
 0.000: (drive-train t26 p95 p96 meter)  [29.090]
 0.000: (drive-train t24 p91 p92 meter)  [17.924]
 0.000: (drive-train t22 p87 p88 meter)  [23.148]
@@ -305,7 +305,7 @@ Problem Unsolvable
 ;;;; Solution Found
 ; States evaluated: 71
 ; Cost: 34.019
-; Time 1.74
+; Time 2.47
 0.000: (drive-train t26 p95 p96 meter)  [29.090]
 0.000: (drive-train t24 p91 p92 meter)  [17.924]
 0.000: (drive-train t22 p87 p88 meter)  [23.148]
