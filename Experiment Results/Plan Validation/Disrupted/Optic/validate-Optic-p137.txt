@@ -1,0 +1,4803 @@
+Type-checking drive-train
+...action passes type checking.
+Type-checking drive-engine
+...action passes type checking.
+Type-checking drive-engine-to-damaged-up-train
+...action passes type checking.
+Type-checking drive-engine-to-damaged-down-train
+...action passes type checking.
+Type-checking attach-engine
+...action passes type checking.
+Type-checking drive-assisted-train
+...action passes type checking.
+Type-checking resolve-train-blockage
+...action passes type checking.
+Type-checking clear-blocked-track
+...action passes type checking.
+Type-checking board-passengers
+...action passes type checking.
+Type-checking turnout
+...action passes type checking.
+Checking plan: Optic-p137.txt
+Plan to validate:
+
+Plan size: 135
+0:
+(resolve-train-blockage t1 p53) - start
+(resolve-train-blockage t8 p67) - start
+(resolve-train-blockage t33 p117) - start
+(drive-engine-to-damaged-up-train e2 t12 p362 p75 meter) - start
+(drive-engine-to-damaged-up-train e1 t19 p361 p89 broad) - start
+(drive-train t22 p95 p96 meter) - start
+(drive-train t20 p91 p92 meter) - start
+(drive-train t16 p83 p84 meter) - start
+(drive-train t14 p79 p80 meter) - start
+(drive-train t10 p71 p72 meter) - start
+(drive-train t6 p63 p64 meter) - start
+(drive-train t4 p59 p60 meter) - start
+(drive-train t2 p55 p56 meter) - start
+(drive-train t40 p131 p132 meter) - start
+(drive-train t38 p127 p128 meter) - start
+(drive-train t36 p123 p124 meter) - start
+(drive-train t34 p119 p120 meter) - start
+(drive-train t32 p115 p116 meter) - start
+(drive-train t30 p111 p112 meter) - start
+(drive-train t28 p107 p108 meter) - start
+(drive-train t26 p103 p104 meter) - start
+(drive-train t24 p99 p100 meter) - start
+(drive-train t23 p97 p98 broad) - start
+(drive-train t21 p93 p94 broad) - start
+(drive-train t17 p85 p86 broad) - start
+(drive-train t15 p81 p82 broad) - start
+(drive-train t13 p77 p78 broad) - start
+(drive-train t11 p73 p74 broad) - start
+(drive-train t9 p69 p70 broad) - start
+(drive-train t7 p65 p66 broad) - start
+(drive-train t5 p61 p62 broad) - start
+(drive-train t3 p57 p58 broad) - start
+(drive-train t41 p133 p134 broad) - start
+(drive-train t39 p129 p130 broad) - start
+(drive-train t37 p125 p126 broad) - start
+(drive-train t35 p121 p122 broad) - start
+(drive-train t31 p113 p114 broad) - start
+(drive-train t29 p109 p110 broad) - start
+(drive-train t27 p105 p106 broad) - start
+(drive-train t25 p101 p102 broad) - start
+ 
+0.002:
+Invariant for (resolve-train-blockage t1 p53)
+Invariant for (resolve-train-blockage t8 p67)
+Invariant for (resolve-train-blockage t33 p117)
+Invariant for (drive-engine-to-damaged-up-train e2 t12 p362 p75 meter)
+Invariant for (drive-engine-to-damaged-up-train e1 t19 p361 p89 broad)
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t10 p71 p72 meter)
+Invariant for (drive-train t6 p63 p64 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t40 p131 p132 meter)
+Invariant for (drive-train t38 p127 p128 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t34 p119 p120 meter)
+Invariant for (drive-train t32 p115 p116 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t26 p103 p104 meter)
+Invariant for (drive-train t24 p99 p100 meter)
+Invariant for (drive-train t23 p97 p98 broad)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t17 p85 p86 broad)
+Invariant for (drive-train t15 p81 p82 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t3 p57 p58 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+ 
+0.002:
+(drive-train t18 p87 p88 meter) - start
+ 
+2:
+Invariant for (resolve-train-blockage t1 p53)
+Invariant for (resolve-train-blockage t8 p67)
+Invariant for (resolve-train-blockage t33 p117)
+Invariant for (drive-engine-to-damaged-up-train e2 t12 p362 p75 meter)
+Invariant for (drive-engine-to-damaged-up-train e1 t19 p361 p89 broad)
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t10 p71 p72 meter)
+Invariant for (drive-train t6 p63 p64 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t40 p131 p132 meter)
+Invariant for (drive-train t38 p127 p128 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t34 p119 p120 meter)
+Invariant for (drive-train t32 p115 p116 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t26 p103 p104 meter)
+Invariant for (drive-train t24 p99 p100 meter)
+Invariant for (drive-train t23 p97 p98 broad)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t17 p85 p86 broad)
+Invariant for (drive-train t15 p81 p82 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t3 p57 p58 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+ 
+2:
+(resolve-train-blockage t1 p53) - end
+ 
+2.001:
+Invariant for (resolve-train-blockage t8 p67)
+Invariant for (resolve-train-blockage t33 p117)
+Invariant for (drive-engine-to-damaged-up-train e2 t12 p362 p75 meter)
+Invariant for (drive-engine-to-damaged-up-train e1 t19 p361 p89 broad)
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t10 p71 p72 meter)
+Invariant for (drive-train t6 p63 p64 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t40 p131 p132 meter)
+Invariant for (drive-train t38 p127 p128 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t34 p119 p120 meter)
+Invariant for (drive-train t32 p115 p116 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t26 p103 p104 meter)
+Invariant for (drive-train t24 p99 p100 meter)
+Invariant for (drive-train t23 p97 p98 broad)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t17 p85 p86 broad)
+Invariant for (drive-train t15 p81 p82 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t3 p57 p58 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+ 
+2.001:
+(drive-train t1 p53 p54 broad) - start
+ 
+3:
+Invariant for (resolve-train-blockage t8 p67)
+Invariant for (resolve-train-blockage t33 p117)
+Invariant for (drive-engine-to-damaged-up-train e2 t12 p362 p75 meter)
+Invariant for (drive-engine-to-damaged-up-train e1 t19 p361 p89 broad)
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t10 p71 p72 meter)
+Invariant for (drive-train t6 p63 p64 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t40 p131 p132 meter)
+Invariant for (drive-train t38 p127 p128 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t34 p119 p120 meter)
+Invariant for (drive-train t32 p115 p116 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t26 p103 p104 meter)
+Invariant for (drive-train t24 p99 p100 meter)
+Invariant for (drive-train t23 p97 p98 broad)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t17 p85 p86 broad)
+Invariant for (drive-train t15 p81 p82 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t3 p57 p58 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t1 p53 p54 broad)
+ 
+3:
+(resolve-train-blockage t8 p67) - end
+ 
+3.001:
+Invariant for (resolve-train-blockage t33 p117)
+Invariant for (drive-engine-to-damaged-up-train e2 t12 p362 p75 meter)
+Invariant for (drive-engine-to-damaged-up-train e1 t19 p361 p89 broad)
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t10 p71 p72 meter)
+Invariant for (drive-train t6 p63 p64 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t40 p131 p132 meter)
+Invariant for (drive-train t38 p127 p128 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t34 p119 p120 meter)
+Invariant for (drive-train t32 p115 p116 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t26 p103 p104 meter)
+Invariant for (drive-train t24 p99 p100 meter)
+Invariant for (drive-train t23 p97 p98 broad)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t17 p85 p86 broad)
+Invariant for (drive-train t15 p81 p82 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t3 p57 p58 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t1 p53 p54 broad)
+ 
+3.001:
+(drive-train t8 p67 p68 meter) - start
+ 
+4:
+Invariant for (resolve-train-blockage t33 p117)
+Invariant for (drive-engine-to-damaged-up-train e2 t12 p362 p75 meter)
+Invariant for (drive-engine-to-damaged-up-train e1 t19 p361 p89 broad)
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t10 p71 p72 meter)
+Invariant for (drive-train t6 p63 p64 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t40 p131 p132 meter)
+Invariant for (drive-train t38 p127 p128 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t34 p119 p120 meter)
+Invariant for (drive-train t32 p115 p116 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t26 p103 p104 meter)
+Invariant for (drive-train t24 p99 p100 meter)
+Invariant for (drive-train t23 p97 p98 broad)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t17 p85 p86 broad)
+Invariant for (drive-train t15 p81 p82 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t3 p57 p58 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t1 p53 p54 broad)
+Invariant for (drive-train t8 p67 p68 meter)
+ 
+4:
+(resolve-train-blockage t33 p117) - end
+ 
+4.001:
+Invariant for (drive-engine-to-damaged-up-train e2 t12 p362 p75 meter)
+Invariant for (drive-engine-to-damaged-up-train e1 t19 p361 p89 broad)
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t10 p71 p72 meter)
+Invariant for (drive-train t6 p63 p64 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t40 p131 p132 meter)
+Invariant for (drive-train t38 p127 p128 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t34 p119 p120 meter)
+Invariant for (drive-train t32 p115 p116 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t26 p103 p104 meter)
+Invariant for (drive-train t24 p99 p100 meter)
+Invariant for (drive-train t23 p97 p98 broad)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t17 p85 p86 broad)
+Invariant for (drive-train t15 p81 p82 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t3 p57 p58 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t1 p53 p54 broad)
+Invariant for (drive-train t8 p67 p68 meter)
+ 
+4.001:
+(drive-train t33 p117 p118 broad) - start
+ 
+10:
+Invariant for (drive-engine-to-damaged-up-train e2 t12 p362 p75 meter)
+Invariant for (drive-engine-to-damaged-up-train e1 t19 p361 p89 broad)
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t10 p71 p72 meter)
+Invariant for (drive-train t6 p63 p64 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t40 p131 p132 meter)
+Invariant for (drive-train t38 p127 p128 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t34 p119 p120 meter)
+Invariant for (drive-train t32 p115 p116 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t26 p103 p104 meter)
+Invariant for (drive-train t24 p99 p100 meter)
+Invariant for (drive-train t23 p97 p98 broad)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t17 p85 p86 broad)
+Invariant for (drive-train t15 p81 p82 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t3 p57 p58 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t1 p53 p54 broad)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+ 
+10:
+(drive-engine-to-damaged-up-train e2 t12 p362 p75 meter) - end
+(drive-engine-to-damaged-up-train e1 t19 p361 p89 broad) - end
+ 
+10.001:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t10 p71 p72 meter)
+Invariant for (drive-train t6 p63 p64 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t40 p131 p132 meter)
+Invariant for (drive-train t38 p127 p128 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t34 p119 p120 meter)
+Invariant for (drive-train t32 p115 p116 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t26 p103 p104 meter)
+Invariant for (drive-train t24 p99 p100 meter)
+Invariant for (drive-train t23 p97 p98 broad)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t17 p85 p86 broad)
+Invariant for (drive-train t15 p81 p82 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t3 p57 p58 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t1 p53 p54 broad)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+ 
+10.001:
+(attach-engine e2 t12 p75) - start
+(attach-engine e1 t19 p89) - start
+ 
+12.001:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t10 p71 p72 meter)
+Invariant for (drive-train t6 p63 p64 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t40 p131 p132 meter)
+Invariant for (drive-train t38 p127 p128 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t34 p119 p120 meter)
+Invariant for (drive-train t32 p115 p116 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t26 p103 p104 meter)
+Invariant for (drive-train t24 p99 p100 meter)
+Invariant for (drive-train t23 p97 p98 broad)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t17 p85 p86 broad)
+Invariant for (drive-train t15 p81 p82 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t3 p57 p58 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t1 p53 p54 broad)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (attach-engine e2 t12 p75)
+Invariant for (attach-engine e1 t19 p89)
+ 
+12.001:
+(attach-engine e1 t19 p89) - end
+(attach-engine e2 t12 p75) - end
+ 
+12.002:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t10 p71 p72 meter)
+Invariant for (drive-train t6 p63 p64 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t40 p131 p132 meter)
+Invariant for (drive-train t38 p127 p128 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t34 p119 p120 meter)
+Invariant for (drive-train t32 p115 p116 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t26 p103 p104 meter)
+Invariant for (drive-train t24 p99 p100 meter)
+Invariant for (drive-train t23 p97 p98 broad)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t17 p85 p86 broad)
+Invariant for (drive-train t15 p81 p82 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t3 p57 p58 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t1 p53 p54 broad)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+ 
+12.002:
+(drive-assisted-train e1 t19 p89 p90 broad) - start
+(drive-assisted-train e2 t12 p75 p76 meter) - start
+ 
+12.711:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t10 p71 p72 meter)
+Invariant for (drive-train t6 p63 p64 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t40 p131 p132 meter)
+Invariant for (drive-train t38 p127 p128 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t34 p119 p120 meter)
+Invariant for (drive-train t32 p115 p116 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t26 p103 p104 meter)
+Invariant for (drive-train t24 p99 p100 meter)
+Invariant for (drive-train t23 p97 p98 broad)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t17 p85 p86 broad)
+Invariant for (drive-train t15 p81 p82 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t3 p57 p58 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t1 p53 p54 broad)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+ 
+12.711:
+(drive-train t32 p115 p116 meter) - end
+ 
+12.712:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t10 p71 p72 meter)
+Invariant for (drive-train t6 p63 p64 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t40 p131 p132 meter)
+Invariant for (drive-train t38 p127 p128 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t34 p119 p120 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t26 p103 p104 meter)
+Invariant for (drive-train t24 p99 p100 meter)
+Invariant for (drive-train t23 p97 p98 broad)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t17 p85 p86 broad)
+Invariant for (drive-train t15 p81 p82 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t3 p57 p58 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t1 p53 p54 broad)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+ 
+12.712:
+(board-passengers t32 s31 p116) - start
+ 
+13.513:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t10 p71 p72 meter)
+Invariant for (drive-train t6 p63 p64 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t40 p131 p132 meter)
+Invariant for (drive-train t38 p127 p128 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t34 p119 p120 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t26 p103 p104 meter)
+Invariant for (drive-train t24 p99 p100 meter)
+Invariant for (drive-train t23 p97 p98 broad)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t17 p85 p86 broad)
+Invariant for (drive-train t15 p81 p82 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t3 p57 p58 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t1 p53 p54 broad)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t32 s31 p116)
+ 
+13.513:
+(drive-train t26 p103 p104 meter) - end
+ 
+13.514:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t10 p71 p72 meter)
+Invariant for (drive-train t6 p63 p64 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t40 p131 p132 meter)
+Invariant for (drive-train t38 p127 p128 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t34 p119 p120 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t24 p99 p100 meter)
+Invariant for (drive-train t23 p97 p98 broad)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t17 p85 p86 broad)
+Invariant for (drive-train t15 p81 p82 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t3 p57 p58 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t1 p53 p54 broad)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t32 s31 p116)
+ 
+13.514:
+(board-passengers t26 s25 p104) - start
+ 
+13.712:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t10 p71 p72 meter)
+Invariant for (drive-train t6 p63 p64 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t40 p131 p132 meter)
+Invariant for (drive-train t38 p127 p128 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t34 p119 p120 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t24 p99 p100 meter)
+Invariant for (drive-train t23 p97 p98 broad)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t17 p85 p86 broad)
+Invariant for (drive-train t15 p81 p82 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t3 p57 p58 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t1 p53 p54 broad)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t32 s31 p116)
+Invariant for (board-passengers t26 s25 p104)
+ 
+13.712:
+(board-passengers t32 s31 p116) - end
+ 
+14.514:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t10 p71 p72 meter)
+Invariant for (drive-train t6 p63 p64 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t40 p131 p132 meter)
+Invariant for (drive-train t38 p127 p128 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t34 p119 p120 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t24 p99 p100 meter)
+Invariant for (drive-train t23 p97 p98 broad)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t17 p85 p86 broad)
+Invariant for (drive-train t15 p81 p82 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t3 p57 p58 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t1 p53 p54 broad)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t26 s25 p104)
+ 
+14.514:
+(board-passengers t26 s25 p104) - end
+ 
+14.678:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t10 p71 p72 meter)
+Invariant for (drive-train t6 p63 p64 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t40 p131 p132 meter)
+Invariant for (drive-train t38 p127 p128 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t34 p119 p120 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t24 p99 p100 meter)
+Invariant for (drive-train t23 p97 p98 broad)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t17 p85 p86 broad)
+Invariant for (drive-train t15 p81 p82 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t3 p57 p58 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t1 p53 p54 broad)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+ 
+14.678:
+(drive-train t15 p81 p82 broad) - end
+ 
+14.679:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t10 p71 p72 meter)
+Invariant for (drive-train t6 p63 p64 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t40 p131 p132 meter)
+Invariant for (drive-train t38 p127 p128 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t34 p119 p120 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t24 p99 p100 meter)
+Invariant for (drive-train t23 p97 p98 broad)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t17 p85 p86 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t3 p57 p58 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t1 p53 p54 broad)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+ 
+14.679:
+(board-passengers t15 s14 p82) - start
+ 
+15:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t10 p71 p72 meter)
+Invariant for (drive-train t6 p63 p64 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t40 p131 p132 meter)
+Invariant for (drive-train t38 p127 p128 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t34 p119 p120 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t24 p99 p100 meter)
+Invariant for (drive-train t23 p97 p98 broad)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t17 p85 p86 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t3 p57 p58 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t1 p53 p54 broad)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t15 s14 p82)
+ 
+15:
+(drive-train t34 p119 p120 meter) - end
+ 
+15.001:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t10 p71 p72 meter)
+Invariant for (drive-train t6 p63 p64 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t40 p131 p132 meter)
+Invariant for (drive-train t38 p127 p128 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t24 p99 p100 meter)
+Invariant for (drive-train t23 p97 p98 broad)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t17 p85 p86 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t3 p57 p58 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t1 p53 p54 broad)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t15 s14 p82)
+ 
+15.001:
+(board-passengers t34 s33 p120) - start
+ 
+15.126:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t10 p71 p72 meter)
+Invariant for (drive-train t6 p63 p64 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t40 p131 p132 meter)
+Invariant for (drive-train t38 p127 p128 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t24 p99 p100 meter)
+Invariant for (drive-train t23 p97 p98 broad)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t17 p85 p86 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t3 p57 p58 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t1 p53 p54 broad)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t15 s14 p82)
+Invariant for (board-passengers t34 s33 p120)
+ 
+15.126:
+(drive-train t6 p63 p64 meter) - end
+ 
+15.127:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t10 p71 p72 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t40 p131 p132 meter)
+Invariant for (drive-train t38 p127 p128 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t24 p99 p100 meter)
+Invariant for (drive-train t23 p97 p98 broad)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t17 p85 p86 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t3 p57 p58 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t1 p53 p54 broad)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t15 s14 p82)
+Invariant for (board-passengers t34 s33 p120)
+ 
+15.127:
+(board-passengers t6 s5 p64) - start
+ 
+15.533:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t10 p71 p72 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t40 p131 p132 meter)
+Invariant for (drive-train t38 p127 p128 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t24 p99 p100 meter)
+Invariant for (drive-train t23 p97 p98 broad)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t17 p85 p86 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t3 p57 p58 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t1 p53 p54 broad)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t15 s14 p82)
+Invariant for (board-passengers t34 s33 p120)
+Invariant for (board-passengers t6 s5 p64)
+ 
+15.533:
+(drive-train t23 p97 p98 broad) - end
+ 
+15.534:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t10 p71 p72 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t40 p131 p132 meter)
+Invariant for (drive-train t38 p127 p128 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t24 p99 p100 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t17 p85 p86 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t3 p57 p58 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t1 p53 p54 broad)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t15 s14 p82)
+Invariant for (board-passengers t34 s33 p120)
+Invariant for (board-passengers t6 s5 p64)
+ 
+15.534:
+(board-passengers t23 s22 p98) - start
+ 
+15.679:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t10 p71 p72 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t40 p131 p132 meter)
+Invariant for (drive-train t38 p127 p128 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t24 p99 p100 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t17 p85 p86 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t3 p57 p58 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t1 p53 p54 broad)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t15 s14 p82)
+Invariant for (board-passengers t34 s33 p120)
+Invariant for (board-passengers t6 s5 p64)
+Invariant for (board-passengers t23 s22 p98)
+ 
+15.679:
+(board-passengers t15 s14 p82) - end
+ 
+15.74:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t10 p71 p72 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t40 p131 p132 meter)
+Invariant for (drive-train t38 p127 p128 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t24 p99 p100 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t17 p85 p86 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t3 p57 p58 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t1 p53 p54 broad)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t34 s33 p120)
+Invariant for (board-passengers t6 s5 p64)
+Invariant for (board-passengers t23 s22 p98)
+ 
+15.74:
+(drive-train t10 p71 p72 meter) - end
+ 
+15.741:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t40 p131 p132 meter)
+Invariant for (drive-train t38 p127 p128 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t24 p99 p100 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t17 p85 p86 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t3 p57 p58 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t1 p53 p54 broad)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t34 s33 p120)
+Invariant for (board-passengers t6 s5 p64)
+Invariant for (board-passengers t23 s22 p98)
+ 
+15.741:
+(board-passengers t10 s9 p72) - start
+ 
+16.001:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t40 p131 p132 meter)
+Invariant for (drive-train t38 p127 p128 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t24 p99 p100 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t17 p85 p86 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t3 p57 p58 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t1 p53 p54 broad)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t34 s33 p120)
+Invariant for (board-passengers t6 s5 p64)
+Invariant for (board-passengers t23 s22 p98)
+Invariant for (board-passengers t10 s9 p72)
+ 
+16.001:
+(board-passengers t34 s33 p120) - end
+ 
+16.127:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t40 p131 p132 meter)
+Invariant for (drive-train t38 p127 p128 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t24 p99 p100 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t17 p85 p86 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t3 p57 p58 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t1 p53 p54 broad)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t6 s5 p64)
+Invariant for (board-passengers t23 s22 p98)
+Invariant for (board-passengers t10 s9 p72)
+ 
+16.127:
+(board-passengers t6 s5 p64) - end
+ 
+16.534:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t40 p131 p132 meter)
+Invariant for (drive-train t38 p127 p128 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t24 p99 p100 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t17 p85 p86 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t3 p57 p58 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t1 p53 p54 broad)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t23 s22 p98)
+Invariant for (board-passengers t10 s9 p72)
+ 
+16.534:
+(board-passengers t23 s22 p98) - end
+ 
+16.741:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t40 p131 p132 meter)
+Invariant for (drive-train t38 p127 p128 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t24 p99 p100 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t17 p85 p86 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t3 p57 p58 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t1 p53 p54 broad)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t10 s9 p72)
+ 
+16.741:
+(board-passengers t10 s9 p72) - end
+ 
+17.431:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t40 p131 p132 meter)
+Invariant for (drive-train t38 p127 p128 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t24 p99 p100 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t17 p85 p86 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t3 p57 p58 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t1 p53 p54 broad)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+ 
+17.431:
+(drive-train t40 p131 p132 meter) - end
+ 
+17.432:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t38 p127 p128 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t24 p99 p100 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t17 p85 p86 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t3 p57 p58 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t1 p53 p54 broad)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+ 
+17.432:
+(board-passengers t40 s39 p132) - start
+ 
+17.796:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t38 p127 p128 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t24 p99 p100 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t17 p85 p86 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t3 p57 p58 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t1 p53 p54 broad)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t40 s39 p132)
+ 
+17.796:
+(drive-train t24 p99 p100 meter) - end
+ 
+17.797:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t38 p127 p128 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t17 p85 p86 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t3 p57 p58 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t1 p53 p54 broad)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t40 s39 p132)
+ 
+17.797:
+(board-passengers t24 s23 p100) - start
+ 
+18.432:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t38 p127 p128 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t17 p85 p86 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t3 p57 p58 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t1 p53 p54 broad)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t40 s39 p132)
+Invariant for (board-passengers t24 s23 p100)
+ 
+18.432:
+(board-passengers t40 s39 p132) - end
+ 
+18.518:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t38 p127 p128 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t17 p85 p86 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t3 p57 p58 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t1 p53 p54 broad)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t24 s23 p100)
+ 
+18.518:
+(drive-train t17 p85 p86 broad) - end
+ 
+18.519:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t38 p127 p128 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t3 p57 p58 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t1 p53 p54 broad)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t24 s23 p100)
+ 
+18.519:
+(board-passengers t17 s16 p86) - start
+ 
+18.797:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t38 p127 p128 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t3 p57 p58 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t1 p53 p54 broad)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t24 s23 p100)
+Invariant for (board-passengers t17 s16 p86)
+ 
+18.797:
+(board-passengers t24 s23 p100) - end
+ 
+18.803:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t38 p127 p128 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t3 p57 p58 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t1 p53 p54 broad)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t17 s16 p86)
+ 
+18.803:
+(drive-train t38 p127 p128 meter) - end
+ 
+18.804:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t3 p57 p58 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t1 p53 p54 broad)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t17 s16 p86)
+ 
+18.804:
+(board-passengers t38 s37 p128) - start
+ 
+19.298:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t3 p57 p58 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t1 p53 p54 broad)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t17 s16 p86)
+Invariant for (board-passengers t38 s37 p128)
+ 
+19.298:
+(drive-train t3 p57 p58 broad) - end
+ 
+19.299:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t1 p53 p54 broad)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t17 s16 p86)
+Invariant for (board-passengers t38 s37 p128)
+ 
+19.299:
+(board-passengers t3 s2 p58) - start
+ 
+19.432:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t1 p53 p54 broad)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t17 s16 p86)
+Invariant for (board-passengers t38 s37 p128)
+Invariant for (board-passengers t3 s2 p58)
+ 
+19.432:
+(drive-train t1 p53 p54 broad) - end
+ 
+19.433:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t17 s16 p86)
+Invariant for (board-passengers t38 s37 p128)
+Invariant for (board-passengers t3 s2 p58)
+ 
+19.433:
+(board-passengers t1 s0 p54) - start
+ 
+19.519:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t17 s16 p86)
+Invariant for (board-passengers t38 s37 p128)
+Invariant for (board-passengers t3 s2 p58)
+Invariant for (board-passengers t1 s0 p54)
+ 
+19.519:
+(board-passengers t17 s16 p86) - end
+ 
+19.626:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t37 p125 p126 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t38 s37 p128)
+Invariant for (board-passengers t3 s2 p58)
+Invariant for (board-passengers t1 s0 p54)
+ 
+19.626:
+(drive-train t37 p125 p126 broad) - end
+ 
+19.627:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t38 s37 p128)
+Invariant for (board-passengers t3 s2 p58)
+Invariant for (board-passengers t1 s0 p54)
+ 
+19.627:
+(board-passengers t37 s36 p126) - start
+ 
+19.801:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t20 p91 p92 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t38 s37 p128)
+Invariant for (board-passengers t3 s2 p58)
+Invariant for (board-passengers t1 s0 p54)
+Invariant for (board-passengers t37 s36 p126)
+ 
+19.801:
+(drive-train t20 p91 p92 meter) - end
+ 
+19.802:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t38 s37 p128)
+Invariant for (board-passengers t3 s2 p58)
+Invariant for (board-passengers t1 s0 p54)
+Invariant for (board-passengers t37 s36 p126)
+ 
+19.802:
+(board-passengers t20 s19 p92) - start
+ 
+19.804:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t38 s37 p128)
+Invariant for (board-passengers t3 s2 p58)
+Invariant for (board-passengers t1 s0 p54)
+Invariant for (board-passengers t37 s36 p126)
+Invariant for (board-passengers t20 s19 p92)
+ 
+19.804:
+(board-passengers t38 s37 p128) - end
+ 
+19.827:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t11 p73 p74 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t3 s2 p58)
+Invariant for (board-passengers t1 s0 p54)
+Invariant for (board-passengers t37 s36 p126)
+Invariant for (board-passengers t20 s19 p92)
+ 
+19.827:
+(drive-train t11 p73 p74 broad) - end
+ 
+19.828:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t3 s2 p58)
+Invariant for (board-passengers t1 s0 p54)
+Invariant for (board-passengers t37 s36 p126)
+Invariant for (board-passengers t20 s19 p92)
+ 
+19.828:
+(board-passengers t11 s10 p74) - start
+ 
+20.299:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t3 s2 p58)
+Invariant for (board-passengers t1 s0 p54)
+Invariant for (board-passengers t37 s36 p126)
+Invariant for (board-passengers t20 s19 p92)
+Invariant for (board-passengers t11 s10 p74)
+ 
+20.299:
+(board-passengers t3 s2 p58) - end
+ 
+20.37:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t35 p121 p122 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t1 s0 p54)
+Invariant for (board-passengers t37 s36 p126)
+Invariant for (board-passengers t20 s19 p92)
+Invariant for (board-passengers t11 s10 p74)
+ 
+20.37:
+(drive-train t35 p121 p122 broad) - end
+ 
+20.371:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t1 s0 p54)
+Invariant for (board-passengers t37 s36 p126)
+Invariant for (board-passengers t20 s19 p92)
+Invariant for (board-passengers t11 s10 p74)
+ 
+20.371:
+(board-passengers t35 s34 p122) - start
+ 
+20.433:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t1 s0 p54)
+Invariant for (board-passengers t37 s36 p126)
+Invariant for (board-passengers t20 s19 p92)
+Invariant for (board-passengers t11 s10 p74)
+Invariant for (board-passengers t35 s34 p122)
+ 
+20.433:
+(board-passengers t1 s0 p54) - end
+ 
+20.627:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t37 s36 p126)
+Invariant for (board-passengers t20 s19 p92)
+Invariant for (board-passengers t11 s10 p74)
+Invariant for (board-passengers t35 s34 p122)
+ 
+20.627:
+(board-passengers t37 s36 p126) - end
+ 
+20.802:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t20 s19 p92)
+Invariant for (board-passengers t11 s10 p74)
+Invariant for (board-passengers t35 s34 p122)
+ 
+20.802:
+(board-passengers t20 s19 p92) - end
+ 
+20.828:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t11 s10 p74)
+Invariant for (board-passengers t35 s34 p122)
+ 
+20.828:
+(board-passengers t11 s10 p74) - end
+ 
+21.371:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t35 s34 p122)
+ 
+21.371:
+(board-passengers t35 s34 p122) - end
+ 
+21.495:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t25 p101 p102 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+ 
+21.495:
+(drive-train t25 p101 p102 broad) - end
+ 
+21.496:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+ 
+21.496:
+(board-passengers t25 s24 p102) - start
+ 
+21.519:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t8 p67 p68 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t25 s24 p102)
+ 
+21.519:
+(drive-train t8 p67 p68 meter) - end
+ 
+21.52:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t25 s24 p102)
+ 
+21.52:
+(board-passengers t8 s7 p68) - start
+ 
+21.929:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t13 p77 p78 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t25 s24 p102)
+Invariant for (board-passengers t8 s7 p68)
+ 
+21.929:
+(drive-train t13 p77 p78 broad) - end
+ 
+21.93:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t25 s24 p102)
+Invariant for (board-passengers t8 s7 p68)
+ 
+21.93:
+(board-passengers t13 s12 p78) - start
+ 
+22.496:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t25 s24 p102)
+Invariant for (board-passengers t8 s7 p68)
+Invariant for (board-passengers t13 s12 p78)
+ 
+22.496:
+(board-passengers t25 s24 p102) - end
+ 
+22.52:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t8 s7 p68)
+Invariant for (board-passengers t13 s12 p78)
+ 
+22.52:
+(board-passengers t8 s7 p68) - end
+ 
+22.93:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t13 s12 p78)
+ 
+22.93:
+(board-passengers t13 s12 p78) - end
+ 
+23.214:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t9 p69 p70 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+ 
+23.214:
+(drive-train t9 p69 p70 broad) - end
+ 
+23.215:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+ 
+23.215:
+(board-passengers t9 s8 p70) - start
+ 
+24.215:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t9 s8 p70)
+ 
+24.215:
+(board-passengers t9 s8 p70) - end
+ 
+25.001:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t18 p87 p88 meter)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+ 
+25.001:
+(drive-train t18 p87 p88 meter) - end
+ 
+25.002:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+ 
+25.002:
+(board-passengers t18 s17 p88) - start
+ 
+25.217:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t14 p79 p80 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t18 s17 p88)
+ 
+25.217:
+(drive-train t14 p79 p80 meter) - end
+ 
+25.218:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t18 s17 p88)
+ 
+25.218:
+(board-passengers t14 s13 p80) - start
+ 
+25.742:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t5 p61 p62 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t18 s17 p88)
+Invariant for (board-passengers t14 s13 p80)
+ 
+25.742:
+(drive-train t5 p61 p62 broad) - end
+ 
+25.743:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t18 s17 p88)
+Invariant for (board-passengers t14 s13 p80)
+ 
+25.743:
+(board-passengers t5 s4 p62) - start
+ 
+26.002:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t18 s17 p88)
+Invariant for (board-passengers t14 s13 p80)
+Invariant for (board-passengers t5 s4 p62)
+ 
+26.002:
+(board-passengers t18 s17 p88) - end
+ 
+26.218:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t14 s13 p80)
+Invariant for (board-passengers t5 s4 p62)
+ 
+26.218:
+(board-passengers t14 s13 p80) - end
+ 
+26.315:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t7 p65 p66 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t5 s4 p62)
+ 
+26.315:
+(drive-train t7 p65 p66 broad) - end
+ 
+26.316:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t5 s4 p62)
+ 
+26.316:
+(board-passengers t7 s6 p66) - start
+ 
+26.363:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t36 p123 p124 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t5 s4 p62)
+Invariant for (board-passengers t7 s6 p66)
+ 
+26.363:
+(drive-train t36 p123 p124 meter) - end
+ 
+26.364:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t5 s4 p62)
+Invariant for (board-passengers t7 s6 p66)
+ 
+26.364:
+(board-passengers t36 s35 p124) - start
+ 
+26.743:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t5 s4 p62)
+Invariant for (board-passengers t7 s6 p66)
+Invariant for (board-passengers t36 s35 p124)
+ 
+26.743:
+(board-passengers t5 s4 p62) - end
+ 
+27.118:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t31 p113 p114 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t7 s6 p66)
+Invariant for (board-passengers t36 s35 p124)
+ 
+27.118:
+(drive-train t31 p113 p114 broad) - end
+ 
+27.119:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t7 s6 p66)
+Invariant for (board-passengers t36 s35 p124)
+ 
+27.119:
+(board-passengers t31 s30 p114) - start
+ 
+27.316:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t7 s6 p66)
+Invariant for (board-passengers t36 s35 p124)
+Invariant for (board-passengers t31 s30 p114)
+ 
+27.316:
+(board-passengers t7 s6 p66) - end
+ 
+27.35:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t41 p133 p134 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t36 s35 p124)
+Invariant for (board-passengers t31 s30 p114)
+ 
+27.35:
+(drive-train t41 p133 p134 broad) - end
+ 
+27.351:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t36 s35 p124)
+Invariant for (board-passengers t31 s30 p114)
+ 
+27.351:
+(board-passengers t41 s40 p134) - start
+ 
+27.364:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t36 s35 p124)
+Invariant for (board-passengers t31 s30 p114)
+Invariant for (board-passengers t41 s40 p134)
+ 
+27.364:
+(board-passengers t36 s35 p124) - end
+ 
+27.433:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t29 p109 p110 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t31 s30 p114)
+Invariant for (board-passengers t41 s40 p134)
+ 
+27.433:
+(drive-train t29 p109 p110 broad) - end
+ 
+27.434:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t31 s30 p114)
+Invariant for (board-passengers t41 s40 p134)
+ 
+27.434:
+(board-passengers t29 s28 p110) - start
+ 
+27.678:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t28 p107 p108 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t31 s30 p114)
+Invariant for (board-passengers t41 s40 p134)
+Invariant for (board-passengers t29 s28 p110)
+ 
+27.678:
+(drive-train t28 p107 p108 meter) - end
+ 
+27.679:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t31 s30 p114)
+Invariant for (board-passengers t41 s40 p134)
+Invariant for (board-passengers t29 s28 p110)
+ 
+27.679:
+(board-passengers t28 s27 p108) - start
+ 
+28.119:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t31 s30 p114)
+Invariant for (board-passengers t41 s40 p134)
+Invariant for (board-passengers t29 s28 p110)
+Invariant for (board-passengers t28 s27 p108)
+ 
+28.119:
+(board-passengers t31 s30 p114) - end
+ 
+28.351:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t41 s40 p134)
+Invariant for (board-passengers t29 s28 p110)
+Invariant for (board-passengers t28 s27 p108)
+ 
+28.351:
+(board-passengers t41 s40 p134) - end
+ 
+28.434:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t29 s28 p110)
+Invariant for (board-passengers t28 s27 p108)
+ 
+28.434:
+(board-passengers t29 s28 p110) - end
+ 
+28.679:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t28 s27 p108)
+ 
+28.679:
+(board-passengers t28 s27 p108) - end
+ 
+28.828:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t39 p129 p130 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+ 
+28.828:
+(drive-train t39 p129 p130 broad) - end
+ 
+28.829:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+ 
+28.829:
+(board-passengers t39 s38 p130) - start
+ 
+29.126:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t4 p59 p60 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t39 s38 p130)
+ 
+29.126:
+(drive-train t4 p59 p60 meter) - end
+ 
+29.127:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t39 s38 p130)
+ 
+29.127:
+(board-passengers t4 s3 p60) - start
+ 
+29.203:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t21 p93 p94 broad)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t39 s38 p130)
+Invariant for (board-passengers t4 s3 p60)
+ 
+29.203:
+(drive-train t21 p93 p94 broad) - end
+ 
+29.204:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t39 s38 p130)
+Invariant for (board-passengers t4 s3 p60)
+ 
+29.204:
+(board-passengers t21 s20 p94) - start
+ 
+29.824:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t30 p111 p112 meter)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t39 s38 p130)
+Invariant for (board-passengers t4 s3 p60)
+Invariant for (board-passengers t21 s20 p94)
+ 
+29.824:
+(drive-train t30 p111 p112 meter) - end
+ 
+29.825:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t39 s38 p130)
+Invariant for (board-passengers t4 s3 p60)
+Invariant for (board-passengers t21 s20 p94)
+ 
+29.825:
+(board-passengers t30 s29 p112) - start
+ 
+29.829:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t39 s38 p130)
+Invariant for (board-passengers t4 s3 p60)
+Invariant for (board-passengers t21 s20 p94)
+Invariant for (board-passengers t30 s29 p112)
+ 
+29.829:
+(board-passengers t39 s38 p130) - end
+ 
+29.906:
+Invariant for (drive-train t22 p95 p96 meter)
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t4 s3 p60)
+Invariant for (board-passengers t21 s20 p94)
+Invariant for (board-passengers t30 s29 p112)
+ 
+29.906:
+(drive-train t22 p95 p96 meter) - end
+ 
+29.907:
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t4 s3 p60)
+Invariant for (board-passengers t21 s20 p94)
+Invariant for (board-passengers t30 s29 p112)
+ 
+29.907:
+(board-passengers t22 s21 p96) - start
+ 
+30.127:
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t4 s3 p60)
+Invariant for (board-passengers t21 s20 p94)
+Invariant for (board-passengers t30 s29 p112)
+Invariant for (board-passengers t22 s21 p96)
+ 
+30.127:
+(board-passengers t4 s3 p60) - end
+ 
+30.204:
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t21 s20 p94)
+Invariant for (board-passengers t30 s29 p112)
+Invariant for (board-passengers t22 s21 p96)
+ 
+30.204:
+(board-passengers t21 s20 p94) - end
+ 
+30.825:
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t30 s29 p112)
+Invariant for (board-passengers t22 s21 p96)
+ 
+30.825:
+(board-passengers t30 s29 p112) - end
+ 
+30.907:
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t22 s21 p96)
+ 
+30.907:
+(board-passengers t22 s21 p96) - end
+ 
+31.451:
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-train t33 p117 p118 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+ 
+31.451:
+(drive-train t33 p117 p118 broad) - end
+ 
+31.452:
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+ 
+31.452:
+(board-passengers t33 s32 p118) - start
+ 
+32.452:
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t33 s32 p118)
+ 
+32.452:
+(board-passengers t33 s32 p118) - end
+ 
+33.009:
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t2 p55 p56 meter)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+ 
+33.009:
+(drive-train t2 p55 p56 meter) - end
+ 
+33.01:
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+ 
+33.01:
+(board-passengers t2 s1 p56) - start
+ 
+33.98:
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-train t27 p105 p106 broad)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t2 s1 p56)
+ 
+33.98:
+(drive-train t27 p105 p106 broad) - end
+ 
+33.981:
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t2 s1 p56)
+ 
+33.981:
+(board-passengers t27 s26 p106) - start
+ 
+34.01:
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t2 s1 p56)
+Invariant for (board-passengers t27 s26 p106)
+ 
+34.01:
+(board-passengers t2 s1 p56) - end
+ 
+34.313:
+Invariant for (drive-train t16 p83 p84 meter)
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t27 s26 p106)
+ 
+34.313:
+(drive-train t16 p83 p84 meter) - end
+ 
+34.314:
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t27 s26 p106)
+ 
+34.314:
+(board-passengers t16 s15 p84) - start
+ 
+34.981:
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t27 s26 p106)
+Invariant for (board-passengers t16 s15 p84)
+ 
+34.981:
+(board-passengers t27 s26 p106) - end
+ 
+35.314:
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t16 s15 p84)
+ 
+35.314:
+(board-passengers t16 s15 p84) - end
+ 
+37.002:
+Invariant for (drive-assisted-train e1 t19 p89 p90 broad)
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+ 
+37.002:
+(drive-assisted-train e1 t19 p89 p90 broad) - end
+ 
+37.003:
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+ 
+37.003:
+(board-passengers t19 s18 p90) - start
+ 
+38.003:
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+Invariant for (board-passengers t19 s18 p90)
+ 
+38.003:
+(board-passengers t19 s18 p90) - end
+ 
+42.002:
+Invariant for (drive-assisted-train e2 t12 p75 p76 meter)
+ 
+42.002:
+(drive-assisted-train e2 t12 p75 p76 meter) - end
+ 
+42.003:
+(board-passengers t12 s11 p76) - start
+ 
+43.003:
+Invariant for (board-passengers t12 s11 p76)
+ 
+43.003:
+(board-passengers t12 s11 p76) - end
+ 
+
+Plan Validation details
+-----------------------
+
+Checking next happening (time 0)
+Deleting (engine-at e2 p362)
+Deleting (track-accessible p362 p75)
+Deleting (track-accessible p75 p362)
+Deleting (engine-at e1 p361)
+Deleting (track-accessible p361 p89)
+Deleting (track-accessible p89 p361)
+Deleting (train-at t22 p95)
+Deleting (track-accessible p95 p96)
+Deleting (track-accessible p96 p95)
+Deleting (train-at t20 p91)
+Deleting (track-accessible p91 p92)
+Deleting (track-accessible p92 p91)
+Deleting (train-at t16 p83)
+Deleting (track-accessible p83 p84)
+Deleting (track-accessible p84 p83)
+Deleting (train-at t14 p79)
+Deleting (track-accessible p79 p80)
+Deleting (track-accessible p80 p79)
+Deleting (train-at t10 p71)
+Deleting (track-accessible p71 p72)
+Deleting (track-accessible p72 p71)
+Deleting (train-at t6 p63)
+Deleting (track-accessible p63 p64)
+Deleting (track-accessible p64 p63)
+Deleting (train-at t4 p59)
+Deleting (track-accessible p59 p60)
+Deleting (track-accessible p60 p59)
+Deleting (train-at t2 p55)
+Deleting (track-accessible p55 p56)
+Deleting (track-accessible p56 p55)
+Deleting (train-at t40 p131)
+Deleting (track-accessible p131 p132)
+Deleting (track-accessible p132 p131)
+Deleting (train-at t38 p127)
+Deleting (track-accessible p127 p128)
+Deleting (track-accessible p128 p127)
+Deleting (train-at t36 p123)
+Deleting (track-accessible p123 p124)
+Deleting (track-accessible p124 p123)
+Deleting (train-at t34 p119)
+Deleting (track-accessible p119 p120)
+Deleting (track-accessible p120 p119)
+Deleting (train-at t32 p115)
+Deleting (track-accessible p115 p116)
+Deleting (track-accessible p116 p115)
+Deleting (train-at t30 p111)
+Deleting (track-accessible p111 p112)
+Deleting (track-accessible p112 p111)
+Deleting (train-at t28 p107)
+Deleting (track-accessible p107 p108)
+Deleting (track-accessible p108 p107)
+Deleting (train-at t26 p103)
+Deleting (track-accessible p103 p104)
+Deleting (track-accessible p104 p103)
+Deleting (train-at t24 p99)
+Deleting (track-accessible p99 p100)
+Deleting (track-accessible p100 p99)
+Deleting (train-at t23 p97)
+Deleting (track-accessible p97 p98)
+Deleting (track-accessible p98 p97)
+Deleting (train-at t21 p93)
+Deleting (track-accessible p93 p94)
+Deleting (track-accessible p94 p93)
+Deleting (train-at t17 p85)
+Deleting (track-accessible p85 p86)
+Deleting (track-accessible p86 p85)
+Deleting (train-at t15 p81)
+Deleting (track-accessible p81 p82)
+Deleting (track-accessible p82 p81)
+Deleting (train-at t13 p77)
+Deleting (track-accessible p77 p78)
+Deleting (track-accessible p78 p77)
+Deleting (train-at t11 p73)
+Deleting (track-accessible p73 p74)
+Deleting (track-accessible p74 p73)
+Deleting (train-at t9 p69)
+Deleting (track-accessible p69 p70)
+Deleting (track-accessible p70 p69)
+Deleting (train-at t7 p65)
+Deleting (track-accessible p65 p66)
+Deleting (track-accessible p66 p65)
+Deleting (train-at t5 p61)
+Deleting (track-accessible p61 p62)
+Deleting (track-accessible p62 p61)
+Deleting (train-at t3 p57)
+Deleting (track-accessible p57 p58)
+Deleting (track-accessible p58 p57)
+Deleting (train-at t41 p133)
+Deleting (track-accessible p133 p134)
+Deleting (track-accessible p134 p133)
+Deleting (train-at t39 p129)
+Deleting (track-accessible p129 p130)
+Deleting (track-accessible p130 p129)
+Deleting (train-at t37 p125)
+Deleting (track-accessible p125 p126)
+Deleting (track-accessible p126 p125)
+Deleting (train-at t35 p121)
+Deleting (track-accessible p121 p122)
+Deleting (track-accessible p122 p121)
+Deleting (train-at t31 p113)
+Deleting (track-accessible p113 p114)
+Deleting (track-accessible p114 p113)
+Deleting (train-at t29 p109)
+Deleting (track-accessible p109 p110)
+Deleting (track-accessible p110 p109)
+Deleting (train-at t27 p105)
+Deleting (track-accessible p105 p106)
+Deleting (track-accessible p106 p105)
+Deleting (train-at t25 p101)
+Deleting (track-accessible p101 p102)
+Deleting (track-accessible p102 p101)
+Adding (free p362)
+Adding (free p361)
+Adding (free p95)
+Adding (free p91)
+Adding (free p83)
+Adding (free p79)
+Adding (free p71)
+Adding (free p63)
+Adding (free p59)
+Adding (free p55)
+Adding (free p131)
+Adding (free p127)
+Adding (free p123)
+Adding (free p119)
+Adding (free p115)
+Adding (free p111)
+Adding (free p107)
+Adding (free p103)
+Adding (free p99)
+Adding (free p97)
+Adding (free p93)
+Adding (free p85)
+Adding (free p81)
+Adding (free p77)
+Adding (free p73)
+Adding (free p69)
+Adding (free p65)
+Adding (free p61)
+Adding (free p57)
+Adding (free p133)
+Adding (free p129)
+Adding (free p125)
+Adding (free p121)
+Adding (free p113)
+Adding (free p109)
+Adding (free p105)
+Adding (free p101)
+
+Checking next happening (time 0.002)
+
+Checking next happening (time 0.002)
+Deleting (train-at t18 p87)
+Deleting (track-accessible p87 p88)
+Deleting (track-accessible p88 p87)
+Adding (free p87)
+
+Checking next happening (time 2)
+
+Checking next happening (time 2)
+Deleting (train-blocked t1 p53)
+Adding (train-not-blocked t1 p53)
+
+Checking next happening (time 2.001)
+
+Checking next happening (time 2.001)
+Deleting (train-at t1 p53)
+Deleting (track-accessible p53 p54)
+Deleting (track-accessible p54 p53)
+Adding (free p53)
+
+Checking next happening (time 3)
+
+Checking next happening (time 3)
+Deleting (train-blocked t8 p67)
+Adding (train-not-blocked t8 p67)
+
+Checking next happening (time 3.001)
+
+Checking next happening (time 3.001)
+Deleting (train-at t8 p67)
+Deleting (track-accessible p67 p68)
+Deleting (track-accessible p68 p67)
+Adding (free p67)
+
+Checking next happening (time 4)
+
+Checking next happening (time 4)
+Deleting (train-blocked t33 p117)
+Adding (train-not-blocked t33 p117)
+
+Checking next happening (time 4.001)
+
+Checking next happening (time 4.001)
+Deleting (train-at t33 p117)
+Deleting (track-accessible p117 p118)
+Deleting (track-accessible p118 p117)
+Adding (free p117)
+
+Checking next happening (time 10)
+
+Checking next happening (time 10)
+Deleting (engine-going-down e2)
+Deleting (engine-going-down e1)
+Adding (engine-at e2 p75)
+Adding (track-accessible p362 p75)
+Adding (track-accessible p75 p362)
+Adding (engine-going-up e2)
+Adding (engine-at e1 p89)
+Adding (track-accessible p361 p89)
+Adding (track-accessible p89 p361)
+Adding (engine-going-up e1)
+
+Checking next happening (time 10.001)
+
+Checking next happening (time 10.001)
+Deleting (engine-free e2)
+Deleting (engine-free e1)
+
+Checking next happening (time 12.001)
+
+Checking next happening (time 12.001)
+Adding (engine-attached e1 t19)
+Adding (engine-attached e2 t12)
+
+Checking next happening (time 12.002)
+
+Checking next happening (time 12.002)
+Deleting (train-at t19 p89)
+Deleting (engine-at e1 p89)
+Deleting (track-accessible p89 p90)
+Deleting (track-accessible p90 p89)
+Deleting (engine-damaged t19 p89)
+Deleting (train-at t12 p75)
+Deleting (engine-at e2 p75)
+Deleting (track-accessible p75 p76)
+Deleting (track-accessible p76 p75)
+Deleting (engine-damaged t12 p75)
+Adding (free p89)
+Adding (engine-not-damaged t19 p89)
+Adding (free p75)
+Adding (engine-not-damaged t12 p75)
+
+Checking next happening (time 12.711)
+
+Checking next happening (time 12.711)
+Deleting (free p116)
+Adding (train-at t32 p116)
+Adding (track-accessible p115 p116)
+Adding (track-accessible p116 p115)
+
+Checking next happening (time 12.712)
+
+Checking next happening (time 12.712)
+
+Checking next happening (time 13.513)
+
+Checking next happening (time 13.513)
+Deleting (free p104)
+Adding (train-at t26 p104)
+Adding (track-accessible p103 p104)
+Adding (track-accessible p104 p103)
+
+Checking next happening (time 13.514)
+
+Checking next happening (time 13.514)
+
+Checking next happening (time 13.712)
+
+Checking next happening (time 13.712)
+Adding (passengers-boarded t32 p116)
+
+Checking next happening (time 14.514)
+
+Checking next happening (time 14.514)
+Adding (passengers-boarded t26 p104)
+
+Checking next happening (time 14.678)
+
+Checking next happening (time 14.678)
+Deleting (free p82)
+Adding (train-at t15 p82)
+Adding (track-accessible p81 p82)
+Adding (track-accessible p82 p81)
+
+Checking next happening (time 14.679)
+
+Checking next happening (time 14.679)
+
+Checking next happening (time 15)
+
+Checking next happening (time 15)
+Deleting (free p120)
+Adding (train-at t34 p120)
+Adding (track-accessible p119 p120)
+Adding (track-accessible p120 p119)
+
+Checking next happening (time 15.001)
+
+Checking next happening (time 15.001)
+
+Checking next happening (time 15.126)
+
+Checking next happening (time 15.126)
+Deleting (free p64)
+Adding (train-at t6 p64)
+Adding (track-accessible p63 p64)
+Adding (track-accessible p64 p63)
+
+Checking next happening (time 15.127)
+
+Checking next happening (time 15.127)
+
+Checking next happening (time 15.533)
+
+Checking next happening (time 15.533)
+Deleting (free p98)
+Adding (train-at t23 p98)
+Adding (track-accessible p97 p98)
+Adding (track-accessible p98 p97)
+
+Checking next happening (time 15.534)
+
+Checking next happening (time 15.534)
+
+Checking next happening (time 15.679)
+
+Checking next happening (time 15.679)
+Adding (passengers-boarded t15 p82)
+
+Checking next happening (time 15.74)
+
+Checking next happening (time 15.74)
+Deleting (free p72)
+Adding (train-at t10 p72)
+Adding (track-accessible p71 p72)
+Adding (track-accessible p72 p71)
+
+Checking next happening (time 15.741)
+
+Checking next happening (time 15.741)
+
+Checking next happening (time 16.001)
+
+Checking next happening (time 16.001)
+Adding (passengers-boarded t34 p120)
+
+Checking next happening (time 16.127)
+
+Checking next happening (time 16.127)
+Adding (passengers-boarded t6 p64)
+
+Checking next happening (time 16.534)
+
+Checking next happening (time 16.534)
+Adding (passengers-boarded t23 p98)
+
+Checking next happening (time 16.741)
+
+Checking next happening (time 16.741)
+Adding (passengers-boarded t10 p72)
+
+Checking next happening (time 17.431)
+
+Checking next happening (time 17.431)
+Deleting (free p132)
+Adding (train-at t40 p132)
+Adding (track-accessible p131 p132)
+Adding (track-accessible p132 p131)
+
+Checking next happening (time 17.432)
+
+Checking next happening (time 17.432)
+
+Checking next happening (time 17.796)
+
+Checking next happening (time 17.796)
+Deleting (free p100)
+Adding (train-at t24 p100)
+Adding (track-accessible p99 p100)
+Adding (track-accessible p100 p99)
+
+Checking next happening (time 17.797)
+
+Checking next happening (time 17.797)
+
+Checking next happening (time 18.432)
+
+Checking next happening (time 18.432)
+Adding (passengers-boarded t40 p132)
+
+Checking next happening (time 18.518)
+
+Checking next happening (time 18.518)
+Deleting (free p86)
+Adding (train-at t17 p86)
+Adding (track-accessible p85 p86)
+Adding (track-accessible p86 p85)
+
+Checking next happening (time 18.519)
+
+Checking next happening (time 18.519)
+
+Checking next happening (time 18.797)
+
+Checking next happening (time 18.797)
+Adding (passengers-boarded t24 p100)
+
+Checking next happening (time 18.803)
+
+Checking next happening (time 18.803)
+Deleting (free p128)
+Adding (train-at t38 p128)
+Adding (track-accessible p127 p128)
+Adding (track-accessible p128 p127)
+
+Checking next happening (time 18.804)
+
+Checking next happening (time 18.804)
+
+Checking next happening (time 19.298)
+
+Checking next happening (time 19.298)
+Deleting (free p58)
+Adding (train-at t3 p58)
+Adding (track-accessible p57 p58)
+Adding (track-accessible p58 p57)
+
+Checking next happening (time 19.299)
+
+Checking next happening (time 19.299)
+
+Checking next happening (time 19.432)
+
+Checking next happening (time 19.432)
+Deleting (free p54)
+Adding (train-at t1 p54)
+Adding (track-accessible p53 p54)
+Adding (track-accessible p54 p53)
+
+Checking next happening (time 19.433)
+
+Checking next happening (time 19.433)
+
+Checking next happening (time 19.519)
+
+Checking next happening (time 19.519)
+Adding (passengers-boarded t17 p86)
+
+Checking next happening (time 19.626)
+
+Checking next happening (time 19.626)
+Deleting (free p126)
+Adding (train-at t37 p126)
+Adding (track-accessible p125 p126)
+Adding (track-accessible p126 p125)
+
+Checking next happening (time 19.627)
+
+Checking next happening (time 19.627)
+
+Checking next happening (time 19.801)
+
+Checking next happening (time 19.801)
+Deleting (free p92)
+Adding (train-at t20 p92)
+Adding (track-accessible p91 p92)
+Adding (track-accessible p92 p91)
+
+Checking next happening (time 19.802)
+
+Checking next happening (time 19.802)
+
+Checking next happening (time 19.804)
+
+Checking next happening (time 19.804)
+Adding (passengers-boarded t38 p128)
+
+Checking next happening (time 19.827)
+
+Checking next happening (time 19.827)
+Deleting (free p74)
+Adding (train-at t11 p74)
+Adding (track-accessible p73 p74)
+Adding (track-accessible p74 p73)
+
+Checking next happening (time 19.828)
+
+Checking next happening (time 19.828)
+
+Checking next happening (time 20.299)
+
+Checking next happening (time 20.299)
+Adding (passengers-boarded t3 p58)
+
+Checking next happening (time 20.37)
+
+Checking next happening (time 20.37)
+Deleting (free p122)
+Adding (train-at t35 p122)
+Adding (track-accessible p121 p122)
+Adding (track-accessible p122 p121)
+
+Checking next happening (time 20.371)
+
+Checking next happening (time 20.371)
+
+Checking next happening (time 20.433)
+
+Checking next happening (time 20.433)
+Adding (passengers-boarded t1 p54)
+
+Checking next happening (time 20.627)
+
+Checking next happening (time 20.627)
+Adding (passengers-boarded t37 p126)
+
+Checking next happening (time 20.802)
+
+Checking next happening (time 20.802)
+Adding (passengers-boarded t20 p92)
+
+Checking next happening (time 20.828)
+
+Checking next happening (time 20.828)
+Adding (passengers-boarded t11 p74)
+
+Checking next happening (time 21.371)
+
+Checking next happening (time 21.371)
+Adding (passengers-boarded t35 p122)
+
+Checking next happening (time 21.495)
+
+Checking next happening (time 21.495)
+Deleting (free p102)
+Adding (train-at t25 p102)
+Adding (track-accessible p101 p102)
+Adding (track-accessible p102 p101)
+
+Checking next happening (time 21.496)
+
+Checking next happening (time 21.496)
+
+Checking next happening (time 21.519)
+
+Checking next happening (time 21.519)
+Deleting (free p68)
+Adding (train-at t8 p68)
+Adding (track-accessible p67 p68)
+Adding (track-accessible p68 p67)
+
+Checking next happening (time 21.52)
+
+Checking next happening (time 21.52)
+
+Checking next happening (time 21.929)
+
+Checking next happening (time 21.929)
+Deleting (free p78)
+Adding (train-at t13 p78)
+Adding (track-accessible p77 p78)
+Adding (track-accessible p78 p77)
+
+Checking next happening (time 21.93)
+
+Checking next happening (time 21.93)
+
+Checking next happening (time 22.496)
+
+Checking next happening (time 22.496)
+Adding (passengers-boarded t25 p102)
+
+Checking next happening (time 22.52)
+
+Checking next happening (time 22.52)
+Adding (passengers-boarded t8 p68)
+
+Checking next happening (time 22.93)
+
+Checking next happening (time 22.93)
+Adding (passengers-boarded t13 p78)
+
+Checking next happening (time 23.214)
+
+Checking next happening (time 23.214)
+Deleting (free p70)
+Adding (train-at t9 p70)
+Adding (track-accessible p69 p70)
+Adding (track-accessible p70 p69)
+
+Checking next happening (time 23.215)
+
+Checking next happening (time 23.215)
+
+Checking next happening (time 24.215)
+
+Checking next happening (time 24.215)
+Adding (passengers-boarded t9 p70)
+
+Checking next happening (time 25.001)
+
+Checking next happening (time 25.001)
+Deleting (free p88)
+Adding (train-at t18 p88)
+Adding (track-accessible p87 p88)
+Adding (track-accessible p88 p87)
+
+Checking next happening (time 25.002)
+
+Checking next happening (time 25.002)
+
+Checking next happening (time 25.217)
+
+Checking next happening (time 25.217)
+Deleting (free p80)
+Adding (train-at t14 p80)
+Adding (track-accessible p79 p80)
+Adding (track-accessible p80 p79)
+
+Checking next happening (time 25.218)
+
+Checking next happening (time 25.218)
+
+Checking next happening (time 25.742)
+
+Checking next happening (time 25.742)
+Deleting (free p62)
+Adding (train-at t5 p62)
+Adding (track-accessible p61 p62)
+Adding (track-accessible p62 p61)
+
+Checking next happening (time 25.743)
+
+Checking next happening (time 25.743)
+
+Checking next happening (time 26.002)
+
+Checking next happening (time 26.002)
+Adding (passengers-boarded t18 p88)
+
+Checking next happening (time 26.218)
+
+Checking next happening (time 26.218)
+Adding (passengers-boarded t14 p80)
+
+Checking next happening (time 26.315)
+
+Checking next happening (time 26.315)
+Deleting (free p66)
+Adding (train-at t7 p66)
+Adding (track-accessible p65 p66)
+Adding (track-accessible p66 p65)
+
+Checking next happening (time 26.316)
+
+Checking next happening (time 26.316)
+
+Checking next happening (time 26.363)
+
+Checking next happening (time 26.363)
+Deleting (free p124)
+Adding (train-at t36 p124)
+Adding (track-accessible p123 p124)
+Adding (track-accessible p124 p123)
+
+Checking next happening (time 26.364)
+
+Checking next happening (time 26.364)
+
+Checking next happening (time 26.743)
+
+Checking next happening (time 26.743)
+Adding (passengers-boarded t5 p62)
+
+Checking next happening (time 27.118)
+
+Checking next happening (time 27.118)
+Deleting (free p114)
+Adding (train-at t31 p114)
+Adding (track-accessible p113 p114)
+Adding (track-accessible p114 p113)
+
+Checking next happening (time 27.119)
+
+Checking next happening (time 27.119)
+
+Checking next happening (time 27.316)
+
+Checking next happening (time 27.316)
+Adding (passengers-boarded t7 p66)
+
+Checking next happening (time 27.35)
+
+Checking next happening (time 27.35)
+Deleting (free p134)
+Adding (train-at t41 p134)
+Adding (track-accessible p133 p134)
+Adding (track-accessible p134 p133)
+
+Checking next happening (time 27.351)
+
+Checking next happening (time 27.351)
+
+Checking next happening (time 27.364)
+
+Checking next happening (time 27.364)
+Adding (passengers-boarded t36 p124)
+
+Checking next happening (time 27.433)
+
+Checking next happening (time 27.433)
+Deleting (free p110)
+Adding (train-at t29 p110)
+Adding (track-accessible p109 p110)
+Adding (track-accessible p110 p109)
+
+Checking next happening (time 27.434)
+
+Checking next happening (time 27.434)
+
+Checking next happening (time 27.678)
+
+Checking next happening (time 27.678)
+Deleting (free p108)
+Adding (train-at t28 p108)
+Adding (track-accessible p107 p108)
+Adding (track-accessible p108 p107)
+
+Checking next happening (time 27.679)
+
+Checking next happening (time 27.679)
+
+Checking next happening (time 28.119)
+
+Checking next happening (time 28.119)
+Adding (passengers-boarded t31 p114)
+
+Checking next happening (time 28.351)
+
+Checking next happening (time 28.351)
+Adding (passengers-boarded t41 p134)
+
+Checking next happening (time 28.434)
+
+Checking next happening (time 28.434)
+Adding (passengers-boarded t29 p110)
+
+Checking next happening (time 28.679)
+
+Checking next happening (time 28.679)
+Adding (passengers-boarded t28 p108)
+
+Checking next happening (time 28.828)
+
+Checking next happening (time 28.828)
+Deleting (free p130)
+Adding (train-at t39 p130)
+Adding (track-accessible p129 p130)
+Adding (track-accessible p130 p129)
+
+Checking next happening (time 28.829)
+
+Checking next happening (time 28.829)
+
+Checking next happening (time 29.126)
+
+Checking next happening (time 29.126)
+Deleting (free p60)
+Adding (train-at t4 p60)
+Adding (track-accessible p59 p60)
+Adding (track-accessible p60 p59)
+
+Checking next happening (time 29.127)
+
+Checking next happening (time 29.127)
+
+Checking next happening (time 29.203)
+
+Checking next happening (time 29.203)
+Deleting (free p94)
+Adding (train-at t21 p94)
+Adding (track-accessible p93 p94)
+Adding (track-accessible p94 p93)
+
+Checking next happening (time 29.204)
+
+Checking next happening (time 29.204)
+
+Checking next happening (time 29.824)
+
+Checking next happening (time 29.824)
+Deleting (free p112)
+Adding (train-at t30 p112)
+Adding (track-accessible p111 p112)
+Adding (track-accessible p112 p111)
+
+Checking next happening (time 29.825)
+
+Checking next happening (time 29.825)
+
+Checking next happening (time 29.829)
+
+Checking next happening (time 29.829)
+Adding (passengers-boarded t39 p130)
+
+Checking next happening (time 29.906)
+
+Checking next happening (time 29.906)
+Deleting (free p96)
+Adding (train-at t22 p96)
+Adding (track-accessible p95 p96)
+Adding (track-accessible p96 p95)
+
+Checking next happening (time 29.907)
+
+Checking next happening (time 29.907)
+
+Checking next happening (time 30.127)
+
+Checking next happening (time 30.127)
+Adding (passengers-boarded t4 p60)
+
+Checking next happening (time 30.204)
+
+Checking next happening (time 30.204)
+Adding (passengers-boarded t21 p94)
+
+Checking next happening (time 30.825)
+
+Checking next happening (time 30.825)
+Adding (passengers-boarded t30 p112)
+
+Checking next happening (time 30.907)
+
+Checking next happening (time 30.907)
+Adding (passengers-boarded t22 p96)
+
+Checking next happening (time 31.451)
+
+Checking next happening (time 31.451)
+Deleting (free p118)
+Adding (train-at t33 p118)
+Adding (track-accessible p117 p118)
+Adding (track-accessible p118 p117)
+
+Checking next happening (time 31.452)
+
+Checking next happening (time 31.452)
+
+Checking next happening (time 32.452)
+
+Checking next happening (time 32.452)
+Adding (passengers-boarded t33 p118)
+
+Checking next happening (time 33.009)
+
+Checking next happening (time 33.009)
+Deleting (free p56)
+Adding (train-at t2 p56)
+Adding (track-accessible p55 p56)
+Adding (track-accessible p56 p55)
+
+Checking next happening (time 33.01)
+
+Checking next happening (time 33.01)
+
+Checking next happening (time 33.98)
+
+Checking next happening (time 33.98)
+Deleting (free p106)
+Adding (train-at t27 p106)
+Adding (track-accessible p105 p106)
+Adding (track-accessible p106 p105)
+
+Checking next happening (time 33.981)
+
+Checking next happening (time 33.981)
+
+Checking next happening (time 34.01)
+
+Checking next happening (time 34.01)
+Adding (passengers-boarded t2 p56)
+
+Checking next happening (time 34.313)
+
+Checking next happening (time 34.313)
+Deleting (free p84)
+Adding (train-at t16 p84)
+Adding (track-accessible p83 p84)
+Adding (track-accessible p84 p83)
+
+Checking next happening (time 34.314)
+
+Checking next happening (time 34.314)
+
+Checking next happening (time 34.981)
+
+Checking next happening (time 34.981)
+Adding (passengers-boarded t27 p106)
+
+Checking next happening (time 35.314)
+
+Checking next happening (time 35.314)
+Adding (passengers-boarded t16 p84)
+
+Checking next happening (time 37.002)
+
+Checking next happening (time 37.002)
+Deleting (free p90)
+Deleting (engine-not-damaged t19 p90)
+Adding (train-at t19 p90)
+Adding (engine-at e1 p90)
+Adding (track-accessible p89 p90)
+Adding (track-accessible p90 p89)
+Adding (engine-damaged t19 p90)
+
+Checking next happening (time 37.003)
+
+Checking next happening (time 37.003)
+
+Checking next happening (time 38.003)
+
+Checking next happening (time 38.003)
+Adding (passengers-boarded t19 p90)
+
+Checking next happening (time 42.002)
+
+Checking next happening (time 42.002)
+Deleting (free p76)
+Deleting (engine-not-damaged t12 p76)
+Adding (train-at t12 p76)
+Adding (engine-at e2 p76)
+Adding (track-accessible p75 p76)
+Adding (track-accessible p76 p75)
+Adding (engine-damaged t12 p76)
+
+Checking next happening (time 42.003)
+
+Checking next happening (time 43.003)
+
+Checking next happening (time 43.003)
+Adding (passengers-boarded t12 p76)
+Plan executed successfully - checking goal
+Plan valid
+Final value: 43.003
+
+Successful plans:
+Value: 43.003
+ Optic-p137.txt 
+
