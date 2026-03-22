@@ -18303,30 +18303,26 @@ Invariant for (drive-train t38 p206 p207 meter)
 90.022:
 (board-passengers t97 s96 p325) - start
  
-90.208:
+91.022:
 Invariant for (drive-train t38 p206 p207 meter)
 Invariant for (board-passengers t97 s96 p325)
- 
-90.208:
-(drive-train t38 p206 p207 meter) - end
- 
-90.209:
-Invariant for (board-passengers t97 s96 p325)
- 
-90.209:
-(board-passengers t38 s37 p207) - start
- 
-91.022:
-Invariant for (board-passengers t97 s96 p325)
-Invariant for (board-passengers t38 s37 p207)
  
 91.022:
 (board-passengers t97 s96 p325) - end
  
-91.209:
+137.991:
+Invariant for (drive-train t38 p206 p207 meter)
+ 
+137.991:
+(drive-train t38 p206 p207 meter) - end
+ 
+137.992:
+(board-passengers t38 s37 p207) - start
+ 
+138.992:
 Invariant for (board-passengers t38 s37 p207)
  
-91.209:
+138.992:
 (board-passengers t38 s37 p207) - end
  
 
@@ -20643,32 +20639,30 @@ Checking next happening (time 90.022)
 
 Checking next happening (time 90.022)
 
-Checking next happening (time 90.208)
-
-Checking next happening (time 90.208)
-Deleting (free p207)
-Adding (train-at t38 p207)
-Adding (track-accessible p206 p207)
-Adding (track-accessible p207 p206)
-
-Checking next happening (time 90.209)
-
-Checking next happening (time 90.209)
-
 Checking next happening (time 91.022)
 
 Checking next happening (time 91.022)
 Adding (passengers-boarded t97 p325)
 
-Checking next happening (time 91.209)
+Checking next happening (time 137.991)
 
-Checking next happening (time 91.209)
+Checking next happening (time 137.991)
+Deleting (free p207)
+Adding (train-at t38 p207)
+Adding (track-accessible p206 p207)
+Adding (track-accessible p207 p206)
+
+Checking next happening (time 137.992)
+
+Checking next happening (time 138.992)
+
+Checking next happening (time 138.992)
 Adding (passengers-boarded t38 p207)
 Plan executed successfully - checking goal
 Plan valid
-Final value: 91.209
+Final value: 138.992
 
 Successful plans:
-Value: 91.209
+Value: 138.992
  Popf-p190.txt 
 

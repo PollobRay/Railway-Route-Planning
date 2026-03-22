@@ -11745,19 +11745,19 @@ Invariant for (board-passengers t16 s15 p131)
 87.208:
 (board-passengers t16 s15 p131) - end
  
-92.49:
+120.051:
 Invariant for (drive-assisted-train e1 t2 p102 p103 meter)
  
-92.49:
+120.051:
 (drive-assisted-train e1 t2 p102 p103 meter) - end
  
-92.491:
+120.052:
 (board-passengers t2 s1 p103) - start
  
-93.491:
+121.052:
 Invariant for (board-passengers t2 s1 p103)
  
-93.491:
+121.052:
 (board-passengers t2 s1 p103) - end
  
 
@@ -13535,9 +13535,9 @@ Checking next happening (time 87.208)
 Checking next happening (time 87.208)
 Adding (passengers-boarded t16 p131)
 
-Checking next happening (time 92.49)
+Checking next happening (time 120.051)
 
-Checking next happening (time 92.49)
+Checking next happening (time 120.051)
 Deleting (free p103)
 Deleting (engine-not-damaged t2 p103)
 Adding (train-at t2 p103)
@@ -13546,17 +13546,17 @@ Adding (track-accessible p102 p103)
 Adding (track-accessible p103 p102)
 Adding (engine-damaged t2 p103)
 
-Checking next happening (time 92.491)
+Checking next happening (time 120.052)
 
-Checking next happening (time 93.491)
+Checking next happening (time 121.052)
 
-Checking next happening (time 93.491)
+Checking next happening (time 121.052)
 Adding (passengers-boarded t2 p103)
 Plan executed successfully - checking goal
 Plan valid
-Final value: 93.491
+Final value: 121.052
 
 Successful plans:
-Value: 93.491
+Value: 121.052
  Popf-p170.txt 
 

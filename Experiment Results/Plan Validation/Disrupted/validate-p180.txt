@@ -18,7 +18,7 @@ Type-checking board-passengers
 ...action passes type checking.
 Type-checking turnout
 ...action passes type checking.
-Checking plan: plan.txt
+Checking plan: Popf-p180.txt
 Plan to validate:
 
 Plan size: 274
@@ -14734,40 +14734,34 @@ Invariant for (board-passengers t17 s16 p148)
 89.241:
 (board-passengers t70 s69 p254) - start
  
-89.474:
+89.589:
 Invariant for (drive-train t22 p157 p158 meter)
 Invariant for (board-passengers t17 s16 p148)
 Invariant for (board-passengers t70 s69 p254)
- 
-89.474:
-(drive-train t22 p157 p158 meter) - end
- 
-89.475:
-Invariant for (board-passengers t17 s16 p148)
-Invariant for (board-passengers t70 s69 p254)
- 
-89.475:
-(board-passengers t22 s21 p158) - start
- 
-89.589:
-Invariant for (board-passengers t17 s16 p148)
-Invariant for (board-passengers t70 s69 p254)
-Invariant for (board-passengers t22 s21 p158)
  
 89.589:
 (board-passengers t17 s16 p148) - end
  
 90.241:
+Invariant for (drive-train t22 p157 p158 meter)
 Invariant for (board-passengers t70 s69 p254)
-Invariant for (board-passengers t22 s21 p158)
  
 90.241:
 (board-passengers t70 s69 p254) - end
  
-90.475:
+126.316:
+Invariant for (drive-train t22 p157 p158 meter)
+ 
+126.316:
+(drive-train t22 p157 p158 meter) - end
+ 
+126.317:
+(board-passengers t22 s21 p158) - start
+ 
+127.317:
 Invariant for (board-passengers t22 s21 p158)
  
-90.475:
+127.317:
 (board-passengers t22 s21 p158) - end
  
 
@@ -16806,18 +16800,6 @@ Checking next happening (time 89.241)
 
 Checking next happening (time 89.241)
 
-Checking next happening (time 89.474)
-
-Checking next happening (time 89.474)
-Deleting (free p158)
-Adding (train-at t22 p158)
-Adding (track-accessible p157 p158)
-Adding (track-accessible p158 p157)
-
-Checking next happening (time 89.475)
-
-Checking next happening (time 89.475)
-
 Checking next happening (time 89.589)
 
 Checking next happening (time 89.589)
@@ -16828,15 +16810,25 @@ Checking next happening (time 90.241)
 Checking next happening (time 90.241)
 Adding (passengers-boarded t70 p254)
 
-Checking next happening (time 90.475)
+Checking next happening (time 126.316)
 
-Checking next happening (time 90.475)
+Checking next happening (time 126.316)
+Deleting (free p158)
+Adding (train-at t22 p158)
+Adding (track-accessible p157 p158)
+Adding (track-accessible p158 p157)
+
+Checking next happening (time 126.317)
+
+Checking next happening (time 127.317)
+
+Checking next happening (time 127.317)
 Adding (passengers-boarded t22 p158)
 Plan executed successfully - checking goal
 Plan valid
-Final value: 90.475
+Final value: 127.317
 
 Successful plans:
-Value: 90.475
- plan.txt 
+Value: 127.317
+ Popf-p180.txt 
 
